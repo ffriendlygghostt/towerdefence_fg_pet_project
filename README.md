@@ -25,15 +25,17 @@
 
 ## 🗂️ Project Structure
 Assets/
-┣ 📁 Art/ # Sprites, tiles, UI elements
-┣ 📁 Audio/ # Audio files
-┣ 📁 Prefabs/ # Towers, enemies, UI prefabs
-┣ 📁 Scenes/ # Levels and system scenes (MainMenu, Game, etc.)
-┣ 📁 Scripts/ # Core logic, managers, systems
-┣ 📁 UI/ # Canvas, HUD, menus
-┣ 📁 Reference/ # reference for materials
-┣ 📁 Settings/ # URP and project configuration
-┗ 📁 Docs/ # docs, screenshots, sprint.md, UML
+>┣ 📁 Art/ # Sprites, tiles, UI elements
+>┣ 📁 Audio/ # Audio files
+>┣ 📁 Prefabs/ # Towers, enemies, UI prefabs
+>┣ 📁 Scenes/ # Levels and system scenes (MainMenu, Game, etc.)
+>┣ 📁 Scripts/ # Core logic, managers, systems
+>┣ 📁 UI/ # Canvas, HUD, menus
+>┣ 📁 Reference/ # reference for materials
+>┣ 📁 Settings/ # URP and project configuration
+>┗ 📁 Docs/ # docs, screenshots, sprint.md, UML
+
+---
 
 ## 🧭 Documentation
 | Type | Location |
@@ -46,7 +48,7 @@ Assets/
 ## 🏁 Roadmap / Sprints
 | Sprint | Goal |
 |---------|------|
-| **Sprint 1 —  |
+| **Sprint 1 — Scene management, loading assets, base scripts, managers |
 | **Sprint 2 —  |
 | **Sprint 3 —  |
 
