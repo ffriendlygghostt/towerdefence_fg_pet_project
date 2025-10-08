@@ -22,7 +22,18 @@
 - **TextMeshPro** — typography and localization
 
 ---
-<pre> ```plaintext Assets/ ┣ 📁 Art/ # Sprites, tiles, UI elements ┣ 📁 Audio/ # Audio files ┣ 📁 Prefabs/ # Towers, enemies, UI prefabs ┣ 📁 Scenes/ # Levels and system scenes (MainMenu, Game, etc.) ┣ 📁 Scripts/ # Core logic, managers, systems ┣ 📁 UI/ # Canvas, HUD, menus ┣ 📁 Reference/ # reference for materials ┣ 📁 Settings/ # URP and project configuration ┗ 📁 Docs/ # docs, screenshots, sprint.md, UML ``` </pre>
+
+## 🗂️ Project Structure
+Assets/<br>
+┣ 📁 Art/ # Sprites, tiles, UI elements<br>
+┣ 📁 Audio/ # Audio files<br>
+┣ 📁 Prefabs/ # Towers, enemies, UI prefabs<br>
+┣ 📁 Scenes/ # Levels and system scenes (MainMenu, Game, etc.)<br>
+┣ 📁 Scripts/ # Core logic, managers, systems<br>
+┣ 📁 UI/ # Canvas, HUD, menus<br>
+┣ 📁 Reference/ # reference for materials<br>
+┣ 📁 Settings/ # URP and project configuration<br>
+┗ 📁 Docs/ # docs, screenshots, sprint.md, UML
 
 ---
 
@@ -37,9 +48,9 @@
 ## 🏁 Roadmap / Sprints
 | Sprint | Goal |
 |---------|------|
-| **Sprint 1 | Scene management, loading assets, base scripts, managers |
-| **Sprint 2 —  |
-| **Sprint 3 —  |
+| **Sprint 1 | Scene management, initial assets, base scripts, managers |
+| **Sprint 2 |
+| **Sprint 3 |
 
 ---
 
