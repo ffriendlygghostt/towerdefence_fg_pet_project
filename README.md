@@ -78,7 +78,7 @@ All third-party assets are free or used under their respective licenses.
 ---
 
 ## 👤 Author
-ffriendlygghostt/<br>
+ffriendlygghostt<br>
 Beginning: Game Developer / Unity Engineer / Game Designer<br>
 📧 Contact: ffriendlygghostt@gmail.com
 
