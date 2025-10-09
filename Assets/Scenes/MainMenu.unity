@@ -582,7 +582,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0000
+  m_text: 00000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
   m_sharedMaterial: {fileID: -8972662846373813671, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
@@ -763,6 +763,7 @@ GameObject:
   - component: {fileID: 316893182}
   - component: {fileID: 316893181}
   - component: {fileID: 316893180}
+  - component: {fileID: 316893183}
   m_Layer: 5
   m_Name: Settings_Button
   m_TagString: Untagged
@@ -872,6 +873,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316893178}
   m_CullTransparentMesh: 1
+--- !u!114 &316893183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316893178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ca430103ffe1446b0b87c17599e3c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Settings
 --- !u!1 &325564722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,7 +1078,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0000
+  m_text: 00000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
   m_sharedMaterial: {fileID: -8972662846373813671, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
@@ -1518,7 +1531,7 @@ GameObject:
   - component: {fileID: 381933164}
   - component: {fileID: 381933163}
   m_Layer: 5
-  m_Name: MaxPointsField
+  m_Name: BestScoreField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1563,7 +1576,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0000
+  m_text: 00000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
   m_sharedMaterial: {fileID: -8972662846373813671, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
@@ -1788,8 +1801,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 453034146}
+  - component: {fileID: 453034147}
   m_Layer: 0
-  m_Name: RecordsBox
+  m_Name: RecordsPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1823,6 +1837,22 @@ Transform:
   - {fileID: 1630271575}
   m_Father: {fileID: 712353735}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &453034147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453034145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259d47f17aa208c429b5ebcae7708aad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RecordsPanel
+  bestScoreText: {fileID: 381933163}
+  mostWavesText: {fileID: 725620166}
+  totalWavesText: {fileID: 248466645}
+  totalKilledText: {fileID: 331896118}
 --- !u!1 &509974218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,6 +1865,7 @@ GameObject:
   - component: {fileID: 509974222}
   - component: {fileID: 509974221}
   - component: {fileID: 509974220}
+  - component: {fileID: 509974223}
   m_Layer: 5
   m_Name: 'Exit_Button '
   m_TagString: Untagged
@@ -1906,7 +1937,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 509974221}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 509974223}
+        m_TargetAssemblyTypeName: ExitGame, Assembly-CSharp
+        m_MethodName: ExitButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &509974221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1945,6 +1988,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509974218}
   m_CullTransparentMesh: 1
+--- !u!114 &509974223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509974218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ab1a8aeca00894f8b2cbf482709773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExitGame
 --- !u!1 &533575060
 GameObject:
   m_ObjectHideFlags: 0
@@ -2469,7 +2524,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0000
+  m_text: 00000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
   m_sharedMaterial: {fileID: -8972662846373813671, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
@@ -2876,7 +2931,7 @@ GameObject:
   - component: {fileID: 911705129}
   - component: {fileID: 911705128}
   m_Layer: 5
-  m_Name: MaxPoints
+  m_Name: BestScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2921,7 +2976,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MAX POINTS
+  m_text: BEST SCORE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
   m_sharedMaterial: {fileID: -8972662846373813671, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
@@ -4322,6 +4377,7 @@ GameObject:
   - component: {fileID: 1643510842}
   - component: {fileID: 1643510841}
   - component: {fileID: 1643510840}
+  - component: {fileID: 1643510843}
   m_Layer: 5
   m_Name: Start_Button
   m_TagString: Untagged
@@ -4431,6 +4487,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643510838}
   m_CullTransparentMesh: 1
+--- !u!114 &1643510843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643510838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 827574c97b62dbc48b2cd6f554780709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StartGame
 --- !u!1 &1650884471
 GameObject:
   m_ObjectHideFlags: 0
