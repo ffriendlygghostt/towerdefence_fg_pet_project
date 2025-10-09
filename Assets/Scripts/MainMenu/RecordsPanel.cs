@@ -13,9 +13,9 @@ public class RecordsPanel : MonoBehaviour
     {
         var stats = SaveManager.Instance.Data.stats;
 
-        bestScoreText.text = stats.bestScore.ToString("00000");
-        mostWavesText.text = stats.mostWaves.ToString("00000");
-        totalWavesText.text = stats.totalWaves.ToString("00000");
-        totalKilledText.text = stats.totalKilled.ToString("00000");
+        bestScoreText.text = stats.bestScore.ToString();
+        mostWavesText.text = stats.mostWaves.ToString();
+        totalWavesText.text = stats.totalWaves.ToString();
+        totalKilledText.text = stats.totalKilled.ToString();
     }
 }
