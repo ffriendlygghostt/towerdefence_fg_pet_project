@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class StartGame : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void StartGameClick()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //if (StartManager.Instance != null)
+        //{
+        //    StartManager.Instance?.StartGame();
+        //}
+        //else
+        //{
+        //    Debug.LogWarning("StartManager not assigned yet!");
+        //}
     }
 }
