@@ -79,4 +79,9 @@ public class EnemyAnimatorController : MonoBehaviour
         animator.speed = 1f;
     }
 
+    public void ResetAnimation()
+    {
+        rightFlip = false;
+        currentAnimation = EnemyAnimation.Walk_Side;
+    }
 }
