@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 058e1e4ba7a9ea34098684e86f9de694
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2997660327457165855
+    second: Plant2_Attack_shadow_0
+  - first:
+      213: -453420336218112926
+    second: Plant2_Attack_shadow_1
+  - first:
+      213: 7749493410706915116
+    second: Plant2_Attack_shadow_2
+  - first:
+      213: 486191648073986041
+    second: Plant2_Attack_shadow_3
+  - first:
+      213: -3754652752766343340
+    second: Plant2_Attack_shadow_4
+  - first:
+      213: -4853889773790079654
+    second: Plant2_Attack_shadow_5
+  - first:
+      213: -171896359872164101
+    second: Plant2_Attack_shadow_6
+  - first:
+      213: -8141697287432335737
+    second: Plant2_Attack_shadow_7
+  - first:
+      213: -7426756889722415808
+    second: Plant2_Attack_shadow_8
+  - first:
+      213: -8362917348288665867
+    second: Plant2_Attack_shadow_9
+  - first:
+      213: 3022124681653380813
+    second: Plant2_Attack_shadow_10
+  - first:
+      213: -8139765607791553235
+    second: Plant2_Attack_shadow_11
+  - first:
+      213: 8874492194113141355
+    second: Plant2_Attack_shadow_12
+  - first:
+      213: 4698799006864843172
+    second: Plant2_Attack_shadow_13
+  - first:
+      213: 7507896718301745539
+    second: Plant2_Attack_shadow_14
+  - first:
+      213: -6581124452587771647
+    second: Plant2_Attack_shadow_15
+  - first:
+      213: -6978657767461990549
+    second: Plant2_Attack_shadow_16
+  - first:
+      213: 8233772463939082879
+    second: Plant2_Attack_shadow_17
+  - first:
+      213: -712611512068769063
+    second: Plant2_Attack_shadow_18
+  - first:
+      213: 2940821155254444240
+    second: Plant2_Attack_shadow_19
+  - first:
+      213: 2129014831703585250
+    second: Plant2_Attack_shadow_20
+  - first:
+      213: 4195212816670743302
+    second: Plant2_Attack_shadow_21
+  - first:
+      213: -6305944105421315535
+    second: Plant2_Attack_shadow_22
+  - first:
+      213: 3754739397282874733
+    second: Plant2_Attack_shadow_23
+  - first:
+      213: 5022556492657818827
+    second: Plant2_Attack_shadow_24
+  - first:
+      213: -2026905789954825138
+    second: Plant2_Attack_shadow_25
+  - first:
+      213: 1144306166504311032
+    second: Plant2_Attack_shadow_26
+  - first:
+      213: -3470532458606711961
+    second: Plant2_Attack_shadow_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed62a080db2666d0800000000000000
+      internalID: -2997660327457165855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cf7c54b9025b9f0800000000000000
+      internalID: -453420336218112926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f7a6ec23bbb8b60800000000000000
+      internalID: 7749493410706915116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff263c5abc4fb600800000000000000
+      internalID: 486191648073986041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4576b60e63bc4ebc0800000000000000
+      internalID: -3754652752766343340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55575eb7f483acb0800000000000000
+      internalID: -4853889773790079654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe03a3eb2d4d9df0800000000000000
+      internalID: -171896359872164101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e85d12471e20f80800000000000000
+      internalID: -8141697287432335737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04519ea15fbdee890800000000000000
+      internalID: -7426756889722415808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f66d49faf2f0fb80800000000000000
+      internalID: -8362917348288665867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6e3e4d26eb0f920800000000000000
+      internalID: 3022124681653380813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2594a85e4eb90f80800000000000000
+      internalID: -8139765607791553235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a3718a1a7882b70800000000000000
+      internalID: 8874492194113141355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1232b2dcc753140800000000000000
+      internalID: 4698799006864843172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38152b86948613860800000000000000
+      internalID: 7507896718301745539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1096edcbd262ba4a0800000000000000
+      internalID: -6581124452587771647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f48692cb3d62f90800000000000000
+      internalID: -6978657767461990549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a5b7a7e6c344270800000000000000
+      internalID: 8233772463939082879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da7948fa9b4c16f0800000000000000
+      internalID: -712611512068769063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d025e27245efc820800000000000000
+      internalID: 2940821155254444240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1fa3d95b7cb8d10800000000000000
+      internalID: 2129014831703585250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b53de54d3683a30800000000000000
+      internalID: 4195212816670743302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132e4e61f39cc78a0800000000000000
+      internalID: -6305944105421315535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65c53f96938b1430800000000000000
+      internalID: 3754739397282874733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc7339f484b3b540800000000000000
+      internalID: 5022556492657818827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e446f8c4cebfed3e0800000000000000
+      internalID: -2026905789954825138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f847c8456461ef00800000000000000
+      internalID: 1144306166504311032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ba847dd1136dfc0800000000000000
+      internalID: -3470532458606711961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant2_Attack_shadow_0: -2997660327457165855
+      Plant2_Attack_shadow_1: -453420336218112926
+      Plant2_Attack_shadow_10: 3022124681653380813
+      Plant2_Attack_shadow_11: -8139765607791553235
+      Plant2_Attack_shadow_12: 8874492194113141355
+      Plant2_Attack_shadow_13: 4698799006864843172
+      Plant2_Attack_shadow_14: 7507896718301745539
+      Plant2_Attack_shadow_15: -6581124452587771647
+      Plant2_Attack_shadow_16: -6978657767461990549
+      Plant2_Attack_shadow_17: 8233772463939082879
+      Plant2_Attack_shadow_18: -712611512068769063
+      Plant2_Attack_shadow_19: 2940821155254444240
+      Plant2_Attack_shadow_2: 7749493410706915116
+      Plant2_Attack_shadow_20: 2129014831703585250
+      Plant2_Attack_shadow_21: 4195212816670743302
+      Plant2_Attack_shadow_22: -6305944105421315535
+      Plant2_Attack_shadow_23: 3754739397282874733
+      Plant2_Attack_shadow_24: 5022556492657818827
+      Plant2_Attack_shadow_25: -2026905789954825138
+      Plant2_Attack_shadow_26: 1144306166504311032
+      Plant2_Attack_shadow_27: -3470532458606711961
+      Plant2_Attack_shadow_3: 486191648073986041
+      Plant2_Attack_shadow_4: -3754652752766343340
+      Plant2_Attack_shadow_5: -4853889773790079654
+      Plant2_Attack_shadow_6: -171896359872164101
+      Plant2_Attack_shadow_7: -8141697287432335737
+      Plant2_Attack_shadow_8: -7426756889722415808
+      Plant2_Attack_shadow_9: -8362917348288665867
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

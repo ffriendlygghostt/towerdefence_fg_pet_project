@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: 51b539aed1c91274fb4e6061f993d165
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5362712499943031287
+    second: Plant3_Run_full_0
+  - first:
+      213: 1669325591112145697
+    second: Plant3_Run_full_1
+  - first:
+      213: -6985281520634281464
+    second: Plant3_Run_full_2
+  - first:
+      213: 6124709610327686562
+    second: Plant3_Run_full_3
+  - first:
+      213: -4364719685902892053
+    second: Plant3_Run_full_4
+  - first:
+      213: 7527519721454143985
+    second: Plant3_Run_full_5
+  - first:
+      213: 7160462786200640865
+    second: Plant3_Run_full_6
+  - first:
+      213: -7041246711027317433
+    second: Plant3_Run_full_7
+  - first:
+      213: -5233408416987571368
+    second: Plant3_Run_full_8
+  - first:
+      213: -4677067969424578321
+    second: Plant3_Run_full_9
+  - first:
+      213: 8614468412947164746
+    second: Plant3_Run_full_10
+  - first:
+      213: 6373018836565828514
+    second: Plant3_Run_full_11
+  - first:
+      213: 3923990664470450830
+    second: Plant3_Run_full_12
+  - first:
+      213: -6799468258489468545
+    second: Plant3_Run_full_13
+  - first:
+      213: -4284796099673244038
+    second: Plant3_Run_full_14
+  - first:
+      213: -7139190041171447305
+    second: Plant3_Run_full_15
+  - first:
+      213: -8642084798841663504
+    second: Plant3_Run_full_16
+  - first:
+      213: -8410187400687537669
+    second: Plant3_Run_full_17
+  - first:
+      213: 3896583421904182192
+    second: Plant3_Run_full_18
+  - first:
+      213: 8426394453528713881
+    second: Plant3_Run_full_19
+  - first:
+      213: -8954817223551684114
+    second: Plant3_Run_full_20
+  - first:
+      213: 3651606671883035958
+    second: Plant3_Run_full_21
+  - first:
+      213: 7416198894760879318
+    second: Plant3_Run_full_22
+  - first:
+      213: 8160941556768423343
+    second: Plant3_Run_full_23
+  - first:
+      213: 7517569587330749089
+    second: Plant3_Run_full_24
+  - first:
+      213: 2582887510807449094
+    second: Plant3_Run_full_25
+  - first:
+      213: 6736147395323526214
+    second: Plant3_Run_full_26
+  - first:
+      213: 6391756057881115721
+    second: Plant3_Run_full_27
+  - first:
+      213: 1309316235502056861
+    second: Plant3_Run_full_28
+  - first:
+      213: -3342313600413330899
+    second: Plant3_Run_full_29
+  - first:
+      213: 5249270492241422045
+    second: Plant3_Run_full_30
+  - first:
+      213: -8451970340850872222
+    second: Plant3_Run_full_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant3_Run_full_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 204
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1c6a71b9e2c6a40800000000000000
+      internalID: 5362712499943031287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 204
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b55b8d7c2aa2710800000000000000
+      internalID: 1669325591112145697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 204
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8024e72777b4f0f90800000000000000
+      internalID: -6985281520634281464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 204
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adb004c0f65ff450800000000000000
+      internalID: 6124709610327686562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 204
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be38a9922966d63c0800000000000000
+      internalID: -4364719685902892053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 204
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9850ddd4f177860800000000000000
+      internalID: 7527519721454143985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 204
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d94ee57f21f5360800000000000000
+      internalID: 7160462786200640865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 204
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74544552c67784e90800000000000000
+      internalID: -7041246711027317433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 140
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b9ae4c5c23f57b0800000000000000
+      internalID: -5233408416987571368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 140
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe827144677b71fb0800000000000000
+      internalID: -4677067969424578321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 140
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ee982516dbc8770800000000000000
+      internalID: 8614468412947164746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 140
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3216cbdd2817850800000000000000
+      internalID: 6373018836565828514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 140
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82d5b918b0d47630800000000000000
+      internalID: 3923990664470450830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 140
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79f03fd4af63a1a0800000000000000
+      internalID: -6799468258489468545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_14
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 140
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e3fff26a85984c0800000000000000
+      internalID: -4284796099673244038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_15
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 140
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f138fb8b708cec90800000000000000
+      internalID: -7139190041171447305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 76
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff4d36c9a5211880800000000000000
+      internalID: -8642084798841663504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 76
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1bd8f3e13094b80800000000000000
+      internalID: -8410187400687537669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_18
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 76
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb564c2af1731630800000000000000
+      internalID: 3896583421904182192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 76
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a96eb4c1190f470800000000000000
+      internalID: 8426394453528713881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 76
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1f6a90e291ab380800000000000000
+      internalID: -8954817223551684114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_21
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 76
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635e809cbec1da230800000000000000
+      internalID: 3651606671883035958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_22
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 76
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4edd12a91abe660800000000000000
+      internalID: 7416198894760879318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_23
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 76
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadb7eb7b1d714170800000000000000
+      internalID: 8160941556768423343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 12
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2112bb5b5c35860800000000000000
+      internalID: 7517569587330749089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 12
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e8870a18248d320800000000000000
+      internalID: 2582887510807449094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_26
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 12
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c7eeccd5a9b7d50800000000000000
+      internalID: 6736147395323526214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_27
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 12
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c74f8054414b850800000000000000
+      internalID: 6391756057881115721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_28
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 12
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9570cbdd20ab2210800000000000000
+      internalID: 1309316235502056861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_29
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 12
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22186f1d77bd91d0800000000000000
+      internalID: -3342313600413330899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_30
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 12
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd66dfb63b729d840800000000000000
+      internalID: 5249270492241422045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Run_full_31
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 12
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260527561c194ba80800000000000000
+      internalID: -8451970340850872222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant3_Run_full_0: 5362712499943031287
+      Plant3_Run_full_1: 1669325591112145697
+      Plant3_Run_full_10: 8614468412947164746
+      Plant3_Run_full_11: 6373018836565828514
+      Plant3_Run_full_12: 3923990664470450830
+      Plant3_Run_full_13: -6799468258489468545
+      Plant3_Run_full_14: -4284796099673244038
+      Plant3_Run_full_15: -7139190041171447305
+      Plant3_Run_full_16: -8642084798841663504
+      Plant3_Run_full_17: -8410187400687537669
+      Plant3_Run_full_18: 3896583421904182192
+      Plant3_Run_full_19: 8426394453528713881
+      Plant3_Run_full_2: -6985281520634281464
+      Plant3_Run_full_20: -8954817223551684114
+      Plant3_Run_full_21: 3651606671883035958
+      Plant3_Run_full_22: 7416198894760879318
+      Plant3_Run_full_23: 8160941556768423343
+      Plant3_Run_full_24: 7517569587330749089
+      Plant3_Run_full_25: 2582887510807449094
+      Plant3_Run_full_26: 6736147395323526214
+      Plant3_Run_full_27: 6391756057881115721
+      Plant3_Run_full_28: 1309316235502056861
+      Plant3_Run_full_29: -3342313600413330899
+      Plant3_Run_full_3: 6124709610327686562
+      Plant3_Run_full_30: 5249270492241422045
+      Plant3_Run_full_31: -8451970340850872222
+      Plant3_Run_full_4: -4364719685902892053
+      Plant3_Run_full_5: 7527519721454143985
+      Plant3_Run_full_6: 7160462786200640865
+      Plant3_Run_full_7: -7041246711027317433
+      Plant3_Run_full_8: -5233408416987571368
+      Plant3_Run_full_9: -4677067969424578321
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

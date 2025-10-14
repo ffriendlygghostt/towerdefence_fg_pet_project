@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 91027b190b72edc498b441c4ea462669
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5948968169121178778
+    second: beholder-walk-3quarters pose - back view_0
+  - first:
+      213: -7522356185554846510
+    second: beholder-walk-3quarters pose - back view_1
+  - first:
+      213: 2933230951743625851
+    second: beholder-walk-3quarters pose - back view_2
+  - first:
+      213: 4421434751906033914
+    second: beholder-walk-3quarters pose - back view_3
+  - first:
+      213: -8581471396655777215
+    second: beholder-walk-3quarters pose - back view_4
+  - first:
+      213: -4111707639694797181
+    second: beholder-walk-3quarters pose - back view_5
+  - first:
+      213: 4241233093583273371
+    second: beholder-walk-3quarters pose - back view_6
+  - first:
+      213: 1865694636447896375
+    second: beholder-walk-3quarters pose - back view_7
+  - first:
+      213: 6900149702419679321
+    second: beholder-walk-3quarters pose - back view_8
+  - first:
+      213: -1861904491197797732
+    second: beholder-walk-3quarters pose - back view_9
+  - first:
+      213: 2756167999164161624
+    second: beholder-walk-3quarters pose - back view_10
+  - first:
+      213: -7511242136163103631
+    second: beholder-walk-3quarters pose - back view_11
+  - first:
+      213: 823206066205482226
+    second: beholder-walk-3quarters pose - back view_12
+  - first:
+      213: -2367663805761633255
+    second: beholder-walk-3quarters pose - back view_13
+  - first:
+      213: 1804062678958488577
+    second: beholder-walk-3quarters pose - back view_14
+  - first:
+      213: 335248814858794640
+    second: beholder-walk-3quarters pose - back view_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 15
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94e294e70bfe8250800000000000000
+      internalID: 5948968169121178778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 14
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc7a0687e83b9790800000000000000
+      internalID: -7522356185554846510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 14
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a1cda720ee4b820800000000000000
+      internalID: 2933230951743625851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 14
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af03de82b771c5d30800000000000000
+      internalID: 4421434751906033914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_4
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 15
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a38283b3d78e880800000000000000
+      internalID: -8581471396655777215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_5
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 15
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3865bbbbfa740f6c0800000000000000
+      internalID: -4111707639694797181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 15
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d79a01703ebda30800000000000000
+      internalID: 4241233093583273371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_7
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 16
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73314d0136744e910800000000000000
+      internalID: 1865694636447896375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_8
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 15
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9580eb5889142cf50800000000000000
+      internalID: 6900149702419679321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_9
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 14
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a6374eabf2926e0800000000000000
+      internalID: -1861904491197797732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_10
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 14
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e9a734130ef3620800000000000000
+      internalID: 2756167999164161624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_11
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 14
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c4d0cc215b2c790800000000000000
+      internalID: -7511242136163103631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_12
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 15
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcdf114e8d9c6b00800000000000000
+      internalID: 823206066205482226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_13
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 15
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9144706205e542fd0800000000000000
+      internalID: -2367663805761633255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_14
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 15
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c3cdbb271590910800000000000000
+      internalID: 1804062678958488577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-walk-3quarters pose - back view_15
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 16
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0967709550b07a400800000000000000
+      internalID: 335248814858794640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      beholder-walk-3quarters pose - back view_0: 5948968169121178778
+      beholder-walk-3quarters pose - back view_1: -7522356185554846510
+      beholder-walk-3quarters pose - back view_10: 2756167999164161624
+      beholder-walk-3quarters pose - back view_11: -7511242136163103631
+      beholder-walk-3quarters pose - back view_12: 823206066205482226
+      beholder-walk-3quarters pose - back view_13: -2367663805761633255
+      beholder-walk-3quarters pose - back view_14: 1804062678958488577
+      beholder-walk-3quarters pose - back view_15: 335248814858794640
+      beholder-walk-3quarters pose - back view_2: 2933230951743625851
+      beholder-walk-3quarters pose - back view_3: 4421434751906033914
+      beholder-walk-3quarters pose - back view_4: -8581471396655777215
+      beholder-walk-3quarters pose - back view_5: -4111707639694797181
+      beholder-walk-3quarters pose - back view_6: 4241233093583273371
+      beholder-walk-3quarters pose - back view_7: 1865694636447896375
+      beholder-walk-3quarters pose - back view_8: 6900149702419679321
+      beholder-walk-3quarters pose - back view_9: -1861904491197797732
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

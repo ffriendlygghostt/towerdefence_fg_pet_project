@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 90ceba0e877694444b396f1e3b504ad1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3395139768652833576
+    second: beholder-atk1-front view-antecipation-no FX_0
+  - first:
+      213: 5281880545814888312
+    second: beholder-atk1-front view-antecipation-no FX_1
+  - first:
+      213: -3565875584656042854
+    second: beholder-atk1-front view-antecipation-no FX_2
+  - first:
+      213: -7217898161455917336
+    second: beholder-atk1-front view-antecipation-no FX_3
+  - first:
+      213: -8823027491451439853
+    second: beholder-atk1-front view-antecipation-no FX_4
+  - first:
+      213: -7037501633018954953
+    second: beholder-atk1-front view-antecipation-no FX_5
+  - first:
+      213: 6620268577966924752
+    second: beholder-atk1-front view-antecipation-no FX_6
+  - first:
+      213: 2754420977572692063
+    second: beholder-atk1-front view-antecipation-no FX_7
+  - first:
+      213: -4660815788919059081
+    second: beholder-atk1-front view-antecipation-no FX_8
+  - first:
+      213: 8754425454679547005
+    second: beholder-atk1-front view-antecipation-no FX_9
+  - first:
+      213: -4562469530180196264
+    second: beholder-atk1-front view-antecipation-no FX_10
+  - first:
+      213: 5266323229013577419
+    second: beholder-atk1-front view-antecipation-no FX_11
+  - first:
+      213: -1048818845948921960
+    second: beholder-atk1-front view-antecipation-no FX_12
+  - first:
+      213: 8456916876353261195
+    second: beholder-atk1-front view-antecipation-no FX_13
+  - first:
+      213: 8613077881924784733
+    second: beholder-atk1-front view-antecipation-no FX_14
+  - first:
+      213: 5701449242170238225
+    second: beholder-atk1-front view-antecipation-no FX_15
+  - first:
+      213: -2994717364548416048
+    second: beholder-atk1-front view-antecipation-no FX_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 13
+        width: 85
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc55ae5e5a02e0d0800000000000000
+      internalID: -3395139768652833576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 15
+        width: 85
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fb75f2f520d4940800000000000000
+      internalID: 5281880545814888312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 17
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94965f6c07738ec0800000000000000
+      internalID: -3565875584656042854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_3
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 17
+        width: 86
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6997d3ddfd4db90800000000000000
+      internalID: -7217898161455917336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_4
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 16
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315f7803e3f4e8580800000000000000
+      internalID: -8823027491451439853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_5
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 16
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b7ca11d85c55e90800000000000000
+      internalID: -7037501633018954953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_6
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 16
+        width: 87
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3266b223befdb50800000000000000
+      internalID: 6620268577966924752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_7
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 17
+        width: 88
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50ca1a194ba93620800000000000000
+      internalID: 2754420977572692063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_8
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 16
+        width: 79
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d82f9ebb4715fb0800000000000000
+      internalID: -4660815788919059081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_9
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 15
+        width: 85
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cdfce6197fd7970800000000000000
+      internalID: 8754425454679547005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_10
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 15
+        width: 85
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858e013a22adea0c0800000000000000
+      internalID: -4562469530180196264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_11
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 15
+        width: 86
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce0eb9131db51940800000000000000
+      internalID: 5266323229013577419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_12
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 17
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897ba7501d8d171f0800000000000000
+      internalID: -1048818845948921960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_13
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 17
+        width: 94
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8eca06a7110d5570800000000000000
+      internalID: 8456916876353261195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_14
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 15
+        width: 106
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5296e613bcc78770800000000000000
+      internalID: 8613077881924784733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_15
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 16
+        width: 100
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1152a70d0ed9f1f40800000000000000
+      internalID: 5701449242170238225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beholder-atk1-front view-antecipation-no FX_16
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 16
+        width: 105
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddc5637c60a076d0800000000000000
+      internalID: -2994717364548416048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      beholder-atk1-front view-antecipation-no FX_0: -3395139768652833576
+      beholder-atk1-front view-antecipation-no FX_1: 5281880545814888312
+      beholder-atk1-front view-antecipation-no FX_10: -4562469530180196264
+      beholder-atk1-front view-antecipation-no FX_11: 5266323229013577419
+      beholder-atk1-front view-antecipation-no FX_12: -1048818845948921960
+      beholder-atk1-front view-antecipation-no FX_13: 8456916876353261195
+      beholder-atk1-front view-antecipation-no FX_14: 8613077881924784733
+      beholder-atk1-front view-antecipation-no FX_15: 5701449242170238225
+      beholder-atk1-front view-antecipation-no FX_16: -2994717364548416048
+      beholder-atk1-front view-antecipation-no FX_2: -3565875584656042854
+      beholder-atk1-front view-antecipation-no FX_3: -7217898161455917336
+      beholder-atk1-front view-antecipation-no FX_4: -8823027491451439853
+      beholder-atk1-front view-antecipation-no FX_5: -7037501633018954953
+      beholder-atk1-front view-antecipation-no FX_6: 6620268577966924752
+      beholder-atk1-front view-antecipation-no FX_7: 2754420977572692063
+      beholder-atk1-front view-antecipation-no FX_8: -4660815788919059081
+      beholder-atk1-front view-antecipation-no FX_9: 8754425454679547005
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

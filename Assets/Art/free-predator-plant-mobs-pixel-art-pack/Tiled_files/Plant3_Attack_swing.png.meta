@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: d39a9cd3efafb8b429d925a71c6ac8d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6956808199765409183
+    second: Plant3_Attack_swing_0
+  - first:
+      213: -1474653901534894752
+    second: Plant3_Attack_swing_1
+  - first:
+      213: 417542833314696686
+    second: Plant3_Attack_swing_2
+  - first:
+      213: 1825638644425099982
+    second: Plant3_Attack_swing_3
+  - first:
+      213: -6125074723192729384
+    second: Plant3_Attack_swing_4
+  - first:
+      213: 4250889981396891139
+    second: Plant3_Attack_swing_5
+  - first:
+      213: 3023937015480558971
+    second: Plant3_Attack_swing_6
+  - first:
+      213: 3293927312540801132
+    second: Plant3_Attack_swing_7
+  - first:
+      213: -5292270918243373972
+    second: Plant3_Attack_swing_8
+  - first:
+      213: -3374476964963308765
+    second: Plant3_Attack_swing_9
+  - first:
+      213: 5362946018242754289
+    second: Plant3_Attack_swing_10
+  - first:
+      213: 5653617596384958082
+    second: Plant3_Attack_swing_11
+  - first:
+      213: -5993758185971071249
+    second: Plant3_Attack_swing_12
+  - first:
+      213: -2106344555789006187
+    second: Plant3_Attack_swing_13
+  - first:
+      213: -624583789622224149
+    second: Plant3_Attack_swing_14
+  - first:
+      213: 1376838136187087842
+    second: Plant3_Attack_swing_15
+  - first:
+      213: -7777823940794377376
+    second: Plant3_Attack_swing_16
+  - first:
+      213: 8752485769086888304
+    second: Plant3_Attack_swing_17
+  - first:
+      213: 297883379240129423
+    second: Plant3_Attack_swing_18
+  - first:
+      213: -2550128968220710993
+    second: Plant3_Attack_swing_19
+  - first:
+      213: 1454970565213001218
+    second: Plant3_Attack_swing_20
+  - first:
+      213: -1488363298019560557
+    second: Plant3_Attack_swing_21
+  - first:
+      213: -5597797295725239005
+    second: Plant3_Attack_swing_22
+  - first:
+      213: 6580503240226217391
+    second: Plant3_Attack_swing_23
+  - first:
+      213: -1809471193933332838
+    second: Plant3_Attack_swing_24
+  - first:
+      213: -1918653715219136401
+    second: Plant3_Attack_swing_25
+  - first:
+      213: -5662197610384207291
+    second: Plant3_Attack_swing_26
+  - first:
+      213: 7870892473853577778
+    second: Plant3_Attack_swing_27
+  - first:
+      213: 260270585395723025
+    second: Plant3_Attack_swing_28
+  - first:
+      213: 1022376104552225442
+    second: Plant3_Attack_swing_29
+  - first:
+      213: 4519490389038408456
+    second: Plant3_Attack_swing_30
+  - first:
+      213: 7319353148025995309
+    second: Plant3_Attack_swing_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_0
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 208
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16245721dc3747f90800000000000000
+      internalID: -6956808199765409183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 207
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0656e50f61af88be0800000000000000
+      internalID: -1474653901534894752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_2
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 213
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed8b32aef86bc500800000000000000
+      internalID: 417542833314696686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 6
+        width: 96
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca0f29aca8f55910800000000000000
+      internalID: 1825638644425099982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 193
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d09f55cdfc5ffaa0800000000000000
+      internalID: -6125074723192729384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 195
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306bd687ae13efa30800000000000000
+      internalID: 4250889981396891139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_6
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 192
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75afdea1be27f920800000000000000
+      internalID: 3023937015480558971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 192
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6893f3507166bd20800000000000000
+      internalID: 3293927312540801132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_8
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 150
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c29f6b3a31e86b0800000000000000
+      internalID: -5292270918243373972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 150
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32baf9044137b21d0800000000000000
+      internalID: -3374476964963308765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 152
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f674fe4df20d6a40800000000000000
+      internalID: 5362946018242754289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 153
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2865c60ff3fa57e40800000000000000
+      internalID: 5653617596384958082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_12
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 138
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6ca97afa4e1dca0800000000000000
+      internalID: -5993758185971071249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a4e9159c2c4c2e0800000000000000
+      internalID: -2106344555789006187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 137
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea991f3a580557f0800000000000000
+      internalID: -624583789622224149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_15
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 137
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb64a47df28b1310800000000000000
+      internalID: 1376838136187087842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 73
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b1c63a55e9f0490800000000000000
+      internalID: -7777823940794377376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 100
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079e5103f63177970800000000000000
+      internalID: 8752485769086888304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_18
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 105
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83d91cea5b422400800000000000000
+      internalID: 297883379240129423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_19
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 97
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa765cde63f1c9cd0800000000000000
+      internalID: -2550128968220710993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 72
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2069b223508113410800000000000000
+      internalID: 1454970565213001218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 81
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393b0d45775485be0800000000000000
+      internalID: -1488363298019560557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_22
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 75
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325a7a79401a052b0800000000000000
+      internalID: -5597797295725239005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_23
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad9dfcf4d4a25b50800000000000000
+      internalID: 6580503240226217391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_24
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 33
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e3d4e398773e6e0800000000000000
+      internalID: -1809471193933332838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_25
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 41
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6041698c929f55e0800000000000000
+      internalID: -1918653715219136401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_26
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 36
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542dbf0e545db61b0800000000000000
+      internalID: -5662197610384207291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_27
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 9
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a8651d0070b3d60800000000000000
+      internalID: 7870892473853577778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_28
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 33
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bbefbe7baac9300800000000000000
+      internalID: 260270585395723025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_29
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 17
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aadeaa76a5303e00800000000000000
+      internalID: 1022376104552225442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_30
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 11
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8032d64409478be30800000000000000
+      internalID: 4519490389038408456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Attack_swing_31
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 7
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d200ab598e0939560800000000000000
+      internalID: 7319353148025995309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant3_Attack_swing_0: -6956808199765409183
+      Plant3_Attack_swing_1: -1474653901534894752
+      Plant3_Attack_swing_10: 5362946018242754289
+      Plant3_Attack_swing_11: 5653617596384958082
+      Plant3_Attack_swing_12: -5993758185971071249
+      Plant3_Attack_swing_13: -2106344555789006187
+      Plant3_Attack_swing_14: -624583789622224149
+      Plant3_Attack_swing_15: 1376838136187087842
+      Plant3_Attack_swing_16: -7777823940794377376
+      Plant3_Attack_swing_17: 8752485769086888304
+      Plant3_Attack_swing_18: 297883379240129423
+      Plant3_Attack_swing_19: -2550128968220710993
+      Plant3_Attack_swing_2: 417542833314696686
+      Plant3_Attack_swing_20: 1454970565213001218
+      Plant3_Attack_swing_21: -1488363298019560557
+      Plant3_Attack_swing_22: -5597797295725239005
+      Plant3_Attack_swing_23: 6580503240226217391
+      Plant3_Attack_swing_24: -1809471193933332838
+      Plant3_Attack_swing_25: -1918653715219136401
+      Plant3_Attack_swing_26: -5662197610384207291
+      Plant3_Attack_swing_27: 7870892473853577778
+      Plant3_Attack_swing_28: 260270585395723025
+      Plant3_Attack_swing_29: 1022376104552225442
+      Plant3_Attack_swing_3: 1825638644425099982
+      Plant3_Attack_swing_30: 4519490389038408456
+      Plant3_Attack_swing_31: 7319353148025995309
+      Plant3_Attack_swing_4: -6125074723192729384
+      Plant3_Attack_swing_5: 4250889981396891139
+      Plant3_Attack_swing_6: 3023937015480558971
+      Plant3_Attack_swing_7: 3293927312540801132
+      Plant3_Attack_swing_8: -5292270918243373972
+      Plant3_Attack_swing_9: -3374476964963308765
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

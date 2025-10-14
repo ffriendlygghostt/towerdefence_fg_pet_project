@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 1d856a8c7d98ae745a926bb64b59637d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5723910766628294038
+    second: Plant2_Idle_head_0
+  - first:
+      213: 4368238177296937691
+    second: Plant2_Idle_head_1
+  - first:
+      213: 7202735795199778692
+    second: Plant2_Idle_head_2
+  - first:
+      213: 4851351100417711822
+    second: Plant2_Idle_head_3
+  - first:
+      213: -3345173513588397897
+    second: Plant2_Idle_head_4
+  - first:
+      213: 5425200440112865050
+    second: Plant2_Idle_head_5
+  - first:
+      213: -5001093651220239253
+    second: Plant2_Idle_head_6
+  - first:
+      213: -3613025951827638783
+    second: Plant2_Idle_head_7
+  - first:
+      213: -5854982946845159056
+    second: Plant2_Idle_head_8
+  - first:
+      213: -4031527710450889042
+    second: Plant2_Idle_head_9
+  - first:
+      213: 4942388659585044941
+    second: Plant2_Idle_head_10
+  - first:
+      213: -7746107286151800578
+    second: Plant2_Idle_head_11
+  - first:
+      213: -2973993265781477702
+    second: Plant2_Idle_head_12
+  - first:
+      213: 6937914033300897800
+    second: Plant2_Idle_head_13
+  - first:
+      213: 2538414196072275350
+    second: Plant2_Idle_head_14
+  - first:
+      213: 8080298222871125820
+    second: Plant2_Idle_head_15
+  - first:
+      213: -8742241203351682744
+    second: Plant2_Idle_head_16
+  - first:
+      213: 2318173324008149415
+    second: Plant2_Idle_head_17
+  - first:
+      213: -8174247501415894945
+    second: Plant2_Idle_head_18
+  - first:
+      213: -411191883550513843
+    second: Plant2_Idle_head_19
+  - first:
+      213: -2200794741127357563
+    second: Plant2_Idle_head_20
+  - first:
+      213: -6387078733118416673
+    second: Plant2_Idle_head_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant2_Idle_head_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 215
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dc9e2048a6f6f40800000000000000
+      internalID: 5723910766628294038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 216
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd275147a791f9c30800000000000000
+      internalID: 4368238177296937691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 217
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f9fd34b0245f360800000000000000
+      internalID: 7202735795199778692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 216
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece191d4f16735340800000000000000
+      internalID: 4851351100417711822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 152
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8a482b96e8391d0800000000000000
+      internalID: -3345173513588397897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 168
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f583c6e0f2a4b40800000000000000
+      internalID: 5425200440112865050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 152
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c6e8632db889ab0800000000000000
+      internalID: -5001093651220239253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 166
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106cb091a04fbddc0800000000000000
+      internalID: -3613025951827638783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 153
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0711357e70ceebea0800000000000000
+      internalID: -5854982946845159056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 153
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae4e6448e22d08c0800000000000000
+      internalID: -4031527710450889042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_10
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 154
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc15c7ccc44e69440800000000000000
+      internalID: 4942388659585044941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 154
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef85bd0c67c408490800000000000000
+      internalID: -7746107286151800578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_12
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 153
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abee0b4b1e04ab6d0800000000000000
+      internalID: -2973993265781477702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_13
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 153
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800091dfd0c684060800000000000000
+      internalID: 6937914033300897800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 87
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d52b123424a3320800000000000000
+      internalID: 2538414196072275350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 88
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f14752c6cf22070800000000000000
+      internalID: 8080298222871125820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_16
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 89
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8418075a1f15da680800000000000000
+      internalID: -8742241203351682744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 88
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1da412b5ecb2020800000000000000
+      internalID: 2318173324008149415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 23
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f503bfbd43d3f8e80800000000000000
+      internalID: -8174247501415894945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45a27619272b4af0800000000000000
+      internalID: -411191883550513843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_20
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 25
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b5e8fd7d43571e0800000000000000
+      internalID: -2200794741127357563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Idle_head_21
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd856008bb98c57a0800000000000000
+      internalID: -6387078733118416673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant2_Idle_head_0: 5723910766628294038
+      Plant2_Idle_head_1: 4368238177296937691
+      Plant2_Idle_head_10: 4942388659585044941
+      Plant2_Idle_head_11: -7746107286151800578
+      Plant2_Idle_head_12: -2973993265781477702
+      Plant2_Idle_head_13: 6937914033300897800
+      Plant2_Idle_head_14: 2538414196072275350
+      Plant2_Idle_head_15: 8080298222871125820
+      Plant2_Idle_head_16: -8742241203351682744
+      Plant2_Idle_head_17: 2318173324008149415
+      Plant2_Idle_head_18: -8174247501415894945
+      Plant2_Idle_head_19: -411191883550513843
+      Plant2_Idle_head_2: 7202735795199778692
+      Plant2_Idle_head_20: -2200794741127357563
+      Plant2_Idle_head_21: -6387078733118416673
+      Plant2_Idle_head_3: 4851351100417711822
+      Plant2_Idle_head_4: -3345173513588397897
+      Plant2_Idle_head_5: 5425200440112865050
+      Plant2_Idle_head_6: -5001093651220239253
+      Plant2_Idle_head_7: -3613025951827638783
+      Plant2_Idle_head_8: -5854982946845159056
+      Plant2_Idle_head_9: -4031527710450889042
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

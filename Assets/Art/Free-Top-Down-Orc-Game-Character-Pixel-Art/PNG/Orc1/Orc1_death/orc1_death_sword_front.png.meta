@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 054ed48115402fe47aec6ec2c1440b8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1868492323575425828
+    second: orc1_death_sword_front_0
+  - first:
+      213: 8443233107961237903
+    second: orc1_death_sword_front_1
+  - first:
+      213: -2323054248205079154
+    second: orc1_death_sword_front_2
+  - first:
+      213: 999965620860809721
+    second: orc1_death_sword_front_3
+  - first:
+      213: -5118259589890520351
+    second: orc1_death_sword_front_4
+  - first:
+      213: 8138559144244138316
+    second: orc1_death_sword_front_5
+  - first:
+      213: 4758043478046064286
+    second: orc1_death_sword_front_6
+  - first:
+      213: -6152223387234987389
+    second: orc1_death_sword_front_7
+  - first:
+      213: 5265235548669010674
+    second: orc1_death_sword_front_8
+  - first:
+      213: -3896819132200711369
+    second: orc1_death_sword_front_9
+  - first:
+      213: 946413991121538034
+    second: orc1_death_sword_front_10
+  - first:
+      213: -5586545414657908520
+    second: orc1_death_sword_front_11
+  - first:
+      213: -6888714690058751245
+    second: orc1_death_sword_front_12
+  - first:
+      213: -6113063920371073920
+    second: orc1_death_sword_front_13
+  - first:
+      213: 6691421327207141931
+    second: orc1_death_sword_front_14
+  - first:
+      213: 8150190389920954905
+    second: orc1_death_sword_front_15
+  - first:
+      213: -8876218542303119487
+    second: orc1_death_sword_front_16
+  - first:
+      213: -7349846238333991326
+    second: orc1_death_sword_front_17
+  - first:
+      213: 7784313653032024023
+    second: orc1_death_sword_front_18
+  - first:
+      213: -5498878281820176041
+    second: orc1_death_sword_front_19
+  - first:
+      213: 12296607164957180
+    second: orc1_death_sword_front_20
+  - first:
+      213: -5383187772689820803
+    second: orc1_death_sword_front_21
+  - first:
+      213: 4819298754331328373
+    second: orc1_death_sword_front_22
+  - first:
+      213: 6614948004341230622
+    second: orc1_death_sword_front_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orc1_death_sword_front_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 213
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd41eb3a128c116e0800000000000000
+      internalID: -1868492323575425828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 210
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81d8db07c36c2570800000000000000
+      internalID: 8443233107961237903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 210
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d26c5287ad2cfd0800000000000000
+      internalID: -2323054248205079154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 210
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1f2032f6790ed00800000000000000
+      internalID: 999965620860809721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 210
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eac65c450a48f8b0800000000000000
+      internalID: -5118259589890520351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 210
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41dd28fb68f1f070800000000000000
+      internalID: 8138559144244138316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 210
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ebcc68557f70240800000000000000
+      internalID: 4758043478046064286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_7
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 210
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3821209dc69ee9aa0800000000000000
+      internalID: -6152223387234987389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 149
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2ec29c5dfd11940800000000000000
+      internalID: 5265235548669010674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 146
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b0b3f35a7bbe9c0800000000000000
+      internalID: -3896819132200711369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_10
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 146
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb4247b286522d00800000000000000
+      internalID: 946413991121538034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 146
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d06abd4b8a9872b0800000000000000
+      internalID: -5586545414657908520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_12
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 146
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f27804cc7e5660a0800000000000000
+      internalID: -6888714690058751245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_13
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 146
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c7609b0c80a2ba0800000000000000
+      internalID: -6113063920371073920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_14
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 146
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2297a29e34bcdc50800000000000000
+      internalID: 6691421327207141931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 146
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a7a036afa4b1170800000000000000
+      internalID: 8150190389920954905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_16
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 21
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1877945934651d480800000000000000
+      internalID: -8876218542303119487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_17
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 18
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2668c5299c9100a90800000000000000
+      internalID: -7349846238333991326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_18
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 17
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7723d3600770c60800000000000000
+      internalID: 7784313653032024023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_19
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 17
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7518ff4465f00b3b0800000000000000
+      internalID: -5498878281820176041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_20
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 17
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf18206f2bfab2000800000000000000
+      internalID: 12296607164957180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_21
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 17
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73d899fd331b45b0800000000000000
+      internalID: -5383187772689820803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_22
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 17
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fb66eeea691e240800000000000000
+      internalID: 4819298754331328373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_death_sword_front_23
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 17
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c207699240dcb50800000000000000
+      internalID: 6614948004341230622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      orc1_death_sword_front_0: -1868492323575425828
+      orc1_death_sword_front_1: 8443233107961237903
+      orc1_death_sword_front_10: 946413991121538034
+      orc1_death_sword_front_11: -5586545414657908520
+      orc1_death_sword_front_12: -6888714690058751245
+      orc1_death_sword_front_13: -6113063920371073920
+      orc1_death_sword_front_14: 6691421327207141931
+      orc1_death_sword_front_15: 8150190389920954905
+      orc1_death_sword_front_16: -8876218542303119487
+      orc1_death_sword_front_17: -7349846238333991326
+      orc1_death_sword_front_18: 7784313653032024023
+      orc1_death_sword_front_19: -5498878281820176041
+      orc1_death_sword_front_2: -2323054248205079154
+      orc1_death_sword_front_20: 12296607164957180
+      orc1_death_sword_front_21: -5383187772689820803
+      orc1_death_sword_front_22: 4819298754331328373
+      orc1_death_sword_front_23: 6614948004341230622
+      orc1_death_sword_front_3: 999965620860809721
+      orc1_death_sword_front_4: -5118259589890520351
+      orc1_death_sword_front_5: 8138559144244138316
+      orc1_death_sword_front_6: 4758043478046064286
+      orc1_death_sword_front_7: -6152223387234987389
+      orc1_death_sword_front_8: 5265235548669010674
+      orc1_death_sword_front_9: -3896819132200711369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
