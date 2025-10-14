@@ -83,5 +83,6 @@ public class EnemyAnimatorController : MonoBehaviour
     {
         rightFlip = false;
         currentAnimation = EnemyAnimation.Walk_Side;
+        animator.speed = 1f;
     }
 }
