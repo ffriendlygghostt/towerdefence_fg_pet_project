@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: 1fa9b1e250c5b2d4a93368ab62c692df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -350354761793350430
+    second: Plant2_Attack_body_0
+  - first:
+      213: 2810626041392942228
+    second: Plant2_Attack_body_1
+  - first:
+      213: -6062131570857293967
+    second: Plant2_Attack_body_2
+  - first:
+      213: 863672760990393166
+    second: Plant2_Attack_body_3
+  - first:
+      213: 195815374512153522
+    second: Plant2_Attack_body_4
+  - first:
+      213: 4612515657811859845
+    second: Plant2_Attack_body_5
+  - first:
+      213: 6989812652637123396
+    second: Plant2_Attack_body_6
+  - first:
+      213: -8225460850922741174
+    second: Plant2_Attack_body_7
+  - first:
+      213: 6884333777845240687
+    second: Plant2_Attack_body_8
+  - first:
+      213: 5364081375793150010
+    second: Plant2_Attack_body_9
+  - first:
+      213: -8887152186875323902
+    second: Plant2_Attack_body_10
+  - first:
+      213: 2482236600684716577
+    second: Plant2_Attack_body_11
+  - first:
+      213: 2876527392277677013
+    second: Plant2_Attack_body_12
+  - first:
+      213: -6820271134951550618
+    second: Plant2_Attack_body_13
+  - first:
+      213: 8395303700179346343
+    second: Plant2_Attack_body_14
+  - first:
+      213: 3804003132615241194
+    second: Plant2_Attack_body_15
+  - first:
+      213: 2970636461621636967
+    second: Plant2_Attack_body_16
+  - first:
+      213: 3783785100722981071
+    second: Plant2_Attack_body_17
+  - first:
+      213: 5039274150431526160
+    second: Plant2_Attack_body_18
+  - first:
+      213: 8508864009070609448
+    second: Plant2_Attack_body_19
+  - first:
+      213: 7649708600375955621
+    second: Plant2_Attack_body_20
+  - first:
+      213: -1433992991615366235
+    second: Plant2_Attack_body_21
+  - first:
+      213: 3813276682884162661
+    second: Plant2_Attack_body_22
+  - first:
+      213: 3099312564922365655
+    second: Plant2_Attack_body_23
+  - first:
+      213: 4106030893227062293
+    second: Plant2_Attack_body_24
+  - first:
+      213: -5194515592851797668
+    second: Plant2_Attack_body_25
+  - first:
+      213: 6783257434315197973
+    second: Plant2_Attack_body_26
+  - first:
+      213: -2506939715136795459
+    second: Plant2_Attack_body_27
+  - first:
+      213: 8623488581766208436
+    second: Plant2_Attack_body_28
+  - first:
+      213: 3095333279837021426
+    second: Plant2_Attack_body_29
+  - first:
+      213: 6694916298905679441
+    second: Plant2_Attack_body_30
+  - first:
+      213: 1860977693413587050
+    second: Plant2_Attack_body_31
+  - first:
+      213: -4842705707154639966
+    second: Plant2_Attack_body_32
+  - first:
+      213: -6220600017955685369
+    second: Plant2_Attack_body_33
+  - first:
+      213: -2734454844558077729
+    second: Plant2_Attack_body_34
+  - first:
+      213: -6954454250150311460
+    second: Plant2_Attack_body_35
+  - first:
+      213: -4949778185479923163
+    second: Plant2_Attack_body_36
+  - first:
+      213: 4019976687156848324
+    second: Plant2_Attack_body_37
+  - first:
+      213: 4236571112533700196
+    second: Plant2_Attack_body_38
+  - first:
+      213: 2905343892986006577
+    second: Plant2_Attack_body_39
+  - first:
+      213: -6154419205848357117
+    second: Plant2_Attack_body_40
+  - first:
+      213: 7475235995719974940
+    second: Plant2_Attack_body_41
+  - first:
+      213: -1074039268346204443
+    second: Plant2_Attack_body_42
+  - first:
+      213: 62549949817453347
+    second: Plant2_Attack_body_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant2_Attack_body_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 223
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4d0fd433a432bf0800000000000000
+      internalID: -350354761793350430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 229
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c40b94e79510720800000000000000
+      internalID: 2810626041392942228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 219
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177ce51747bfedba0800000000000000
+      internalID: -6062131570857293967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 221
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e436309dcc16cfb00800000000000000
+      internalID: 863672760990393166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 227
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b36b5fab0da7b200800000000000000
+      internalID: 195815374512153522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 219
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5899dc87d82f20040800000000000000
+      internalID: 4612515657811859845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_6
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 220
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44377fee29dc00160800000000000000
+      internalID: 6989812652637123396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 225
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a422edabfea49dd80800000000000000
+      internalID: -8225460850922741174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 217
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6340bf98111a8f50800000000000000
+      internalID: 6884333777845240687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 220
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a387076579b017a40800000000000000
+      internalID: 5364081375793150010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_10
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 221
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ad5741c2e7aa480800000000000000
+      internalID: -8887152186875323902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 222
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1222940790da27220800000000000000
+      internalID: 2482236600684716577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_12
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 220
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3446b3c6a7be720800000000000000
+      internalID: 2876527392277677013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 221
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661dc51c9878951a0800000000000000
+      internalID: -6820271134951550618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_14
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 224
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a366be2c3c128470800000000000000
+      internalID: 8395303700179346343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_15
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 219
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed2104d1b88ac430800000000000000
+      internalID: 3804003132615241194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 225
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fe7cb6f12d93920800000000000000
+      internalID: 2970636461621636967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_17
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 218
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc842037084b28430800000000000000
+      internalID: 3783785100722981071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_18
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 208
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d874ef3291fe540800000000000000
+      internalID: 5039274150431526160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 208
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82482cefbbe851670800000000000000
+      internalID: 8508864009070609448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_20
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 208
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0d8a03179392a60800000000000000
+      internalID: 7649708600375955621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_21
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 208
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abcd54c8fe691ce0800000000000000
+      internalID: -1433992991615366235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_22
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 208
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564279180fa7be430800000000000000
+      internalID: 3813276682884162661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_23
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d63a106b58f20b20800000000000000
+      internalID: 3099312564922365655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514349bb75d8bf830800000000000000
+      internalID: 4106030893227062293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_25
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 144
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5947db079f59e7b0800000000000000
+      internalID: -5194515592851797668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_26
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 144
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e826082b8f22e50800000000000000
+      internalID: 6783257434315197973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_27
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 144
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbcc3f58c9f853dd0800000000000000
+      internalID: -2506939715136795459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_28
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 144
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbdfc80d29cca770800000000000000
+      internalID: 8623488581766208436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_29
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 144
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4612ed735d4fa20800000000000000
+      internalID: 3095333279837021426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 80
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156fe3517ee19ec50800000000000000
+      internalID: 6694916298905679441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_31
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 80
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68b7de2a5583d910800000000000000
+      internalID: 1860977693413587050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_32
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 80
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a37a4d21d04bccb0800000000000000
+      internalID: -4842705707154639966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_33
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 80
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c76f7ed3dfba9a0800000000000000
+      internalID: -6220600017955685369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_34
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 80
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd015cf7ec34d0ad0800000000000000
+      internalID: -2734454844558077729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_35
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 80
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9c51da4b0dc7f90800000000000000
+      internalID: -6954454250150311460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_36
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 80
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52add7127fade4bb0800000000000000
+      internalID: -4949778185479923163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_37
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 16
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6e55b8f73d9c730800000000000000
+      internalID: 4019976687156848324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_38
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 16
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ea0440bf25bca30800000000000000
+      internalID: 4236571112533700196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_39
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 16
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c08c3a0ead15820800000000000000
+      internalID: 2905343892986006577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_40
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 16
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307219cf65c179aa0800000000000000
+      internalID: -6154419205848357117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_41
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 16
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c104a19588f5db760800000000000000
+      internalID: 7475235995719974940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_42
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 16
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee6767d9fe3811f0800000000000000
+      internalID: -1074039268346204443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Attack_body_43
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 16
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b769319d83ed000800000000000000
+      internalID: 62549949817453347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant2_Attack_body_0: -350354761793350430
+      Plant2_Attack_body_1: 2810626041392942228
+      Plant2_Attack_body_10: -8887152186875323902
+      Plant2_Attack_body_11: 2482236600684716577
+      Plant2_Attack_body_12: 2876527392277677013
+      Plant2_Attack_body_13: -6820271134951550618
+      Plant2_Attack_body_14: 8395303700179346343
+      Plant2_Attack_body_15: 3804003132615241194
+      Plant2_Attack_body_16: 2970636461621636967
+      Plant2_Attack_body_17: 3783785100722981071
+      Plant2_Attack_body_18: 5039274150431526160
+      Plant2_Attack_body_19: 8508864009070609448
+      Plant2_Attack_body_2: -6062131570857293967
+      Plant2_Attack_body_20: 7649708600375955621
+      Plant2_Attack_body_21: -1433992991615366235
+      Plant2_Attack_body_22: 3813276682884162661
+      Plant2_Attack_body_23: 3099312564922365655
+      Plant2_Attack_body_24: 4106030893227062293
+      Plant2_Attack_body_25: -5194515592851797668
+      Plant2_Attack_body_26: 6783257434315197973
+      Plant2_Attack_body_27: -2506939715136795459
+      Plant2_Attack_body_28: 8623488581766208436
+      Plant2_Attack_body_29: 3095333279837021426
+      Plant2_Attack_body_3: 863672760990393166
+      Plant2_Attack_body_30: 6694916298905679441
+      Plant2_Attack_body_31: 1860977693413587050
+      Plant2_Attack_body_32: -4842705707154639966
+      Plant2_Attack_body_33: -6220600017955685369
+      Plant2_Attack_body_34: -2734454844558077729
+      Plant2_Attack_body_35: -6954454250150311460
+      Plant2_Attack_body_36: -4949778185479923163
+      Plant2_Attack_body_37: 4019976687156848324
+      Plant2_Attack_body_38: 4236571112533700196
+      Plant2_Attack_body_39: 2905343892986006577
+      Plant2_Attack_body_4: 195815374512153522
+      Plant2_Attack_body_40: -6154419205848357117
+      Plant2_Attack_body_41: 7475235995719974940
+      Plant2_Attack_body_42: -1074039268346204443
+      Plant2_Attack_body_43: 62549949817453347
+      Plant2_Attack_body_5: 4612515657811859845
+      Plant2_Attack_body_6: 6989812652637123396
+      Plant2_Attack_body_7: -8225460850922741174
+      Plant2_Attack_body_8: 6884333777845240687
+      Plant2_Attack_body_9: 5364081375793150010
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 3a1be7a6b7cb2da4d99e463890d8d778
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3546493191895875019
+    second: Plant1_Death_body_0
+  - first:
+      213: -9114881084953623926
+    second: Plant1_Death_body_1
+  - first:
+      213: 3253362298442253128
+    second: Plant1_Death_body_2
+  - first:
+      213: 3464354165079600289
+    second: Plant1_Death_body_3
+  - first:
+      213: -6060112589229152376
+    second: Plant1_Death_body_4
+  - first:
+      213: 8438864649596288580
+    second: Plant1_Death_body_5
+  - first:
+      213: -185027849089019895
+    second: Plant1_Death_body_6
+  - first:
+      213: -1364538196768727860
+    second: Plant1_Death_body_7
+  - first:
+      213: -6410448872687417486
+    second: Plant1_Death_body_8
+  - first:
+      213: -128577633870021836
+    second: Plant1_Death_body_9
+  - first:
+      213: 2898222430103121111
+    second: Plant1_Death_body_10
+  - first:
+      213: -8110283526695458793
+    second: Plant1_Death_body_11
+  - first:
+      213: -4917161834965396146
+    second: Plant1_Death_body_12
+  - first:
+      213: 3985552676671963072
+    second: Plant1_Death_body_13
+  - first:
+      213: 5009135187675077653
+    second: Plant1_Death_body_14
+  - first:
+      213: -5571819949642548098
+    second: Plant1_Death_body_15
+  - first:
+      213: -2978393861203732520
+    second: Plant1_Death_body_16
+  - first:
+      213: 7572454118150023969
+    second: Plant1_Death_body_17
+  - first:
+      213: 7662927187294211790
+    second: Plant1_Death_body_18
+  - first:
+      213: -1282685133547894828
+    second: Plant1_Death_body_19
+  - first:
+      213: 4162611248046335252
+    second: Plant1_Death_body_20
+  - first:
+      213: 2484747893320147820
+    second: Plant1_Death_body_21
+  - first:
+      213: -3942643928582538126
+    second: Plant1_Death_body_22
+  - first:
+      213: 292123524495151070
+    second: Plant1_Death_body_23
+  - first:
+      213: -7074536242489812321
+    second: Plant1_Death_body_24
+  - first:
+      213: -5345069892747280151
+    second: Plant1_Death_body_25
+  - first:
+      213: -6333726355205034934
+    second: Plant1_Death_body_26
+  - first:
+      213: 3488575019243183875
+    second: Plant1_Death_body_27
+  - first:
+      213: 2047690405330893402
+    second: Plant1_Death_body_28
+  - first:
+      213: -9037882447130427476
+    second: Plant1_Death_body_29
+  - first:
+      213: -1575890656341851560
+    second: Plant1_Death_body_30
+  - first:
+      213: -4275164564257450949
+    second: Plant1_Death_body_31
+  - first:
+      213: 5120885628764040909
+    second: Plant1_Death_body_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant1_Death_body_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 236
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd7b4594cca73130800000000000000
+      internalID: 3546493191895875019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 226
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82896922ff618180800000000000000
+      internalID: -9114881084953623926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 226
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8438c4cf5c3462d20800000000000000
+      internalID: 3253362298442253128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 232
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ace6b912cbd31030800000000000000
+      internalID: 3464354165079600289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 225
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887af1c35b726eba0800000000000000
+      internalID: -6060112589229152376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 225
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44eb9c210bedc1570800000000000000
+      internalID: 8438864649596288580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 226
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9009e7dc626ae6df0800000000000000
+      internalID: -185027849089019895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 226
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccd52b5dbf201de0800000000000000
+      internalID: -1364538196768727860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 206
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277c9acd6b28907a0800000000000000
+      internalID: -6410448872687417486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_9
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 209
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bfd1fb253373ef0800000000000000
+      internalID: -128577633870021836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 205
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcad5ad1fd883820800000000000000
+      internalID: 2898222430103121111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 205
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7186d934a1c727f80800000000000000
+      internalID: -8110283526695458793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 209
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4597c30d5bb2cbb0800000000000000
+      internalID: -4917161834965396146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 206
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfb3a60b078f4730800000000000000
+      internalID: 3985552676671963072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 142
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c5845e9e5048540800000000000000
+      internalID: 5009135187675077653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 141
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cfe1dc64beca2b0800000000000000
+      internalID: -5571819949642548098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 142
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d75fbd309e9aa6d0800000000000000
+      internalID: -2978393861203732520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_17
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 106
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ba64e56e2c61960800000000000000
+      internalID: 7572454118150023969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_18
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 97
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ececa5a4daf285a60800000000000000
+      internalID: 7662927187294211790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d70430caacf23ee0800000000000000
+      internalID: -1282685133547894828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_20
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 107
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415e8d920e094c930800000000000000
+      internalID: 4162611248046335252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_21
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 103
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c636fb15b099b7220800000000000000
+      internalID: 2484747893320147820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cbcf86c3ae849c0800000000000000
+      internalID: -3942643928582538126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 78
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf811c3cc4dd0400800000000000000
+      internalID: 292123524495151070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a94cb15c232dd90800000000000000
+      internalID: -7074536242489812321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 33
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0c92f704f72d5b0800000000000000
+      internalID: -5345069892747280151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_26
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 42
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c697dff651a18a0800000000000000
+      internalID: -6333726355205034934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 14
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f9a4a2f78e96030800000000000000
+      internalID: 3488575019243183875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_28
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 43
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a39b3139bda6c10800000000000000
+      internalID: 2047690405330893402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_29
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 39
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf7d019ccdf29280800000000000000
+      internalID: -9037882447130427476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 16
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85203e72ccf412ae0800000000000000
+      internalID: -1575890656341851560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 14
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34d817ca709ba4c0800000000000000
+      internalID: -4275164564257450949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Death_body_32
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce22e5095a011740800000000000000
+      internalID: 5120885628764040909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant1_Death_body_0: 3546493191895875019
+      Plant1_Death_body_1: -9114881084953623926
+      Plant1_Death_body_10: 2898222430103121111
+      Plant1_Death_body_11: -8110283526695458793
+      Plant1_Death_body_12: -4917161834965396146
+      Plant1_Death_body_13: 3985552676671963072
+      Plant1_Death_body_14: 5009135187675077653
+      Plant1_Death_body_15: -5571819949642548098
+      Plant1_Death_body_16: -2978393861203732520
+      Plant1_Death_body_17: 7572454118150023969
+      Plant1_Death_body_18: 7662927187294211790
+      Plant1_Death_body_19: -1282685133547894828
+      Plant1_Death_body_2: 3253362298442253128
+      Plant1_Death_body_20: 4162611248046335252
+      Plant1_Death_body_21: 2484747893320147820
+      Plant1_Death_body_22: -3942643928582538126
+      Plant1_Death_body_23: 292123524495151070
+      Plant1_Death_body_24: -7074536242489812321
+      Plant1_Death_body_25: -5345069892747280151
+      Plant1_Death_body_26: -6333726355205034934
+      Plant1_Death_body_27: 3488575019243183875
+      Plant1_Death_body_28: 2047690405330893402
+      Plant1_Death_body_29: -9037882447130427476
+      Plant1_Death_body_3: 3464354165079600289
+      Plant1_Death_body_30: -1575890656341851560
+      Plant1_Death_body_31: -4275164564257450949
+      Plant1_Death_body_32: 5120885628764040909
+      Plant1_Death_body_4: -6060112589229152376
+      Plant1_Death_body_5: 8438864649596288580
+      Plant1_Death_body_6: -185027849089019895
+      Plant1_Death_body_7: -1364538196768727860
+      Plant1_Death_body_8: -6410448872687417486
+      Plant1_Death_body_9: -128577633870021836
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
