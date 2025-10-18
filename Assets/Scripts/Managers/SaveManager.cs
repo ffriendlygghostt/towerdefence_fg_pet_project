@@ -1,16 +1,41 @@
+using System.IO;
 using UnityEngine;
 
-public class SaveManager : MonoBehaviour
+public class SaveManager : Manager<SaveManager>
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private string SavePath => Path.Combine(Application.persistentDataPath,
+        "save.json");
+    public SaveData Data { get; private set; }
+
+    protected override void Awake()
     {
-        
+        base.Awake();
+        Load();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Save()
     {
-        
+        string json = JsonUtility.ToJson(Data, true);
+        File.WriteAllText(SavePath, json);
+    }
+
+    public void Load()
+    {
+        if (File.Exists(SavePath))
+        {
+            string json = File.ReadAllText(SavePath);
+            Data = JsonUtility.FromJson<SaveData>(json);
+        }
+        else
+        {
+            Data = new SaveData();
+            Save();
+        }
+    }
+
+    public void ResetData()
+    {
+        Data = new SaveData();
+        Save();
     }
 }
