@@ -1,16 +1,50 @@
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Manager<GameManager>
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private int killsThisRun;
+    private int scoreThisRun;
+    private int wavesCleared;
+
+    public void AddKill()
     {
-        
+        killsThisRun++;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddScore(int points)
     {
+        scoreThisRun += points;
+    }
+
+    public void WaveCleared()
+    {
+        wavesCleared++;
+    }
+
+    public void EndRun()
+    {
+        var stats = SaveManager.Instance.Data.stats;
+        stats.totalKilled += killsThisRun;
+        stats.totalWaves += wavesCleared;
         
+        if (scoreThisRun > stats.bestScore)
+        {
+            stats.bestScore = scoreThisRun;
+        }
+
+        if (wavesCleared > stats.mostWaves)
+        {
+            stats.mostWaves = wavesCleared;
+        }
+
+        SaveManager.Instance.Save();
+        Reset();
+    }
+
+    private void Reset()
+    {
+        killsThisRun = 0;
+        scoreThisRun = 0;
+        wavesCleared = 0;
     }
 }
