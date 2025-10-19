@@ -124,26 +124,4 @@ public class EnemyMovement : MonoBehaviour
     {
         moveSpeed = newSpeed;
     }
-
-    // TEMP: заглушка
-    private class EnemyController : MonoBehaviour
-    {
-
-        public event Action<float> OnSpeedChanged;
-
-        public void SetMoveSpeed(float newSpeed)
-        {
-            OnSpeedChanged?.Invoke(newSpeed);
-        }
-
-        public void PlayWalk(EnemyDirection direction)
-        {
-
-        }
-
-        public float GetMoveSpeed()
-        {
-            return 1f;
-        }
-    }
 }
