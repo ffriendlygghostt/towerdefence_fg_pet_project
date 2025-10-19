@@ -25,8 +25,6 @@ public class EnemyMovement : MonoBehaviour
     private void Awake()
     {
         controller = GetComponent<EnemyController>();
-        //TEMP: заглушка
-        if (controller == null) controller = new EnemyController();
         if (controller == null) Debug.LogError("No Enemy controller!!!");
         controller.OnSpeedChanged += UpdateMoveSpeed;
 

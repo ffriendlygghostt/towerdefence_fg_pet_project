@@ -20,8 +20,7 @@ public class EnemyStats : MonoBehaviour
         controller = GetComponent<EnemyController>();
         if (controller == null)
         {
-            Debug.LogWarning($"Для врага {gameObject.name} испольузется заглушка EnemyController!");
-            controller = new EnemyController();
+            Debug.LogWarning("Enemy has not EnemyController!!!");
         }
     }
 
@@ -41,15 +40,6 @@ public class EnemyStats : MonoBehaviour
     public bool IsDead()
     {
         return currentHealth <= 0;
-    }
-
-    // TEMP: временный локальный класс, убрать когда будет настоящий EnemyController
-    private class EnemyController : MonoBehaviour 
-    {
-        public virtual void Die()
-        {
-            Debug.Log("EnemyController.Die() вызван, но контроллера нет. Заглушка.");
-        }
     }
 }
 

@@ -1,11 +1,5 @@
 using UnityEngine;
 
-// TEMP: временные перечисления, заменить на перечисления из EnemyController
-public enum EnemyDirection
-{
-    Up, Down, Left, Right
-}
-
 public enum EnemyAnimation
 {
     Walk_Side, Walk_Up, Walk_Down, Death_Side, Death_Up, Death_Down
