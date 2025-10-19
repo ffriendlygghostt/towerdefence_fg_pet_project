@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 883b083f49ba2674fafb92368f7c65e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7662212619113220579
+    second: Plant3_Walk_full_0
+  - first:
+      213: 1553826289854304990
+    second: Plant3_Walk_full_1
+  - first:
+      213: -5748050462575418129
+    second: Plant3_Walk_full_2
+  - first:
+      213: -2071231772147604233
+    second: Plant3_Walk_full_3
+  - first:
+      213: 797148661935901093
+    second: Plant3_Walk_full_4
+  - first:
+      213: 785018157140420154
+    second: Plant3_Walk_full_5
+  - first:
+      213: -3439467791089328661
+    second: Plant3_Walk_full_6
+  - first:
+      213: 4907406729635397869
+    second: Plant3_Walk_full_7
+  - first:
+      213: 6366494910297784216
+    second: Plant3_Walk_full_8
+  - first:
+      213: 6015575621243264172
+    second: Plant3_Walk_full_9
+  - first:
+      213: -1232324447197609165
+    second: Plant3_Walk_full_10
+  - first:
+      213: -30540052673652811
+    second: Plant3_Walk_full_11
+  - first:
+      213: 3532752323780549545
+    second: Plant3_Walk_full_12
+  - first:
+      213: 3193841718457582244
+    second: Plant3_Walk_full_13
+  - first:
+      213: 5800386962612710640
+    second: Plant3_Walk_full_14
+  - first:
+      213: -6696626845666304079
+    second: Plant3_Walk_full_15
+  - first:
+      213: 5853561794197921559
+    second: Plant3_Walk_full_16
+  - first:
+      213: -92356164635403336
+    second: Plant3_Walk_full_17
+  - first:
+      213: 849378835074927244
+    second: Plant3_Walk_full_18
+  - first:
+      213: -4134012018250128744
+    second: Plant3_Walk_full_19
+  - first:
+      213: -6311277015433964754
+    second: Plant3_Walk_full_20
+  - first:
+      213: 975780704419240267
+    second: Plant3_Walk_full_21
+  - first:
+      213: 7467133953390504520
+    second: Plant3_Walk_full_22
+  - first:
+      213: 4444842958737327885
+    second: Plant3_Walk_full_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant3_Walk_full_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 204
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e942cbe7c5a55a60800000000000000
+      internalID: 7662212619113220579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 204
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2dd6137cc409510800000000000000
+      internalID: 1553826289854304990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 204
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe42c2b0f82da30b0800000000000000
+      internalID: -5748050462575418129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 204
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4a3a55da18143e0800000000000000
+      internalID: -2071231772147604233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 204
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a90edb0c7a001b00800000000000000
+      internalID: 797148661935901093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 204
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36269ecad1f4ea00800000000000000
+      internalID: 785018157140420154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 140
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed19bf544e8440d0800000000000000
+      internalID: -3439467791089328661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 140
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de087488b6c9a1440800000000000000
+      internalID: 4907406729635397869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 140
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fb1a8c3655a5850800000000000000
+      internalID: 6366494910297784216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_9
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 140
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac54b7d72e9b7350800000000000000
+      internalID: 6015575621243264172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 140
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333c1c4c177e5eee0800000000000000
+      internalID: -1232324447197609165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_11
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 140
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b717f0ebff739ff0800000000000000
+      internalID: -30540052673652811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 76
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab106a658bd60130800000000000000
+      internalID: 3532752323780549545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 76
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2cc790f1ec25c20800000000000000
+      internalID: 3193841718457582244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 76
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc6652f53d1f7050800000000000000
+      internalID: 5800386962612710640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 76
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf17b63d5dc013a0800000000000000
+      internalID: -6696626845666304079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 76
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f17f530770c3150800000000000000
+      internalID: 5853561794197921559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 76
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbd61ebe82e7bef0800000000000000
+      internalID: -92356164635403336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 12
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a4060ec8999cb00800000000000000
+      internalID: 849378835074927244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 12
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892610be8f901a6c0800000000000000
+      internalID: -4134012018250128744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_20
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 12
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2398f73ef6d968a0800000000000000
+      internalID: -6311277015433964754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 12
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49d699716baa8d00800000000000000
+      internalID: 975780704419240267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_22
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 12
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a691e94c690a760800000000000000
+      internalID: 7467133953390504520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant3_Walk_full_23
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 12
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d074fe50f114fad30800000000000000
+      internalID: 4444842958737327885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant3_Walk_full_0: 7662212619113220579
+      Plant3_Walk_full_1: 1553826289854304990
+      Plant3_Walk_full_10: -1232324447197609165
+      Plant3_Walk_full_11: -30540052673652811
+      Plant3_Walk_full_12: 3532752323780549545
+      Plant3_Walk_full_13: 3193841718457582244
+      Plant3_Walk_full_14: 5800386962612710640
+      Plant3_Walk_full_15: -6696626845666304079
+      Plant3_Walk_full_16: 5853561794197921559
+      Plant3_Walk_full_17: -92356164635403336
+      Plant3_Walk_full_18: 849378835074927244
+      Plant3_Walk_full_19: -4134012018250128744
+      Plant3_Walk_full_2: -5748050462575418129
+      Plant3_Walk_full_20: -6311277015433964754
+      Plant3_Walk_full_21: 975780704419240267
+      Plant3_Walk_full_22: 7467133953390504520
+      Plant3_Walk_full_23: 4444842958737327885
+      Plant3_Walk_full_3: -2071231772147604233
+      Plant3_Walk_full_4: 797148661935901093
+      Plant3_Walk_full_5: 785018157140420154
+      Plant3_Walk_full_6: -3439467791089328661
+      Plant3_Walk_full_7: 4907406729635397869
+      Plant3_Walk_full_8: 6366494910297784216
+      Plant3_Walk_full_9: 6015575621243264172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

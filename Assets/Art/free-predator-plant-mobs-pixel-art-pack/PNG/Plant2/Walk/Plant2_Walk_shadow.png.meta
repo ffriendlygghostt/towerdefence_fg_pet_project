@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 901563de866252c4c8935c4695efaf76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3947955500263351600
+    second: Plant2_Walk_shadow_0
+  - first:
+      213: 4153942149560634246
+    second: Plant2_Walk_shadow_1
+  - first:
+      213: -4306911086957906191
+    second: Plant2_Walk_shadow_2
+  - first:
+      213: 2724780822157680690
+    second: Plant2_Walk_shadow_3
+  - first:
+      213: 4295707812947419516
+    second: Plant2_Walk_shadow_4
+  - first:
+      213: -3690378415767302243
+    second: Plant2_Walk_shadow_5
+  - first:
+      213: -4741438739557410238
+    second: Plant2_Walk_shadow_6
+  - first:
+      213: -165919741150202122
+    second: Plant2_Walk_shadow_7
+  - first:
+      213: 6559114359084778906
+    second: Plant2_Walk_shadow_8
+  - first:
+      213: -2476856306215746981
+    second: Plant2_Walk_shadow_9
+  - first:
+      213: -5594226994368463242
+    second: Plant2_Walk_shadow_10
+  - first:
+      213: -7633089679536340803
+    second: Plant2_Walk_shadow_11
+  - first:
+      213: 4639401747700012443
+    second: Plant2_Walk_shadow_12
+  - first:
+      213: 8506943035507831066
+    second: Plant2_Walk_shadow_13
+  - first:
+      213: 1761128439183254577
+    second: Plant2_Walk_shadow_14
+  - first:
+      213: 6686273578778688122
+    second: Plant2_Walk_shadow_15
+  - first:
+      213: -3823275127341146341
+    second: Plant2_Walk_shadow_16
+  - first:
+      213: 4873730369119740141
+    second: Plant2_Walk_shadow_17
+  - first:
+      213: 3985833323279626184
+    second: Plant2_Walk_shadow_18
+  - first:
+      213: 7818089371471782192
+    second: Plant2_Walk_shadow_19
+  - first:
+      213: -1094214397376675306
+    second: Plant2_Walk_shadow_20
+  - first:
+      213: 8926891267164007354
+    second: Plant2_Walk_shadow_21
+  - first:
+      213: 3273185640081959284
+    second: Plant2_Walk_shadow_22
+  - first:
+      213: 6835620329007497900
+    second: Plant2_Walk_shadow_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dad0c1c36b0639c0800000000000000
+      internalID: -3947955500263351600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b85126064c5a930800000000000000
+      internalID: 4153942149560634246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6bea67f27ca34c0800000000000000
+      internalID: -4306911086957906191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2306183a8bd50d520800000000000000
+      internalID: 2724780822157680690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71e9990f7b6d9b30800000000000000
+      internalID: 4295707812947419516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fcb61226429ccc0800000000000000
+      internalID: -3690378415767302243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a976c6696033eb0800000000000000
+      internalID: -4741438739557410238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6748fdfd882bdf0800000000000000
+      internalID: -165919741150202122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95896602c7a60b50800000000000000
+      internalID: 6559114359084778906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52035cff4070add0800000000000000
+      internalID: -2476856306215746981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e34c720305d52b0800000000000000
+      internalID: -5594226994368463242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db04988d061d11690800000000000000
+      internalID: -7633089679536340803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b955cf51f47726040800000000000000
+      internalID: 4639401747700012443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a117deb7e9bbe0670800000000000000
+      internalID: 8506943035507831066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1342b5d0cf8c07810800000000000000
+      internalID: 1761128439183254577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7afe2ef46a6acc50800000000000000
+      internalID: 6686273578778688122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f9e3c378ff0fac0800000000000000
+      internalID: -3823275127341146341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de06a66d2f7f2a340800000000000000
+      internalID: 4873730369119740141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf2ff72a46805730800000000000000
+      internalID: 3985833323279626184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03125d08cde6f7c60800000000000000
+      internalID: 7818089371471782192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612ce309dc190d0f0800000000000000
+      internalID: -1094214397376675306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbe8df8f40b2eb70800000000000000
+      internalID: 8926891267164007354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479aef06ff0bc6d20800000000000000
+      internalID: 3273185640081959284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant2_Walk_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca24ee9f8700dde50800000000000000
+      internalID: 6835620329007497900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant2_Walk_shadow_0: -3947955500263351600
+      Plant2_Walk_shadow_1: 4153942149560634246
+      Plant2_Walk_shadow_10: -5594226994368463242
+      Plant2_Walk_shadow_11: -7633089679536340803
+      Plant2_Walk_shadow_12: 4639401747700012443
+      Plant2_Walk_shadow_13: 8506943035507831066
+      Plant2_Walk_shadow_14: 1761128439183254577
+      Plant2_Walk_shadow_15: 6686273578778688122
+      Plant2_Walk_shadow_16: -3823275127341146341
+      Plant2_Walk_shadow_17: 4873730369119740141
+      Plant2_Walk_shadow_18: 3985833323279626184
+      Plant2_Walk_shadow_19: 7818089371471782192
+      Plant2_Walk_shadow_2: -4306911086957906191
+      Plant2_Walk_shadow_20: -1094214397376675306
+      Plant2_Walk_shadow_21: 8926891267164007354
+      Plant2_Walk_shadow_22: 3273185640081959284
+      Plant2_Walk_shadow_23: 6835620329007497900
+      Plant2_Walk_shadow_3: 2724780822157680690
+      Plant2_Walk_shadow_4: 4295707812947419516
+      Plant2_Walk_shadow_5: -3690378415767302243
+      Plant2_Walk_shadow_6: -4741438739557410238
+      Plant2_Walk_shadow_7: -165919741150202122
+      Plant2_Walk_shadow_8: 6559114359084778906
+      Plant2_Walk_shadow_9: -2476856306215746981
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

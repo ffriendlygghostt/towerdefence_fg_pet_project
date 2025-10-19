@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 52d14a4968911794fa9bf2176a61239f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6628058897153280068
+    second: Slime1_Hurt_full_0
+  - first:
+      213: -7242281903265138765
+    second: Slime1_Hurt_full_1
+  - first:
+      213: 2690959153432485087
+    second: Slime1_Hurt_full_2
+  - first:
+      213: 8346277705838263279
+    second: Slime1_Hurt_full_3
+  - first:
+      213: 6107351769626708933
+    second: Slime1_Hurt_full_4
+  - first:
+      213: -6728424941516333485
+    second: Slime1_Hurt_full_5
+  - first:
+      213: -7605853100028119859
+    second: Slime1_Hurt_full_6
+  - first:
+      213: 7376836348489303792
+    second: Slime1_Hurt_full_7
+  - first:
+      213: -5914527306911614227
+    second: Slime1_Hurt_full_8
+  - first:
+      213: 9183043488860009537
+    second: Slime1_Hurt_full_9
+  - first:
+      213: -4901040653196236931
+    second: Slime1_Hurt_full_10
+  - first:
+      213: 3995412544489358390
+    second: Slime1_Hurt_full_11
+  - first:
+      213: -3763285581244892111
+    second: Slime1_Hurt_full_12
+  - first:
+      213: -5853921677128641054
+    second: Slime1_Hurt_full_13
+  - first:
+      213: -7967422925441023960
+    second: Slime1_Hurt_full_14
+  - first:
+      213: 7947651460279803187
+    second: Slime1_Hurt_full_15
+  - first:
+      213: -2601196968224525437
+    second: Slime1_Hurt_full_16
+  - first:
+      213: 298952005749337267
+    second: Slime1_Hurt_full_17
+  - first:
+      213: -2497030925836536157
+    second: Slime1_Hurt_full_18
+  - first:
+      213: 6361225188639110788
+    second: Slime1_Hurt_full_19
+  - first:
+      213: -5707037128521119251
+    second: Slime1_Hurt_full_20
+  - first:
+      213: -9082465325227164806
+    second: Slime1_Hurt_full_21
+  - first:
+      213: 2315663017624910624
+    second: Slime1_Hurt_full_22
+  - first:
+      213: -2443521742516532069
+    second: Slime1_Hurt_full_23
+  - first:
+      213: 1108204724439386331
+    second: Slime1_Hurt_full_24
+  - first:
+      213: -8863344368747784539
+    second: Slime1_Hurt_full_25
+  - first:
+      213: 6428578271956726663
+    second: Slime1_Hurt_full_26
+  - first:
+      213: -2531895590288105508
+    second: Slime1_Hurt_full_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 213
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7bfcccc876404a0800000000000000
+      internalID: -6628058897153280068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 213
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b734a0fafe3e7b90800000000000000
+      internalID: -7242281903265138765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 213
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcdd6db715385520800000000000000
+      internalID: 2690959153432485087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 226
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb704d5a5fe3d370800000000000000
+      internalID: 8346277705838263279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 228
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb04fa831ca1c450800000000000000
+      internalID: 6107351769626708933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 213
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e5a071a25df92a0800000000000000
+      internalID: -6728424941516333485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_6
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 213
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4350f27e4927690800000000000000
+      internalID: -7605853100028119859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 149
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f605e52399cf5660800000000000000
+      internalID: 7376836348489303792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 149
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea7f2930c06beda0800000000000000
+      internalID: -5914527306911614227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 149
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144f6763669b07f70800000000000000
+      internalID: 9183043488860009537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 164
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d776d742e710cfbb0800000000000000
+      internalID: -4901040653196236931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6348d656a8e827730800000000000000
+      internalID: 3995412544489358390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 149
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c7c8dd3bf16cbc0800000000000000
+      internalID: -3763285581244892111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 149
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5d9c30041b2cea0800000000000000
+      internalID: -5853921677128641054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 85
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820c8c100170e6190800000000000000
+      internalID: -7967422925441023960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 85
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d979805eabb4e60800000000000000
+      internalID: 7947651460279803187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 85
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383772e9321b6ebd0800000000000000
+      internalID: -2601196968224525437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 98
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc649be347162400800000000000000
+      internalID: 298952005749337267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_18
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 100
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a639505a93c85dd0800000000000000
+      internalID: -2497030925836536157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 85
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486f9191b9c974850800000000000000
+      internalID: 6361225188639110788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 85
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9888208f78cc0b0800000000000000
+      internalID: -5707037128521119251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 21
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b380d58e994f180800000000000000
+      internalID: -9082465325227164806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 21
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02bba01ee33e22020800000000000000
+      internalID: 2315663017624910624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 21
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ccb58ebedd61ed0800000000000000
+      internalID: -2443521742516532069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_24
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd88e9a4352216f00800000000000000
+      internalID: 1108204724439386331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 34
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a654d2b1431ff480800000000000000
+      internalID: -8863344368747784539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_26
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 21
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78376c6d0e5e63950800000000000000
+      internalID: 6428578271956726663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime1_Hurt_full_27
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 21
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfdf7c0066ecdcd0800000000000000
+      internalID: -2531895590288105508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime1_Hurt_full_0: -6628058897153280068
+      Slime1_Hurt_full_1: -7242281903265138765
+      Slime1_Hurt_full_10: -4901040653196236931
+      Slime1_Hurt_full_11: 3995412544489358390
+      Slime1_Hurt_full_12: -3763285581244892111
+      Slime1_Hurt_full_13: -5853921677128641054
+      Slime1_Hurt_full_14: -7967422925441023960
+      Slime1_Hurt_full_15: 7947651460279803187
+      Slime1_Hurt_full_16: -2601196968224525437
+      Slime1_Hurt_full_17: 298952005749337267
+      Slime1_Hurt_full_18: -2497030925836536157
+      Slime1_Hurt_full_19: 6361225188639110788
+      Slime1_Hurt_full_2: 2690959153432485087
+      Slime1_Hurt_full_20: -5707037128521119251
+      Slime1_Hurt_full_21: -9082465325227164806
+      Slime1_Hurt_full_22: 2315663017624910624
+      Slime1_Hurt_full_23: -2443521742516532069
+      Slime1_Hurt_full_24: 1108204724439386331
+      Slime1_Hurt_full_25: -8863344368747784539
+      Slime1_Hurt_full_26: 6428578271956726663
+      Slime1_Hurt_full_27: -2531895590288105508
+      Slime1_Hurt_full_3: 8346277705838263279
+      Slime1_Hurt_full_4: 6107351769626708933
+      Slime1_Hurt_full_5: -6728424941516333485
+      Slime1_Hurt_full_6: -7605853100028119859
+      Slime1_Hurt_full_7: 7376836348489303792
+      Slime1_Hurt_full_8: -5914527306911614227
+      Slime1_Hurt_full_9: 9183043488860009537
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

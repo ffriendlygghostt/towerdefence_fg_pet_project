@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: 7fd69c81cc09e064db801246ab388b91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6721435380986165645
+    second: Plant1_Run_shadow_0
+  - first:
+      213: 886865467701776893
+    second: Plant1_Run_shadow_1
+  - first:
+      213: -5860980948111960436
+    second: Plant1_Run_shadow_2
+  - first:
+      213: 7410288665250652925
+    second: Plant1_Run_shadow_3
+  - first:
+      213: -1703509296157587908
+    second: Plant1_Run_shadow_4
+  - first:
+      213: -2082821232629360125
+    second: Plant1_Run_shadow_5
+  - first:
+      213: -7662294514434275793
+    second: Plant1_Run_shadow_6
+  - first:
+      213: 8200391163370201507
+    second: Plant1_Run_shadow_7
+  - first:
+      213: -8896363702199853092
+    second: Plant1_Run_shadow_8
+  - first:
+      213: 847247538825746188
+    second: Plant1_Run_shadow_9
+  - first:
+      213: 961794440738910171
+    second: Plant1_Run_shadow_10
+  - first:
+      213: -7295269870498401670
+    second: Plant1_Run_shadow_11
+  - first:
+      213: -8918757548005246515
+    second: Plant1_Run_shadow_12
+  - first:
+      213: 8157154890763365151
+    second: Plant1_Run_shadow_13
+  - first:
+      213: 339955320420582988
+    second: Plant1_Run_shadow_14
+  - first:
+      213: -208872778948722754
+    second: Plant1_Run_shadow_15
+  - first:
+      213: -2173283893582765048
+    second: Plant1_Run_shadow_16
+  - first:
+      213: 4821497848420397794
+    second: Plant1_Run_shadow_17
+  - first:
+      213: -5228329171900964947
+    second: Plant1_Run_shadow_18
+  - first:
+      213: 1904589274216618838
+    second: Plant1_Run_shadow_19
+  - first:
+      213: 7861744399979214689
+    second: Plant1_Run_shadow_20
+  - first:
+      213: 4083620757890204968
+    second: Plant1_Run_shadow_21
+  - first:
+      213: 3332470028652652314
+    second: Plant1_Run_shadow_22
+  - first:
+      213: 4127724980898631641
+    second: Plant1_Run_shadow_23
+  - first:
+      213: -2256760159503565759
+    second: Plant1_Run_shadow_24
+  - first:
+      213: -4401031121958027379
+    second: Plant1_Run_shadow_25
+  - first:
+      213: 1665525191100361665
+    second: Plant1_Run_shadow_26
+  - first:
+      213: 7620588534836423539
+    second: Plant1_Run_shadow_27
+  - first:
+      213: -7398690203003513879
+    second: Plant1_Run_shadow_28
+  - first:
+      213: 7835904257227801961
+    second: Plant1_Run_shadow_29
+  - first:
+      213: -1624422014063467673
+    second: Plant1_Run_shadow_30
+  - first:
+      213: 5813582381602174835
+    second: Plant1_Run_shadow_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d893c680ed5574d50800000000000000
+      internalID: 6721435380986165645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1dceda177ce4c00800000000000000
+      internalID: 886865467701776893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86547861ec99aea0800000000000000
+      internalID: -5860980948111960436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df26e579742a6d660800000000000000
+      internalID: 7410288665250652925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3683fa125beb58e0800000000000000
+      internalID: -1703509296157587908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a5c7acf155813e0800000000000000
+      internalID: -2082821232629360125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2688b65cbf0aa590800000000000000
+      internalID: -7662294514434275793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1eee7c054adc170800000000000000
+      internalID: 8200391163370201507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfd2b90954c98480800000000000000
+      internalID: -8896363702199853092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07588cc52702cb00800000000000000
+      internalID: 847247538825746188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf2033b2faf85d00800000000000000
+      internalID: 961794440738910171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72355c64bef1ca90800000000000000
+      internalID: -7295269870498401670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9305183453a3480800000000000000
+      internalID: -8918757548005246515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b6ac99729043170800000000000000
+      internalID: 8157154890763365151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c464c211093c7b400800000000000000
+      internalID: 339955320420582988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 140
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf338f605fe91df0800000000000000
+      internalID: -208872778948722754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804ebe630d1f6d1e0800000000000000
+      internalID: -2173283893582765048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2786c6fb669e240800000000000000
+      internalID: 4821497848420397794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafd70ca15e3177b0800000000000000
+      internalID: -5228329171900964947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b53bc9ad57e6a10800000000000000
+      internalID: 1904589274216618838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1677da3e0e68a1d60800000000000000
+      internalID: 7861744399979214689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825057f717feba830800000000000000
+      internalID: 4083620757890204968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a172a7ab5df4f3e20800000000000000
+      internalID: 3332470028652652314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 76
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df08f02000a84930800000000000000
+      internalID: 4127724980898631641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c398d77906ea0e0800000000000000
+      internalID: -2256760159503565759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fb04223856ce2c0800000000000000
+      internalID: -4401031121958027379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb600446522d1710800000000000000
+      internalID: 1665525191100361665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37be65695e4c1c960800000000000000
+      internalID: 7620588534836423539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e310d6d572925990800000000000000
+      internalID: -7398690203003513879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965c802d769bebc60800000000000000
+      internalID: 7835904257227801961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7632c66e8c4e479e0800000000000000
+      internalID: -1624422014063467673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant1_Run_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377fdd7df5efda050800000000000000
+      internalID: 5813582381602174835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant1_Run_shadow_0: 6721435380986165645
+      Plant1_Run_shadow_1: 886865467701776893
+      Plant1_Run_shadow_10: 961794440738910171
+      Plant1_Run_shadow_11: -7295269870498401670
+      Plant1_Run_shadow_12: -8918757548005246515
+      Plant1_Run_shadow_13: 8157154890763365151
+      Plant1_Run_shadow_14: 339955320420582988
+      Plant1_Run_shadow_15: -208872778948722754
+      Plant1_Run_shadow_16: -2173283893582765048
+      Plant1_Run_shadow_17: 4821497848420397794
+      Plant1_Run_shadow_18: -5228329171900964947
+      Plant1_Run_shadow_19: 1904589274216618838
+      Plant1_Run_shadow_2: -5860980948111960436
+      Plant1_Run_shadow_20: 7861744399979214689
+      Plant1_Run_shadow_21: 4083620757890204968
+      Plant1_Run_shadow_22: 3332470028652652314
+      Plant1_Run_shadow_23: 4127724980898631641
+      Plant1_Run_shadow_24: -2256760159503565759
+      Plant1_Run_shadow_25: -4401031121958027379
+      Plant1_Run_shadow_26: 1665525191100361665
+      Plant1_Run_shadow_27: 7620588534836423539
+      Plant1_Run_shadow_28: -7398690203003513879
+      Plant1_Run_shadow_29: 7835904257227801961
+      Plant1_Run_shadow_3: 7410288665250652925
+      Plant1_Run_shadow_30: -1624422014063467673
+      Plant1_Run_shadow_31: 5813582381602174835
+      Plant1_Run_shadow_4: -1703509296157587908
+      Plant1_Run_shadow_5: -2082821232629360125
+      Plant1_Run_shadow_6: -7662294514434275793
+      Plant1_Run_shadow_7: 8200391163370201507
+      Plant1_Run_shadow_8: -8896363702199853092
+      Plant1_Run_shadow_9: 847247538825746188
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

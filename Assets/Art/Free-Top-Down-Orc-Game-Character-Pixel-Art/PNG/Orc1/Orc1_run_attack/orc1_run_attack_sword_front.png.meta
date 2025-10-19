@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 0a039a414acc0a746886aaf7a183c03a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6308484506243975113
+    second: orc1_run_attack_sword_front_0
+  - first:
+      213: 3344142434927760016
+    second: orc1_run_attack_sword_front_1
+  - first:
+      213: 7570094941690779949
+    second: orc1_run_attack_sword_front_2
+  - first:
+      213: 3287743785196954920
+    second: orc1_run_attack_sword_front_3
+  - first:
+      213: 6722395871992478383
+    second: orc1_run_attack_sword_front_4
+  - first:
+      213: 7607535357567793178
+    second: orc1_run_attack_sword_front_5
+  - first:
+      213: 3150133425855360470
+    second: orc1_run_attack_sword_front_6
+  - first:
+      213: 9185026817959153110
+    second: orc1_run_attack_sword_front_7
+  - first:
+      213: -4628221837064263329
+    second: orc1_run_attack_sword_front_8
+  - first:
+      213: -5290713234731297668
+    second: orc1_run_attack_sword_front_9
+  - first:
+      213: -1322321551122831656
+    second: orc1_run_attack_sword_front_10
+  - first:
+      213: -1396967642718467705
+    second: orc1_run_attack_sword_front_11
+  - first:
+      213: 4184639040841700493
+    second: orc1_run_attack_sword_front_12
+  - first:
+      213: 6061722007792037360
+    second: orc1_run_attack_sword_front_13
+  - first:
+      213: -8090726660243968340
+    second: orc1_run_attack_sword_front_14
+  - first:
+      213: 2623403190306088893
+    second: orc1_run_attack_sword_front_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 213
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c74ab11c3d3c8750800000000000000
+      internalID: 6308484506243975113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 214
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092dd2893d7c86e20800000000000000
+      internalID: 3344142434927760016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 206
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29d57bcd316e0960800000000000000
+      internalID: 7570094941690779949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 206
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825a92dad8960ad20800000000000000
+      internalID: 3287743785196954920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 207
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faaf9a5cd6fba4d50800000000000000
+      internalID: 6722395871992478383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 220
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a187d0ce915639960800000000000000
+      internalID: 7607535357567793178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_6
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 214
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd613329a587bb20800000000000000
+      internalID: 3150133425855360470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_7
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 212
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd44e00a35c77f70800000000000000
+      internalID: 9185026817959153110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_8
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 18
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f592414b2c045cfb0800000000000000
+      internalID: -4628221837064263329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_9
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 19
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74126b285c9396b0800000000000000
+      internalID: -5290713234731297668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 41
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6ea722e8b26ade0800000000000000
+      internalID: -1322321551122831656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_11
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 32
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7890d059459fc9ce0800000000000000
+      internalID: -1396967642718467705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 21
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84d9965903d21a30800000000000000
+      internalID: 4184639040841700493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 17
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdac99bc009f1450800000000000000
+      internalID: 6061722007792037360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_14
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 23
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae206118f6f7bf80800000000000000
+      internalID: -8090726660243968340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc1_run_attack_sword_front_15
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 25
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db722dc5d43386420800000000000000
+      internalID: 2623403190306088893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      orc1_run_attack_sword_front_0: 6308484506243975113
+      orc1_run_attack_sword_front_1: 3344142434927760016
+      orc1_run_attack_sword_front_10: -1322321551122831656
+      orc1_run_attack_sword_front_11: -1396967642718467705
+      orc1_run_attack_sword_front_12: 4184639040841700493
+      orc1_run_attack_sword_front_13: 6061722007792037360
+      orc1_run_attack_sword_front_14: -8090726660243968340
+      orc1_run_attack_sword_front_15: 2623403190306088893
+      orc1_run_attack_sword_front_2: 7570094941690779949
+      orc1_run_attack_sword_front_3: 3287743785196954920
+      orc1_run_attack_sword_front_4: 6722395871992478383
+      orc1_run_attack_sword_front_5: 7607535357567793178
+      orc1_run_attack_sword_front_6: 3150133425855360470
+      orc1_run_attack_sword_front_7: 9185026817959153110
+      orc1_run_attack_sword_front_8: -4628221837064263329
+      orc1_run_attack_sword_front_9: -5290713234731297668
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

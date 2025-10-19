@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: ebb2ad51b2167984189f0099929dad1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 292549555343293479
+    second: Slime_Walk_shadow_0
+  - first:
+      213: -5194146368509162589
+    second: Slime_Walk_shadow_1
+  - first:
+      213: -4022063833822268252
+    second: Slime_Walk_shadow_2
+  - first:
+      213: 822020394249779327
+    second: Slime_Walk_shadow_3
+  - first:
+      213: 9084818332021931154
+    second: Slime_Walk_shadow_4
+  - first:
+      213: 445480220624138772
+    second: Slime_Walk_shadow_5
+  - first:
+      213: -4126402577828056447
+    second: Slime_Walk_shadow_6
+  - first:
+      213: 3112559111099002699
+    second: Slime_Walk_shadow_7
+  - first:
+      213: -6918099092092054250
+    second: Slime_Walk_shadow_8
+  - first:
+      213: -5752569063290996023
+    second: Slime_Walk_shadow_9
+  - first:
+      213: -1222574545761923268
+    second: Slime_Walk_shadow_10
+  - first:
+      213: -3847434458416906812
+    second: Slime_Walk_shadow_11
+  - first:
+      213: 8626978061278722155
+    second: Slime_Walk_shadow_12
+  - first:
+      213: -1162202970427492827
+    second: Slime_Walk_shadow_13
+  - first:
+      213: 7861973447730757151
+    second: Slime_Walk_shadow_14
+  - first:
+      213: -3744528239325207291
+    second: Slime_Walk_shadow_15
+  - first:
+      213: -5361944022654466024
+    second: Slime_Walk_shadow_16
+  - first:
+      213: -8456331785204734341
+    second: Slime_Walk_shadow_17
+  - first:
+      213: -6967797289222486845
+    second: Slime_Walk_shadow_18
+  - first:
+      213: -4676104869125584400
+    second: Slime_Walk_shadow_19
+  - first:
+      213: 3135165535441179039
+    second: Slime_Walk_shadow_20
+  - first:
+      213: -5870545132587260257
+    second: Slime_Walk_shadow_21
+  - first:
+      213: 1689972118463966863
+    second: Slime_Walk_shadow_22
+  - first:
+      213: 8832483365226652504
+    second: Slime_Walk_shadow_23
+  - first:
+      213: -107822213188276593
+    second: Slime_Walk_shadow_24
+  - first:
+      213: -8728448736635942919
+    second: Slime_Walk_shadow_25
+  - first:
+      213: -3728013304367197939
+    second: Slime_Walk_shadow_26
+  - first:
+      213: -845499956529476505
+    second: Slime_Walk_shadow_27
+  - first:
+      213: 1422757922637618075
+    second: Slime_Walk_shadow_28
+  - first:
+      213: 7223023201846560684
+    second: Slime_Walk_shadow_29
+  - first:
+      213: -8865591080106777007
+    second: Slime_Walk_shadow_30
+  - first:
+      213: -7602089720404820540
+    second: Slime_Walk_shadow_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 213
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c7f6545485f0400800000000000000
+      internalID: 292549555343293479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 213
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab40a9c56faae7b0800000000000000
+      internalID: -5194146368509162589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 213
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4f311c042ce28c0800000000000000
+      internalID: -4022063833822268252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 213
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78726d7137686b00800000000000000
+      internalID: 822020394249779327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 213
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cbf19b322c31e70800000000000000
+      internalID: 9084818332021931154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 213
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412b3c086e9ae2600800000000000000
+      internalID: 445480220624138772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 213
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1827d44d7b21cb6c0800000000000000
+      internalID: -4126402577828056447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 213
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f267f3508023b20800000000000000
+      internalID: 3112559111099002699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 149
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61596e68789fdff90800000000000000
+      internalID: -6918099092092054250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 149
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca73a45ae4ca20b0800000000000000
+      internalID: -5752569063290996023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 149
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f0d689dea880fe0800000000000000
+      internalID: -1222574545761923268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 149
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd7671aeba2b9ac0800000000000000
+      internalID: -3847434458416906812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 149
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b683b9bc6de29b770800000000000000
+      internalID: 8626978061278722155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 149
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526f3c65e860fdfe0800000000000000
+      internalID: -1162202970427492827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 149
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e7b8932375b1d60800000000000000
+      internalID: 7861973447730757151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 149
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5052a9bd763c80cc0800000000000000
+      internalID: -3744528239325207291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 85
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818c628f15c8695b0800000000000000
+      internalID: -5361944022654466024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 85
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76e6008b0315aa80800000000000000
+      internalID: -8456331785204734341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 85
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4c6fc48496d4f90800000000000000
+      internalID: -6967797289222486845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 85
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f98b4785632b1fb0800000000000000
+      internalID: -4676104869125584400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 85
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91d4049178528b20800000000000000
+      internalID: 3135165535441179039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 85
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96ec3e2e42a78ea0800000000000000
+      internalID: -5870545132587260257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 85
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8eeb5910bcf37710800000000000000
+      internalID: 1689972118463966863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 85
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853a1ecf2d8439a70800000000000000
+      internalID: 8832483365226652504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 21
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e2404b440f08ef0800000000000000
+      internalID: -107822213188276593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 21
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f78b9c8e125ed680800000000000000
+      internalID: -8728448736635942919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 21
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01534bc6af634cc0800000000000000
+      internalID: -3728013304367197939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 21
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cc379e44e2444f0800000000000000
+      internalID: -845499956529476505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 21
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b1034eac6aeb310800000000000000
+      internalID: 1422757922637618075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 21
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7087635555d3460800000000000000
+      internalID: 7223023201846560684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 21
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1562d5272e717f480800000000000000
+      internalID: -8865591080106777007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Walk_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 21
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd3f984da3ff7690800000000000000
+      internalID: -7602089720404820540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Walk_shadow_0: 292549555343293479
+      Slime_Walk_shadow_1: -5194146368509162589
+      Slime_Walk_shadow_10: -1222574545761923268
+      Slime_Walk_shadow_11: -3847434458416906812
+      Slime_Walk_shadow_12: 8626978061278722155
+      Slime_Walk_shadow_13: -1162202970427492827
+      Slime_Walk_shadow_14: 7861973447730757151
+      Slime_Walk_shadow_15: -3744528239325207291
+      Slime_Walk_shadow_16: -5361944022654466024
+      Slime_Walk_shadow_17: -8456331785204734341
+      Slime_Walk_shadow_18: -6967797289222486845
+      Slime_Walk_shadow_19: -4676104869125584400
+      Slime_Walk_shadow_2: -4022063833822268252
+      Slime_Walk_shadow_20: 3135165535441179039
+      Slime_Walk_shadow_21: -5870545132587260257
+      Slime_Walk_shadow_22: 1689972118463966863
+      Slime_Walk_shadow_23: 8832483365226652504
+      Slime_Walk_shadow_24: -107822213188276593
+      Slime_Walk_shadow_25: -8728448736635942919
+      Slime_Walk_shadow_26: -3728013304367197939
+      Slime_Walk_shadow_27: -845499956529476505
+      Slime_Walk_shadow_28: 1422757922637618075
+      Slime_Walk_shadow_29: 7223023201846560684
+      Slime_Walk_shadow_3: 822020394249779327
+      Slime_Walk_shadow_30: -8865591080106777007
+      Slime_Walk_shadow_31: -7602089720404820540
+      Slime_Walk_shadow_4: 9084818332021931154
+      Slime_Walk_shadow_5: 445480220624138772
+      Slime_Walk_shadow_6: -4126402577828056447
+      Slime_Walk_shadow_7: 3112559111099002699
+      Slime_Walk_shadow_8: -6918099092092054250
+      Slime_Walk_shadow_9: -5752569063290996023
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
