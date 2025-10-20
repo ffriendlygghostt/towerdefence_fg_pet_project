@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public enum EnemyAnimation
@@ -11,6 +12,11 @@ public class EnemyAnimatorController : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     private EnemyAnimation currentAnimation;
     private bool rightFlip = false;
+
+    private void OnEnable()
+    {
+        SpeedGameManager.Instance.OnSpeedGameChanged += SetAnimatorSpeed;
+    }
 
     private void Awake()
     {
@@ -53,7 +59,7 @@ public class EnemyAnimatorController : MonoBehaviour
         }
 
         PlayAnimation();
-        animator.speed = speedMultiplier;
+        animator.speed = speedMultiplier * SpeedGameManager.Instance.SpeedMultiplier;
     }
 
     public void PlayDeath(EnemyDirection direction)
@@ -70,7 +76,7 @@ public class EnemyAnimatorController : MonoBehaviour
         }
 
         PlayAnimation();
-        animator.speed = 1f;
+        animator.speed = 1f * SpeedGameManager.Instance.SpeedMultiplier;
     }
 
     public void ResetAnimation()
@@ -78,5 +84,14 @@ public class EnemyAnimatorController : MonoBehaviour
         rightFlip = false;
         currentAnimation = EnemyAnimation.Walk_Side;
         animator.speed = 1f;
+    }
+
+    private void SetAnimatorSpeed(float newSpeed)
+    {
+        animator.speed = newSpeed;
+    }
+    private void OnDisable()
+    {
+        SpeedGameManager.Instance.OnSpeedGameChanged -= SetAnimatorSpeed;
     }
 }

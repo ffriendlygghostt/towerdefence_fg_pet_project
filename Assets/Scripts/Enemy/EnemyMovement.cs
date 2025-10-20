@@ -21,7 +21,6 @@ public class EnemyMovement : MonoBehaviour
     private Vector3 targetPoint;
     private bool isMoving = false;
 
-
     private void Awake()
     {
         controller = GetComponent<EnemyController>();
@@ -53,7 +52,7 @@ public class EnemyMovement : MonoBehaviour
         UpdateAnimations(direction);
 
         transform.position = Vector3.MoveTowards(transform.position,
-            targetPoint, moveSpeed * Time.deltaTime);
+            targetPoint, moveSpeed * Time.deltaTime * SpeedGameManager.Instance.SpeedMultiplier);
 
         if (Vector3.Distance(transform.position, targetPoint) < 0.05f)
         {
