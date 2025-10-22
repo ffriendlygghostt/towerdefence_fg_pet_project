@@ -7,12 +7,15 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private EnemyMovement movement;
     [SerializeField] private EnemyAnimatorController animationController;
 
+    public EnemyType Type => stats.type;
+
     public event Action<float> OnSpeedChanged;
     private void Awake()
     {
         stats = GetComponent<EnemyStats>();
         movement = GetComponent<EnemyMovement>();
         animationController = GetComponent<EnemyAnimatorController>();
+
         if (stats == null || movement == null || animationController == null)
         {
             Debug.LogWarning("Enemy has not: EnemyStats | EnemyMovement | EnemyAnimation");
@@ -23,12 +26,10 @@ public class EnemyController : MonoBehaviour
     {
         movement.StopMovement();
         animationController.PlayDeath(movement.GetCurrentDirection());
+        
     }
 
-    public float GetMoveSpeed()
-    {
-        return stats.moveSpeed;
-    }
+    public float GetMoveSpeed() => stats.moveSpeed;
 
     public void ChangeSpeed(float newSpeed)
     {
@@ -42,5 +43,13 @@ public class EnemyController : MonoBehaviour
     public void PlayWalk(EnemyDirection direction)
     {
         animationController.PlayWalk(direction);
+    }
+
+    public void ResetState()
+    {
+        stats.ResetStats();
+        movement.ResetMovement();
+        animationController.ResetAnimation();
+        gameObject.SetActive(true);
     }
 }

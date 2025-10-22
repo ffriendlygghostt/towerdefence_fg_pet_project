@@ -83,7 +83,7 @@ public class EnemyAnimatorController : MonoBehaviour
     {
         rightFlip = false;
         currentAnimation = EnemyAnimation.Walk_Side;
-        animator.speed = 1f;
+        animator.speed = 1f * SpeedGameManager.Instance.SpeedMultiplier;
     }
 
     private void SetAnimatorSpeed(float newSpeed)

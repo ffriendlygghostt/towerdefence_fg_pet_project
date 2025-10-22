@@ -12,32 +12,35 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float moveSpeed;
     [SerializeField] private EnemyController controller;
     [SerializeField] private EnemyDirection currentDirection = EnemyDirection.Left;
+    [SerializeField] private Transform[] pathZones;
+    [SerializeField] private int currentZoneIndex = 0;
+    [SerializeField] private Vector3 targetPoint;
+    [SerializeField] private bool isMoving = false;
+
     public EnemyDirection GetCurrentDirection() => currentDirection;
 
-    [Header("Path setup (for testing)")] 
-    [SerializeField] public Transform[] pathZones;
-    [SerializeField] private int currentZoneIndex = 0;
 
-    private Vector3 targetPoint;
-    private bool isMoving = false;
+    private void OnEnable()
+    {
+        controller.OnSpeedChanged += UpdateMoveSpeed;
+    }
 
     private void Awake()
     {
         controller = GetComponent<EnemyController>();
         if (controller == null) Debug.LogError("No Enemy controller!!!");
-        controller.OnSpeedChanged += UpdateMoveSpeed;
 
         moveSpeed = controller.GetMoveSpeed();
     }
 
     private void Start()
     {
+        
         if (pathZones.Length > 0)
         {
             SetNextTarget();
         }
-
-        StartMovement();
+        StopMovement();
     }
 
     private void Update()
@@ -93,6 +96,7 @@ public class EnemyMovement : MonoBehaviour
         }
         isMoving = false;
     }
+
     private void UpdateAnimations(Vector3 direction)
     {
         if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
@@ -120,5 +124,17 @@ public class EnemyMovement : MonoBehaviour
     private void UpdateMoveSpeed(float newSpeed)
     {
         moveSpeed = newSpeed;
+    }
+
+    public void ResetMovement()
+    {
+        currentDirection = EnemyDirection.Left;
+        moveSpeed = controller.GetMoveSpeed();
+        StopMovement();
+    }
+
+    private void OnDisable()
+    {
+        controller.OnSpeedChanged -= UpdateMoveSpeed;
     }
 }

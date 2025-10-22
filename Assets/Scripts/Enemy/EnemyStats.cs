@@ -8,6 +8,8 @@ public class EnemyStats : MonoBehaviour
     public float moveSpeed = 2f;
     public float damage = 10f;
     public int goldReward = 0;
+    public float speedAnimator = 1f;
+    public EnemyType type;
 
     [HideInInspector] public float currentHealth;
     [HideInInspector] public int difficultyLevel = 1;
@@ -16,7 +18,6 @@ public class EnemyStats : MonoBehaviour
 
     private void Awake()
     {
-        currentHealth = maxHealth;
         controller = GetComponent<EnemyController>();
         if (controller == null)
         {
@@ -40,6 +41,13 @@ public class EnemyStats : MonoBehaviour
     public bool IsDead()
     {
         return currentHealth <= 0;
+    }
+
+    public void ResetStats()
+    {
+        maxHealth = maxHealth * DifficultyManager.Instance.HpMultiplier;
+        currentHealth = maxHealth;
+        moveSpeed = moveSpeed * DifficultyManager.Instance.SpeedMultiplier;
     }
 }
 
