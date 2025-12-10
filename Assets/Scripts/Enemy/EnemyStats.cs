@@ -8,6 +8,8 @@ public class EnemyStats : MonoBehaviour
     public float moveSpeed = 2f;
     public float damage = 10f;
     public int goldReward = 0;
+    public float speedAnimator = 1f;
+    public EnemyType type;
 
     [HideInInspector] public float currentHealth;
     [HideInInspector] public int difficultyLevel = 1;
@@ -16,12 +18,10 @@ public class EnemyStats : MonoBehaviour
 
     private void Awake()
     {
-        currentHealth = maxHealth;
         controller = GetComponent<EnemyController>();
         if (controller == null)
         {
-            Debug.LogWarning($"Для врага {gameObject.name} испольузется заглушка EnemyController!");
-            controller = new EnemyController();
+            Debug.LogWarning("Enemy has not EnemyController!!!");
         }
     }
 
@@ -43,13 +43,11 @@ public class EnemyStats : MonoBehaviour
         return currentHealth <= 0;
     }
 
-    // TEMP: временный локальный класс, убрать когда будет настоящий EnemyController
-    private class EnemyController : MonoBehaviour 
+    public void ResetStats()
     {
-        public virtual void Die()
-        {
-            Debug.Log("EnemyController.Die() вызван, но контроллера нет. Заглушка.");
-        }
+        maxHealth = maxHealth * DifficultyManager.Instance.HpMultiplier;
+        currentHealth = maxHealth;
+        moveSpeed = moveSpeed * DifficultyManager.Instance.SpeedMultiplier;
     }
 }
 
