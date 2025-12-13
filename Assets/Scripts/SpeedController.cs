@@ -12,7 +12,7 @@ public class SpeedController : MonoBehaviour
     private Button ActiveButton;
 
     private Color defaultColor;
-    private Color inactiveColor = new Color(255, 255, 255, 0.10f);
+    private Color inactiveColor = new Color(255, 255, 255, 0.3f);
 
     private void Start()
     {

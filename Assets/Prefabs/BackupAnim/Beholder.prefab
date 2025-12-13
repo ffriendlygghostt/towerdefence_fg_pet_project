@@ -11,8 +11,13 @@ GameObject:
   - component: {fileID: 6231321837898770650}
   - component: {fileID: 7967333379631828493}
   - component: {fileID: 8808038355280451154}
+  - component: {fileID: 4498815278850432584}
+  - component: {fileID: 69507387417209855}
+  - component: {fileID: 461778487053326093}
+  - component: {fileID: 7709694288468120552}
+  - component: {fileID: 5558219568845207273}
   m_Layer: 0
-  m_Name: beholder-walk-front view_0
+  m_Name: Beholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +84,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1445
   m_Sprite: {fileID: 7754951731788479020, guid: bd6e3849304b1d74ca160cb9a9424b84, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -113,3 +118,88 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4498815278850432584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8752825857487429319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dac2d22db0b2e014cbcb68934dee3baa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SortingLayerDynamic
+  offset: 0
+  factor: 100
+--- !u!114 &69507387417209855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8752825857487429319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72188c7ce2d2b29458d30d02d6e57abb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
+  enemyName: 
+  maxHealth: 999
+  moveSpeed: 0.15
+  goldReward: 77
+  chanceDrop: 100
+  pointExp: 300
+  damage: 150
+  speedAnimator: 1
+  type: 14
+  currentHealth: 0
+  difficultyLevel: 1
+--- !u!114 &461778487053326093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8752825857487429319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919d1ae896306764e8f017f1ec42c8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  moveSpeed: 0
+  controller: {fileID: 7709694288468120552}
+  currentDirection: 2
+  pathZones: []
+  currentZoneIndex: 0
+  targetPoint: {x: 0, y: 0, z: 0}
+  isMoving: 0
+--- !u!114 &7709694288468120552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8752825857487429319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d336c23641e1e1438ddfcbd65976880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyController
+  stats: {fileID: 69507387417209855}
+  movement: {fileID: 461778487053326093}
+  animationController: {fileID: 5558219568845207273}
+--- !u!114 &5558219568845207273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8752825857487429319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2b3b89eb5e241c4b96606314ed10d52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimatorController
+  animator: {fileID: 8808038355280451154}
+  spriteRenderer: {fileID: 7967333379631828493}

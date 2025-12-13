@@ -13,10 +13,10 @@ public class EnemyAnimatorController : MonoBehaviour
     private EnemyAnimation currentAnimation;
     private bool rightFlip = false;
 
-    private void OnEnable()
-    {
-        SpeedGameManager.Instance.OnSpeedGameChanged += SetAnimatorSpeed;
-    }
+    //private void OnEnable()
+    //{
+    //    SpeedGameManager.Instance.OnSpeedGameChanged += SetAnimatorSpeed;
+    //}
 
     private void Awake()
     {
@@ -90,8 +90,8 @@ public class EnemyAnimatorController : MonoBehaviour
     {
         animator.speed = newSpeed;
     }
-    private void OnDisable()
-    {
-        SpeedGameManager.Instance.OnSpeedGameChanged -= SetAnimatorSpeed;
-    }
+    //private void OnDisable()
+    //{
+    //    SpeedGameManager.Instance.OnSpeedGameChanged -= SetAnimatorSpeed;
+    //}
 }

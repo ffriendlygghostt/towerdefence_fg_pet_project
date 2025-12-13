@@ -11,8 +11,13 @@ GameObject:
   - component: {fileID: 3954590890005624747}
   - component: {fileID: 888129570515802124}
   - component: {fileID: 4034562186641041173}
+  - component: {fileID: 4060970377131832074}
+  - component: {fileID: 2248555443751140032}
+  - component: {fileID: 2418000603933067876}
+  - component: {fileID: 4926597442024054964}
+  - component: {fileID: 2438844302542877389}
   m_Layer: 0
-  m_Name: S_Run_0
+  m_Name: Rider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +84,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1468
   m_Sprite: {fileID: 8730448832773115532, guid: 5c959940049f8f041bcda4f100ef8233, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -113,3 +118,88 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4060970377131832074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908125178623194086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dac2d22db0b2e014cbcb68934dee3baa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SortingLayerDynamic
+  offset: 0
+  factor: 100
+--- !u!114 &2248555443751140032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908125178623194086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2b3b89eb5e241c4b96606314ed10d52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimatorController
+  animator: {fileID: 4034562186641041173}
+  spriteRenderer: {fileID: 888129570515802124}
+--- !u!114 &2418000603933067876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908125178623194086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d336c23641e1e1438ddfcbd65976880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyController
+  stats: {fileID: 2438844302542877389}
+  movement: {fileID: 4926597442024054964}
+  animationController: {fileID: 2248555443751140032}
+--- !u!114 &4926597442024054964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908125178623194086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919d1ae896306764e8f017f1ec42c8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  moveSpeed: 0
+  controller: {fileID: 2418000603933067876}
+  currentDirection: 2
+  pathZones: []
+  currentZoneIndex: 0
+  targetPoint: {x: 0, y: 0, z: 0}
+  isMoving: 0
+--- !u!114 &2438844302542877389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908125178623194086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72188c7ce2d2b29458d30d02d6e57abb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
+  enemyName: Rider
+  maxHealth: 140
+  moveSpeed: 1
+  goldReward: 45
+  chanceDrop: 70
+  pointExp: 170
+  damage: 30
+  speedAnimator: 1
+  type: 13
+  currentHealth: 0
+  difficultyLevel: 1
