@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class EnemyStats : MonoBehaviour
@@ -6,8 +7,10 @@ public class EnemyStats : MonoBehaviour
     public string enemyName;
     public float maxHealth = 100f;
     public float moveSpeed = 2f;
-    public float damage = 10f;
     public int goldReward = 0;
+    public int chanceDrop = 0;
+    public int pointExp = 0;
+    public float damage = 10f;
     public float speedAnimator = 1f;
     public EnemyType type;
 
@@ -15,6 +18,7 @@ public class EnemyStats : MonoBehaviour
     [HideInInspector] public int difficultyLevel = 1;
 
     private EnemyController controller;
+    
 
     private void Awake()
     {
@@ -48,6 +52,7 @@ public class EnemyStats : MonoBehaviour
         maxHealth = maxHealth * DifficultyManager.Instance.HpMultiplier;
         currentHealth = maxHealth;
         moveSpeed = moveSpeed * DifficultyManager.Instance.SpeedMultiplier;
+        pointExp = Convert.ToInt32(maxHealth * moveSpeed);
     }
 }
 

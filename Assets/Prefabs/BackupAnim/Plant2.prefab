@@ -11,8 +11,13 @@ GameObject:
   - component: {fileID: 4383036926781290266}
   - component: {fileID: 2977758139406380984}
   - component: {fileID: 2291366716483975719}
+  - component: {fileID: 625901145333042512}
+  - component: {fileID: 9068950734836694645}
+  - component: {fileID: 3315055355146634581}
+  - component: {fileID: 3471443513917001181}
+  - component: {fileID: 7311013177467122025}
   m_Layer: 0
-  m_Name: Plant3_Walk_full_12
+  m_Name: Plant2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +84,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1426
   m_Sprite: {fileID: 3532752323780549545, guid: 9086771dceee29741b29588b3d76c4e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -113,3 +118,88 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &625901145333042512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6680216423384592827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dac2d22db0b2e014cbcb68934dee3baa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SortingLayerDynamic
+  offset: 0
+  factor: 100
+--- !u!114 &9068950734836694645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6680216423384592827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2b3b89eb5e241c4b96606314ed10d52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimatorController
+  animator: {fileID: 2291366716483975719}
+  spriteRenderer: {fileID: 2977758139406380984}
+--- !u!114 &3315055355146634581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6680216423384592827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d336c23641e1e1438ddfcbd65976880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyController
+  stats: {fileID: 7311013177467122025}
+  movement: {fileID: 3471443513917001181}
+  animationController: {fileID: 9068950734836694645}
+--- !u!114 &3471443513917001181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6680216423384592827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919d1ae896306764e8f017f1ec42c8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  moveSpeed: 0
+  controller: {fileID: 3315055355146634581}
+  currentDirection: 2
+  pathZones: []
+  currentZoneIndex: 0
+  targetPoint: {x: 0, y: 0, z: 0}
+  isMoving: 0
+--- !u!114 &7311013177467122025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6680216423384592827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72188c7ce2d2b29458d30d02d6e57abb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
+  enemyName: Plant2
+  maxHealth: 210
+  moveSpeed: 0.4
+  goldReward: 25
+  chanceDrop: 25
+  pointExp: 109
+  damage: 25
+  speedAnimator: 1
+  type: 6
+  currentHealth: 0
+  difficultyLevel: 1

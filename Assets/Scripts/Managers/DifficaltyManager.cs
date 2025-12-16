@@ -6,7 +6,6 @@ public class DifficultyManager : Manager<DifficultyManager>
     public float HpMultiplier { get; private set; } = 1f;
     public float SpeedMultiplier { get; private set; } = 1f;
     public float CoinMultiplier { get; private set; } = 1f;
-    public float ExpMultiplier { get; private set; } = 1f;
 
     private void Awake()
     {
@@ -20,7 +19,6 @@ public class DifficultyManager : Manager<DifficultyManager>
             HpMultiplier = 1f + 0.10f * floor; //10%
             SpeedMultiplier = 1f + 0.03f * floor; //3%
             CoinMultiplier = 1f + 0.25f * floor; //25%
-            ExpMultiplier = 1f + 0.1f * floor; //10%
         }
         else
         {
