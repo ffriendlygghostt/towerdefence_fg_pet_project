@@ -13,11 +13,6 @@ public class EnemyController : MonoBehaviour
 
     public event Action<float> OnSpeedChanged;
 
-    [ContextMenu("DEBUG / Deal30Damage")]
-    private void DebugDamage()
-    {
-        TakeDamage(30f);
-    }
 
     private void Awake()
     {
