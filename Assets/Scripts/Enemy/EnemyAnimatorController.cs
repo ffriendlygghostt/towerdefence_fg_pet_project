@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public enum EnemyAnimation
@@ -13,15 +14,26 @@ public class EnemyAnimatorController : MonoBehaviour
     private EnemyAnimation currentAnimation;
     private bool rightFlip = false;
 
-    //private void OnEnable()
-    //{
-    //    SpeedGameManager.Instance.OnSpeedGameChanged += SetAnimatorSpeed;
-    //}
+    private Color baseColor;
+    private Color hitFlash = new Color(0.7f, 0.7f, 0.7f, 0.8f);
+    private float hitFlashDuration = 0.3f;
+    private Coroutine hitFlashCoroutine;
 
+    private float deathFadeDelay = 5f;
+    private float fadeDuration = 1.5f;
+    private Coroutine fadeOutCoroutine;
+
+
+    private void OnEnable()
+    {
+        ReturnBaseColor();
+        SpeedGameManager.Instance.OnSpeedGameChanged += SetAnimatorSpeed;
+    }
     private void Awake()
     {
         if (animator == null) { animator = GetComponent<Animator>(); }
         if (spriteRenderer == null) { spriteRenderer = GetComponent<SpriteRenderer>(); }
+        baseColor = spriteRenderer.color;
     }
 
     private void PlayAnimation()
@@ -76,7 +88,18 @@ public class EnemyAnimatorController : MonoBehaviour
         }
 
         PlayAnimation();
+        FadeOut();
         animator.speed = 1f * SpeedGameManager.Instance.SpeedMultiplier;
+
+        if (hitFlashCoroutine != null)
+        {
+            StopCoroutine(hitFlashCoroutine);
+            hitFlashCoroutine = null;
+        }
+
+        spriteRenderer.color = baseColor;
+
+        
     }
 
     public void ResetAnimation()
@@ -90,8 +113,58 @@ public class EnemyAnimatorController : MonoBehaviour
     {
         animator.speed = newSpeed;
     }
-    //private void OnDisable()
-    //{
-    //    SpeedGameManager.Instance.OnSpeedGameChanged -= SetAnimatorSpeed;
-    //}
+
+    private void OnDisable()
+    {
+        SpeedGameManager.Instance.OnSpeedGameChanged -= SetAnimatorSpeed;
+    }
+
+    public void PlayHitFlash()
+    {
+        if (fadeOutCoroutine != null) return;
+        if (hitFlashCoroutine != null)
+        {
+            StopCoroutine(hitFlashCoroutine);
+        }
+        hitFlashCoroutine = StartCoroutine(HitFlashRoutine());
+    }
+
+    private IEnumerator HitFlashRoutine()
+    {
+        spriteRenderer.color = hitFlash;
+        yield return new WaitForSeconds(hitFlashDuration);
+        spriteRenderer.color = baseColor;
+        hitFlashCoroutine = null;
+    }
+
+    public void FadeOut()
+    {
+        if (fadeOutCoroutine != null)
+        {
+            StopCoroutine(fadeOutCoroutine);
+        } fadeOutCoroutine = StartCoroutine(DeathFadeRoutine());
+    }
+
+    private IEnumerator DeathFadeRoutine()
+    {
+        yield return new WaitForSeconds(deathFadeDelay);
+        float time = 0f;
+        Color color = spriteRenderer.color;
+
+        while (time < fadeDuration)
+        {
+            time += Time.deltaTime;
+            color.a = Mathf.Lerp(1f, 0f, time / fadeDuration);
+            spriteRenderer.color = color;
+            yield return null;
+        }
+
+        color.a = 0f;
+        spriteRenderer.color = color;
+    }
+
+    public void ReturnBaseColor()
+    {
+        spriteRenderer.color = baseColor;
+    }
 }

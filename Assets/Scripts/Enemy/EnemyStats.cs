@@ -6,7 +6,9 @@ public class EnemyStats : MonoBehaviour
     [Header("Main parameters")]
     public string enemyName;
     public float maxHealth = 100f;
+    public float baseMaxHealth = 50f;
     public float moveSpeed = 2f;
+    public float baseMoveSpeed = 0.5f;
     public int goldReward = 0;
     public int chanceDrop = 0;
     public int pointExp = 0;
@@ -17,24 +19,22 @@ public class EnemyStats : MonoBehaviour
     [HideInInspector] public float currentHealth;
     [HideInInspector] public int difficultyLevel = 1;
 
-    private EnemyController controller;
+    public event Action OnDeathAction;
     
 
     private void Awake()
     {
-        controller = GetComponent<EnemyController>();
-        if (controller == null)
-        {
-            Debug.LogWarning("Enemy has not EnemyController!!!");
-        }
+        ResetStats();
     }
 
     public void TakeDamage(float amount)
     {
         currentHealth -= amount;
-        if (currentHealth < 0) currentHealth = 0;
-        if (currentHealth == 0)
-                controller.Die();
+        if (currentHealth <= 0)
+        {
+            currentHealth = 0;
+            OnDeathAction?.Invoke();
+        }
     }
 
     public float GetDamage()
@@ -49,9 +49,9 @@ public class EnemyStats : MonoBehaviour
 
     public void ResetStats()
     {
-        maxHealth = maxHealth * DifficultyManager.Instance.HpMultiplier;
+        maxHealth = baseMaxHealth * DifficultyManager.Instance.HpMultiplier;
         currentHealth = maxHealth;
-        moveSpeed = moveSpeed * DifficultyManager.Instance.SpeedMultiplier;
+        moveSpeed = baseMoveSpeed * DifficultyManager.Instance.SpeedMultiplier;
         pointExp = Convert.ToInt32(maxHealth * moveSpeed);
     }
 }
