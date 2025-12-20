@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
+public class EnemyController : MonoBehaviour, IPoolIdentity
 {
     [SerializeField] private EnemyStats stats;
     [SerializeField] private EnemyMovement movement;
@@ -52,4 +52,6 @@ public class EnemyController : MonoBehaviour
         animationController.ResetAnimation();
         gameObject.SetActive(true);
     }
+
+    public string GetPoolId() => Type.ToString();
 }
