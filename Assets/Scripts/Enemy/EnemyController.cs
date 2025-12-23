@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
+public class EnemyController : MonoBehaviour, IPoolIdentity
 {
     [SerializeField] private EnemyStats stats;
     [SerializeField] private EnemyMovement movement;
@@ -74,4 +74,6 @@ public class EnemyController : MonoBehaviour
     {
         animationController.PlayWalk(direction);
     }
+
+    public string GetPoolId() => Type.ToString();
 }
