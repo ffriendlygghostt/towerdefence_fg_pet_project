@@ -49,6 +49,8 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         movement.StopMovement();
         animationController.PlayDeath(movement.GetCurrentDirection());
         enemyHealthBar.Hide();
+        GameManager.Instance.AddScore(stats.pointExp);
+        GameManager.Instance.AddKill();
     }
 
     public float GetMoveSpeed() => stats.moveSpeed;
