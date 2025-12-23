@@ -33,7 +33,6 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         stats.ResetStats();
         movement.ResetMovement();
         animationController.ResetAnimation();
-        gameObject.SetActive(true);
         enemyHealthBar.Init(stats.maxHealth);
         enemyHealthBar.Show();
 

@@ -52,7 +52,7 @@ public class EnemyStats : MonoBehaviour
         maxHealth = baseMaxHealth * DifficultyManager.Instance.HpMultiplier;
         currentHealth = maxHealth;
         moveSpeed = baseMoveSpeed * DifficultyManager.Instance.SpeedMultiplier;
-        pointExp = Convert.ToInt32(maxHealth * moveSpeed);
+        pointExp = Convert.ToInt32(maxHealth * moveSpeed + damage);
     }
 }
 
