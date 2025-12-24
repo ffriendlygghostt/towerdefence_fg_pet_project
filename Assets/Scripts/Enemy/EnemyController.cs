@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using UnityEngine;
-
 public class EnemyController : MonoBehaviour, IPoolIdentity
 {
     [SerializeField] private EnemyStats stats;
@@ -13,6 +12,7 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
 
     public event Action<float> OnSpeedChanged;
 
+    private int roll;
 
     private void Awake()
     {
@@ -53,6 +53,7 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         enemyHealthBar.Hide();
         GameManager.Instance.AddScore(stats.pointExp);
         GameManager.Instance.AddKill();
+        CoinDropAttempt();
     }
 
     public void ReachBase()
@@ -96,4 +97,15 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
     }
 
     public string GetPoolId() => Type.ToString();
+
+    public void CoinDropAttempt()
+    {
+        roll = UnityEngine.Random.Range(0, 101);
+        if (roll >= stats.chanceDrop) 
+        { 
+            return;
+        }
+
+        WalletManager.Instance.Add(stats.goldReward);
+    }
 }
