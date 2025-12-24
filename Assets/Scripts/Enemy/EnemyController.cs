@@ -51,6 +51,12 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         enemyHealthBar.Hide();
     }
 
+    public void ReachBase()
+    {
+        movement.StopMovement();
+        enemyHealthBar.Hide();
+        //PoolManager.Instance.Return(this);
+    }
     public float GetMoveSpeed() => stats.moveSpeed;
 
     public void ChangeSpeed(float newSpeed)
@@ -72,6 +78,11 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
     public void PlayWalk(EnemyDirection direction)
     {
         animationController.PlayWalk(direction);
+    }
+
+    public float GetDamage()
+    {
+        return stats.GetDamage();
     }
 
     public string GetPoolId() => Type.ToString();
