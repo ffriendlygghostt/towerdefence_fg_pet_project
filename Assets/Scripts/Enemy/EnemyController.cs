@@ -37,11 +37,13 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         enemyHealthBar.Show();
 
         stats.OnDeathAction += Die;
+        animationController.OnDeathAnimationFinished += ReturnToPool;
     }
 
     private void OnDisable()
     {
         stats.OnDeathAction -= Die;
+        animationController.OnDeathAnimationFinished -= ReturnToPool;
     }
 
     public void Die()
@@ -57,8 +59,14 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
     {
         movement.StopMovement();
         enemyHealthBar.Hide();
-        //PoolManager.Instance.Return(this);
+        ReturnToPool();
     }
+
+    private void ReturnToPool()
+    {
+        PoolManager.Instance.Return(this.gameObject);
+    }
+
     public float GetMoveSpeed() => stats.moveSpeed;
 
     public void ChangeSpeed(float newSpeed)

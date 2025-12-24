@@ -23,6 +23,8 @@ public class EnemyAnimatorController : MonoBehaviour
     private float fadeDuration = 1.5f;
     private Coroutine fadeOutCoroutine;
 
+    public event Action OnDeathAnimationFinished;
+
 
     private void OnEnable()
     {
@@ -114,10 +116,7 @@ public class EnemyAnimatorController : MonoBehaviour
         animator.speed = newSpeed;
     }
 
-    private void OnDisable()
-    {
-        SpeedGameManager.Instance.OnSpeedGameChanged -= SetAnimatorSpeed;
-    }
+    
 
     public void PlayHitFlash()
     {
@@ -161,10 +160,18 @@ public class EnemyAnimatorController : MonoBehaviour
 
         color.a = 0f;
         spriteRenderer.color = color;
+
+        fadeOutCoroutine = null;
+        OnDeathAnimationFinished?.Invoke();
     }
 
     public void ReturnBaseColor()
     {
         spriteRenderer.color = baseColor;
+    }
+
+    private void OnDisable()
+    {
+        SpeedGameManager.Instance.OnSpeedGameChanged -= SetAnimatorSpeed;
     }
 }
