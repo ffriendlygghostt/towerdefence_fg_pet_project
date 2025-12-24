@@ -7,7 +7,8 @@ public enum GameState
     Menu,
     Loading,
     Playing,
-    ArtifactChoice
+    ArtifactChoice,
+    Defeat
 }
 
 
@@ -43,5 +44,11 @@ public class GameFlowManager : Manager<GameFlowManager>
             DifficultyManager.Instance.SetFloor(currentFloor);
             SceneLoader.Instance.LoadScene(LevelManager.Instance.GetRandomLevel());
         });
+    }
+
+    public void Defeat()
+    {
+        State = GameState.Defeat;
+        //TO DO: UI DEFEAT
     }
 }
