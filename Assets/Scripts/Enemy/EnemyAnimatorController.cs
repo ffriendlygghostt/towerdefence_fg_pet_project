@@ -29,7 +29,7 @@ public class EnemyAnimatorController : MonoBehaviour
     private void OnEnable()
     {
         ReturnBaseColor();
-        SpeedGameManager.Instance.OnSpeedGameChanged += SetAnimatorSpeed;
+        SpeedGameManager.Instance.OnSpeedGameChanged += AnimatorSpeedAdapter;
     }
     private void Awake()
     {
@@ -111,10 +111,26 @@ public class EnemyAnimatorController : MonoBehaviour
         animator.speed = 1f * SpeedGameManager.Instance.SpeedMultiplier;
     }
 
+    private void AnimatorSpeedAdapter(GameSpeed speedType)
+    {
+        float newSpeed = speedType switch
+        {
+            GameSpeed.Pause => 0f,
+            GameSpeed.X1 => 1f,
+            GameSpeed.X2 => 2f,
+            GameSpeed.X4 => 4f,
+            _ => 1f
+        };
+
+        SetAnimatorSpeed(newSpeed);
+    }
+
     private void SetAnimatorSpeed(float newSpeed)
     {
         animator.speed = newSpeed;
     }
+
+    
 
     
 
@@ -172,6 +188,6 @@ public class EnemyAnimatorController : MonoBehaviour
 
     private void OnDisable()
     {
-        SpeedGameManager.Instance.OnSpeedGameChanged -= SetAnimatorSpeed;
+        SpeedGameManager.Instance.OnSpeedGameChanged -= AnimatorSpeedAdapter;
     }
 }

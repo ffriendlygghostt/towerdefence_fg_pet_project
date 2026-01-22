@@ -7,6 +7,7 @@ public class BaseManager : Manager<BaseManager>
     public float CurrentHp { get; private set; }
 
     public event Action<float, float> OnHealthChanged;
+    public event Action<float> OnHealthChange;
     public event Action OnBaseDestroyed;
 
     protected override void Awake()
