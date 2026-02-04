@@ -12,7 +12,8 @@ public enum GameState
     Playing,
     ArtifactChoice,
     Defeat,
-    Prestart
+    Prestart,
+    EscMenu
 }
 
 
@@ -130,5 +131,17 @@ public class GameFlowManager : Manager<GameFlowManager>
                 State = GameState.Menu;
             }
         );
+    }
+
+    public void EscMenu()
+    {
+        State = GameState.EscMenu;
+        SpeedGameManager.Instance.Pause();
+    }
+
+    public void ReturnPlaying()
+    {
+        State = GameState.Playing;
+        SpeedGameManager.Instance.SetPastSpeed();
     }
 }
