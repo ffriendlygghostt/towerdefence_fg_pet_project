@@ -37,15 +37,8 @@ public class EnemyStats : MonoBehaviour
         }
     }
 
-    public float GetDamage()
-    {
-        return damage;
-    }
-
-    public bool IsDead()
-    {
-        return currentHealth <= 0;
-    }
+    public float GetDamage() => damage;
+    public bool IsDead() => currentHealth <= 0;
 
     public void ResetStats()
     {

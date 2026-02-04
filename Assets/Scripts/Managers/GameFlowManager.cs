@@ -1,3 +1,5 @@
+using System;
+using Unity.Android.Gradle;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -16,9 +18,27 @@ public enum GameState
 
 public class GameFlowManager : Manager<GameFlowManager>
 {
-    public GameState State { get; private set; }
+    public GameState State { get; private set; } = GameState.Menu;
 
     private int currentFloor = 0;
+
+    private bool restartLocked = false;
+
+    private void Start()
+    {
+        BaseManager.Instance.OnBaseDestroyed += Defeat;
+    }
+
+    private void OnDisable()
+    {
+        BaseManager.Instance.OnBaseDestroyed -= Defeat;
+    }
+
+    protected override void Awake()
+    {
+        base.Awake();
+
+    }
 
     public void StartRun()
     {
@@ -40,39 +60,75 @@ public class GameFlowManager : Manager<GameFlowManager>
 
     private void LoadStage()
     {
+        if (State == GameState.Loading) return;
         State = GameState.Loading;
-        FadeManager.FadeOutThen(() =>
-        {
-            DifficultyManager.Instance.SetFloor(currentFloor);
-            SceneLoader.Instance.LoadScene(LevelManager.Instance.GetRandomLevel());
-            HudManager.Instance.Show();
-            State = GameState.Prestart;
-        });
+
+        SceneLoader.Instance.LoadScene(
+            LevelManager.Instance.GetRandomLevel(),
+            () =>
+            {
+                restartLocked = false;
+
+                DifficultyManager.Instance.SetFloor(currentFloor);
+                WalletManager.Instance.ResetWallet();
+                BaseManager.Instance.ResetBase();
+                HudManager.Instance.Reset();
+                HudManager.Instance.Show();
+                State = GameState.Prestart;
+            },
+            () => { HudManager.Instance.ShowPrestartButton(); }
+        );
     }
 
-    private void StartPlaying()
+    public void StartPlaying()
     {
+        if (State != GameState.Prestart) return;
+
         State = GameState.Playing;
+        HudManager.Instance.HidePrestart();
+        GameManager.Instance.StartGame();
         SpeedGameManager.Instance.Resume();
     }
 
     public void Defeat()
     {
         State = GameState.Defeat;
-        //TO DO: UI DEFEAT
+
+        SpeedGameManager.Instance.Pause();
+        HudManager.Instance.ShowDefeatScreen();
+        GameManager.Instance.EndTimer();
     }
 
-    public void OnAnyKey(InputAction.CallbackContext ctx)
+    public void RestartGame()
     {
-        if (!ctx.performed) return;
-        if (State != GameState.Prestart) return;
-        ButtonPrestart();
+        if (restartLocked) return;
+        if (State != GameState.Defeat) return;
+
+        restartLocked = true;
+        GameManager.Instance.EndRun();
+        LoadStage();
     }
 
-    public void ButtonPrestart()
+    public void LeaveGame()
     {
-        HudManager.Instance.HidePrestart();
+        if (State == GameState.Loading) return;
+        HudManager.Instance.HideDefeatScreen();
+        GameManager.Instance.EndRun();
+        MenuGame();
+    }
 
-        StartPlaying();
+    public void MenuGame()
+    {
+        State = GameState.Loading;
+
+        SpeedGameManager.Instance.Pause();
+        
+        SceneLoader.Instance.LoadScene("MainMenu",
+            () => 
+            { 
+                HudManager.Instance.Hide();
+                State = GameState.Menu;
+            }
+        );
     }
 }

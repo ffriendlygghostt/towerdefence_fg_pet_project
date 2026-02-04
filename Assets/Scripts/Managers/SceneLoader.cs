@@ -1,3 +1,4 @@
+﻿using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -5,33 +6,69 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : Manager<SceneLoader>
 {
     private Scene currentScene;
+    private bool isLoading = false;
+    private Coroutine loadRoutine;
 
-    public void LoadScene(string sceneName)
+    public void LoadScene(string newSceneName, Action onLoaded = null, Action onCompleteFade = null)
     {
-        StartCoroutine(LoadSceneRoutine(sceneName));
+        if (isLoading) return;
+        if (loadRoutine != null)
+        {
+            return;
+        }
+
+        isLoading = true;
+
+        loadRoutine = StartCoroutine(LoadSceneRoutine(newSceneName, onLoaded, onCompleteFade));
     }
 
-    public void LoadScene(LevelEntry levelEntry)
+    public void LoadScene(LevelEntry levelEntry, Action onLoaded = null, Action onCompleteFade = null)
     {
-        StartCoroutine(LoadSceneRoutine(levelEntry.sceneName));
+        if (isLoading) return;
+        if (loadRoutine != null)
+        {
+            return;
+        }
+
+        isLoading = true;
+
+        loadRoutine = StartCoroutine(LoadSceneRoutine(levelEntry.sceneName, onLoaded, onCompleteFade));
     }
 
-    private IEnumerator LoadSceneRoutine(string sceneName)
+    private IEnumerator LoadSceneRoutine(string sceneName, Action onLoaded = null, Action onCompleteFade = null)
     {
-        currentScene = SceneManager.GetActiveScene();
-
         bool fadeDone = false;
-        FadeManager.FadeOutThen(() => fadeDone = true, 2f);
+        FadeManager.FadeOutThen(() => fadeDone = true, 1.5f);
         yield return new WaitUntil(() => fadeDone);
 
-        AsyncOperation loadOp = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+        if (currentScene.IsValid())
+        {
+            yield return SceneManager.UnloadSceneAsync(currentScene);
+            currentScene = default;
+        }
+
+        AsyncOperation loadOp = 
+            SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
         yield return loadOp;
 
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneName));
+        Scene newScene = SceneManager.GetSceneAt(SceneManager.sceneCount - 1); // LastID
+        SceneManager.SetActiveScene(newScene);
+        currentScene = newScene;
 
-        AsyncOperation unloadOp = SceneManager.UnloadSceneAsync(currentScene);
-        yield return unloadOp;
 
-        FadeManager.FadeIn(2f);
+        FadeManager.FadeInThen(
+            () => { onCompleteFade?.Invoke(); },
+            1.5f
+            );
+
+        onLoaded?.Invoke();
+
+        isLoading = false;
+        loadRoutine = null;
+    }
+
+    public void SetCurrentScene(Scene scene)
+    {
+        currentScene = scene;
     }
 }

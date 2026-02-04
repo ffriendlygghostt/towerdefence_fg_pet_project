@@ -32,7 +32,6 @@ public class BaseManager : Manager<BaseManager>
         if (CurrentHp <= 0f)
         {
             OnBaseDestroyed?.Invoke();
-            GameFlowManager.Instance.Defeat();
         }
     }
 }

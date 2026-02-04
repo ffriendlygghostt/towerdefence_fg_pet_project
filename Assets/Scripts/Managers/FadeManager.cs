@@ -33,6 +33,14 @@ public class FadeManager : Manager<FadeManager>
         }
     }
 
+    public static void FadeInThen(System.Action onComplete, float duration = -1f, Color? color = null)
+    {
+        if (Instance != null)
+        {
+            Instance.StartFade(false, duration, color, onComplete);
+        }
+    }
+
     public static void FadeOut(float duration = -1f, Color? color = null)
     {
         if (Instance != null)
