@@ -8,19 +8,33 @@ public class HudManager : Manager<HudManager>
     [SerializeField] private TMP_Text healthText;
 
     [SerializeField] private GameObject prestartCanvas;
+    [SerializeField] private GameObject defeatScreenCanvas;
+
+    private PrestartUI prestartUI;
+    private DefeatScreen defeatScreen;
+    
 
     public bool IsHudOn { get; private set; } = false;
+
 
     protected override void Awake()
     {
         base.Awake();
         Hide();
+        HideDefeatScreen();
     }
 
     private void Start()
     {
+        Reset();
+
         BaseManager.Instance.OnHealthChanged += UpdateHealthUI;
         WalletManager.Instance.OnCoinsChanged += UpdateCoinsUI;
+
+        defeatScreen = defeatScreenCanvas.GetComponent<DefeatScreen>();
+        prestartUI = prestartCanvas.GetComponent<PrestartUI>();
+
+        prestartUI.OnPressed += () => GameFlowManager.Instance.StartPlaying();
     }
 
     private void UpdateHealthUI(float x, float health)
@@ -47,12 +61,29 @@ public class HudManager : Manager<HudManager>
 
     public void HidePrestart()
     {
+        prestartUI.Hide();
         prestartCanvas.SetActive(false);
     }
 
     public void ShowPrestart()
     {
         prestartCanvas.SetActive(true);
+    }
+
+    public void ShowPrestartButton()
+    {
+        prestartUI.Show();
+    }
+
+    public void ShowDefeatScreen()
+    {
+        defeatScreen.ShowStatsRun();
+        defeatScreenCanvas.SetActive(true);
+    }
+
+    public void HideDefeatScreen()
+    {
+        defeatScreenCanvas.SetActive(false);
     }
 
     private void OnDestroy()
@@ -62,6 +93,20 @@ public class HudManager : Manager<HudManager>
 
         if (WalletManager.Instance != null)
             WalletManager.Instance.OnCoinsChanged -= UpdateCoinsUI;
+
+        prestartUI.OnPressed -= () => GameFlowManager.Instance.StartPlaying();
     }
 
+    private void UpdateInfoFields()
+    {
+        coinsText.text = WalletManager.Instance.Coins.ToString(); 
+        healthText.text = BaseManager.Instance.MaxHp.ToString(); 
+    }
+
+    public void Reset()
+    {
+        HideDefeatScreen();
+        ShowPrestart();
+        UpdateInfoFields();
+    }
 }
