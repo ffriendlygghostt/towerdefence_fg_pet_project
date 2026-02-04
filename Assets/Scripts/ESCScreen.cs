@@ -51,9 +51,9 @@ public class ESCScreen : MonoBehaviour
 
     public void Show()
     {
+        if (GameFlowManager.Instance.State != GameState.Playing) return;
         root.SetActive(true);
         GameFlowManager.Instance.EscMenu();
-
     }
 
     public void EscKeyPress(InputAction.CallbackContext ctx)
