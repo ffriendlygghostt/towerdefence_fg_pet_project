@@ -12,6 +12,8 @@ public class ESCScreen : MonoBehaviour
     [SerializeField] private Sprite red_endrunButtonHiglighterSprite;
     [SerializeField] private Sprite red_endrunButtonPressedSprite;
 
+    private bool settingsOn = false;
+
     private Button endrunButton;
     private TMP_Text endrunText;
     private Image endrunImage;
@@ -45,6 +47,11 @@ public class ESCScreen : MonoBehaviour
         {
             ResetEndButton();
         }
+        if (settingsOn)
+        {
+            SettingsMenuController.Instance.Hide();
+            settingsOn = false;
+        }
 
         GameFlowManager.Instance.ReturnPlaying();
     }
@@ -67,7 +74,8 @@ public class ESCScreen : MonoBehaviour
 
     public void SettingsButton()
     {
-        //SettingsManager.Instance.Show();
+        if(!settingsOn) { SettingsMenuController.Instance.Show(); settingsOn = true; }
+        else { SettingsMenuController.Instance.Hide(); settingsOn = false;}
     }
 
     public void EndRunButton()
