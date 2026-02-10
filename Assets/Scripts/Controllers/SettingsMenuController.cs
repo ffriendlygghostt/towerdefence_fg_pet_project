@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SettingsMenuController : MonoBehaviour
+public class SettingsMenuController : Manager<SettingsMenuController>
 {
     [Header("Audio")]
     [SerializeField] private Slider musicSlider;
@@ -29,11 +29,14 @@ public class SettingsMenuController : MonoBehaviour
     private string githubUrl =
     "https://github.com/ffriendlygghostt";
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+
         Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
         InitResolutions();
         ApplySavedSettings();
+        gameObject.SetActive(false);
     }
 
     public void Hide()
