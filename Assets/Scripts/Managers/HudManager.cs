@@ -94,7 +94,7 @@ public class HudManager : Manager<HudManager>
         if (WalletManager.Instance != null)
             WalletManager.Instance.OnCoinsChanged -= UpdateCoinsUI;
 
-        prestartUI.OnPressed -= () => GameFlowManager.Instance.StartPlaying();
+        //prestartUI.OnPressed -= () => GameFlowManager.Instance.StartPlaying();
     }
 
     private void UpdateInfoFields()
