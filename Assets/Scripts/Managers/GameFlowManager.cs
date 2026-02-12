@@ -21,8 +21,6 @@ public class GameFlowManager : Manager<GameFlowManager>
 {
     public GameState State { get; private set; } = GameState.Menu;
 
-    private int currentFloor = 0;
-
     private bool restartLocked = false;
 
     private void Start()
@@ -43,19 +41,20 @@ public class GameFlowManager : Manager<GameFlowManager>
 
     public void StartRun()
     {
-        currentFloor = 1;
+        GameManager.Instance.AddFloor();
         LoadStage();
     }
 
     public void OnStageCompleted()
-    {
+    { 
         State = GameState.ArtifactChoice;
-        //ArtifactUI.Instance.Show();
+        SpeedGameManager.Instance.Pause();
+        HudManager.Instance.ShowStageCompletedCanvas();
     }
 
     public void ContinueAfterArtifact()
     {
-        currentFloor++;
+        GameManager.Instance.AddFloor();
         LoadStage();
     }
 
@@ -70,7 +69,7 @@ public class GameFlowManager : Manager<GameFlowManager>
             {
                 restartLocked = false;
 
-                DifficultyManager.Instance.SetFloor(currentFloor);
+                DifficultyManager.Instance.SetFloor(GameManager.Instance.FloorThisRun);
                 WalletManager.Instance.ResetWallet();
                 BaseManager.Instance.ResetBase();
                 HudManager.Instance.Reset();
@@ -113,7 +112,7 @@ public class GameFlowManager : Manager<GameFlowManager>
     public void LeaveGame()
     {
         if (State == GameState.Loading) return;
-        HudManager.Instance.HideDefeatScreen();
+        //HudManager.Instance.HideDefeatScreen();
         GameManager.Instance.EndRun();
         MenuGame();
     }
