@@ -1135,6 +1135,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "TestW",
+            "id": "d893ec3a-ed72-4372-a6cf-713fd9048aba",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "e1aea41c-7157-4720-b568-f258b3536deb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "72546452-41fb-4655-8778-078bfe24f32f",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

@@ -1,6 +1,7 @@
 using TMPro;
 using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class HudManager : Manager<HudManager>
 {
@@ -9,9 +10,11 @@ public class HudManager : Manager<HudManager>
 
     [SerializeField] private GameObject prestartCanvas;
     [SerializeField] private GameObject defeatScreenCanvas;
+    [SerializeField] private GameObject nextFloorCanvas;
 
     private PrestartUI prestartUI;
     private DefeatScreen defeatScreen;
+    private NextFloorScreen nextFloorScreen;
     
 
     public bool IsHudOn { get; private set; } = false;
@@ -20,6 +23,11 @@ public class HudManager : Manager<HudManager>
     protected override void Awake()
     {
         base.Awake();
+
+        defeatScreen = defeatScreenCanvas.GetComponent<DefeatScreen>();
+        prestartUI = prestartCanvas.GetComponent<PrestartUI>();
+        nextFloorScreen = nextFloorCanvas.GetComponent<NextFloorScreen>();
+
         Hide();
         HideDefeatScreen();
     }
@@ -30,9 +38,6 @@ public class HudManager : Manager<HudManager>
 
         BaseManager.Instance.OnHealthChanged += UpdateHealthUI;
         WalletManager.Instance.OnCoinsChanged += UpdateCoinsUI;
-
-        defeatScreen = defeatScreenCanvas.GetComponent<DefeatScreen>();
-        prestartUI = prestartCanvas.GetComponent<PrestartUI>();
 
         prestartUI.OnPressed += () => GameFlowManager.Instance.StartPlaying();
     }
@@ -86,6 +91,11 @@ public class HudManager : Manager<HudManager>
         defeatScreenCanvas.SetActive(false);
     }
 
+    public void ShowStageCompletedCanvas()
+    {
+        nextFloorScreen.Show();
+    }
+
     private void OnDestroy()
     {
         if (BaseManager.Instance != null)
@@ -106,7 +116,15 @@ public class HudManager : Manager<HudManager>
     public void Reset()
     {
         HideDefeatScreen();
+        nextFloorScreen.Hide();
         ShowPrestart();
         UpdateInfoFields();
+    }
+
+    /// TO DO: Убрать вызов по кнопке
+    public void NextFloorScreen(InputAction.CallbackContext ctx)
+    {
+        if (!ctx.performed) return;
+        GameFlowManager.Instance.OnStageCompleted();
     }
 }

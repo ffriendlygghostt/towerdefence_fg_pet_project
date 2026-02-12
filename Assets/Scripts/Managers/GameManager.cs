@@ -15,6 +15,7 @@ public class GameManager : Manager<GameManager>
     private int scoreThisRun;
     private int wavesCleared;
     private int floorThisRun;
+    public int FloorThisRun => floorThisRun;
 
     private float runTime;
     private bool isRunning = false;
@@ -35,6 +36,13 @@ public class GameManager : Manager<GameManager>
     {
         wavesCleared++;
     }
+
+    public void AddFloor()
+    {
+        floorThisRun++;
+    }
+
+
 
     public void EndRun()
     {
@@ -91,6 +99,7 @@ public class GameManager : Manager<GameManager>
         killsThisRun = 0;
         scoreThisRun = 0;
         wavesCleared = 0;
+        floorThisRun = 0;
     }
 
     public void StartGame()
