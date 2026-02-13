@@ -106,6 +106,7 @@ public class GameFlowManager : Manager<GameFlowManager>
 
         restartLocked = true;
         GameManager.Instance.EndRun();
+        ArtefactManager.Instance.ResetInventory();
         LoadStage();
     }
 
@@ -114,6 +115,7 @@ public class GameFlowManager : Manager<GameFlowManager>
         if (State == GameState.Loading) return;
         //HudManager.Instance.HideDefeatScreen();
         GameManager.Instance.EndRun();
+        ArtefactManager.Instance.ResetInventory();
         MenuGame();
     }
 
@@ -144,3 +146,5 @@ public class GameFlowManager : Manager<GameFlowManager>
         SpeedGameManager.Instance.SetPastSpeed();
     }
 }
+
+
