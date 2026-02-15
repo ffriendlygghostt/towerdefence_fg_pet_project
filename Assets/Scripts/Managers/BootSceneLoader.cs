@@ -63,6 +63,8 @@ public class BootSceneLoader : MonoBehaviour
 
         Scene mainMenuScene = SceneManager.GetSceneByName(startScene);
         SceneLoader.Instance.SetCurrentScene(mainMenuScene);
+        AudioManager.Instance.PlayMusicType(MusicType.Menu);
+
     }
-    
+
 }

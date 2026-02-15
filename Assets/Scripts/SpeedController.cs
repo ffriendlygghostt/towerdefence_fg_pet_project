@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class SpeedController : MonoBehaviour
 {
-    public Button pauseButton;
-    public Button normalButton;
-    public Button _2xButton;
-    public Button _4xButton;
+    public Image pauseButton;
+    public Image normalButton;
+    public Image _2xButton;
+    public Image _4xButton;
 
-    private Button ActiveButton;
+    private Image ActiveButton;
 
     private Color defaultColor;
     private Color inactiveColor = new Color(255, 255, 255, 0.3f);
@@ -18,7 +18,7 @@ public class SpeedController : MonoBehaviour
     private void Start()
     {
         SpeedGameManager.Instance.OnSpeedGameChanged += OnSpeedChanged;
-        defaultColor = pauseButton.image.color;
+        defaultColor = pauseButton.color;
         ActiveButton = pauseButton;
         ButtonOff();
     }
@@ -30,11 +30,11 @@ public class SpeedController : MonoBehaviour
 
     private void ButtonOff()
     {
-        pauseButton.image.color = inactiveColor;
-        normalButton.image.color = inactiveColor;
-        _2xButton.image.color = inactiveColor;
-        _4xButton.image.color = inactiveColor;
-        ActiveButton.image.color = defaultColor;
+        pauseButton.color = inactiveColor;
+        normalButton.color = inactiveColor;
+        _2xButton.color = inactiveColor;
+        _4xButton.color = inactiveColor;
+        ActiveButton.color = defaultColor;
     }
 
     public void OnPause()
@@ -82,7 +82,7 @@ public class SpeedController : MonoBehaviour
 
     public void Key2x(InputAction.CallbackContext ctx)
     {
-        if(ctx.performed) return;
+        if(!ctx.performed) return;
         On2x();
     }
 
