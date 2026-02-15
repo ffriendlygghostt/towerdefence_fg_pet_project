@@ -33,12 +33,6 @@ public class GameFlowManager : Manager<GameFlowManager>
         BaseManager.Instance.OnBaseDestroyed -= Defeat;
     }
 
-    protected override void Awake()
-    {
-        base.Awake();
-
-    }
-
     public void StartRun()
     {
         GameManager.Instance.AddFloor();
@@ -62,6 +56,8 @@ public class GameFlowManager : Manager<GameFlowManager>
     {
         if (State == GameState.Loading) return;
         State = GameState.Loading;
+
+        AudioManager.Instance.StopMusic();
 
         SceneLoader.Instance.LoadScene(
             LevelManager.Instance.GetRandomLevel(),
@@ -88,6 +84,7 @@ public class GameFlowManager : Manager<GameFlowManager>
         HudManager.Instance.HidePrestart();
         GameManager.Instance.StartGame();
         SpeedGameManager.Instance.Resume();
+        AudioManager.Instance.PlayMusicType(MusicType.FightRandom);
     }
 
     public void Defeat()
@@ -130,6 +127,7 @@ public class GameFlowManager : Manager<GameFlowManager>
             { 
                 HudManager.Instance.Hide();
                 State = GameState.Menu;
+                AudioManager.Instance.PlayMusicType(MusicType.Menu);
             }
         );
     }

@@ -10,8 +10,6 @@ public class SettingsMenuController : Manager<SettingsMenuController>
     [Header("Audio")]
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider sfxSlider;
-    private float musicVolume = 1f;
-    private float sfxVolume = 1f;
 
     [Header("Resolution")]
     [SerializeField] private TMP_Dropdown resolutionDropdown;
@@ -35,32 +33,29 @@ public class SettingsMenuController : Manager<SettingsMenuController>
 
         Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
         InitResolutions();
-        ApplySavedSettings();
         gameObject.SetActive(false);
     }
+
+    private void Start() => ApplySavedSettings();
 
     public void Hide()
     {
         gameObject.SetActive(false);
-        SaveSettings();
+        SettingsService.Instance.SaveSettings();
     }
+
     public void Show()
     {
         gameObject.SetActive(true);
         SyncUI();
     }
 
-    public void OnMusicVolumeChanged(float value)
-    {
-        musicVolume = value;
-        // Â האכüםוירול: AudioManager.SetMusicVolume(musicVolume);
-    }
+    public void OnMusicVolumeChanged(float value) =>
+        SettingsService.Instance.SetMusicVolume(value);
 
-    public void OnSFXVolumeChanged(float value)
-    {
-        sfxVolume = value;
-        // Â האכüםוירול: AudioManager.SetSFXVolume(sfxVolume);
-    }
+    public void OnSFXVolumeChanged(float value) => 
+        SettingsService.Instance.SetSFXVolume(value);
+
 
     private void InitResolutions()
     {
@@ -107,20 +102,19 @@ public class SettingsMenuController : Manager<SettingsMenuController>
     {
         musicSlider.value = 1f;
         sfxSlider.value = 1f;
-        musicVolume = 1f;
-        sfxVolume = 1f;
 
-
-        isOnFullScreen = true;
         checkboxImage.sprite = checkedSprite;
         Screen.SetResolution(
             availableResolutions[0].width,
             availableResolutions[0].height,
             Screen.fullScreen = true
             );
+
         resolutionDropdown.value = 0;
         currentResolutionIndex = 0;
         resolutionDropdown.RefreshShownValue();
+
+        SettingsService.Instance.SetDefaultSettings();
     }
 
     public void FullScreenToggle()
@@ -133,33 +127,22 @@ public class SettingsMenuController : Manager<SettingsMenuController>
 
     public void GitHubButton() => Application.OpenURL(githubUrl);
 
-    public void SaveSettings()
-    {
-        var data = SaveManager.Instance.Data.settings;
-        data.musicVolume = musicVolume;
-        data.sfxVolume = sfxVolume;
-        data.isFullScreen = isOnFullScreen;
-        data.resolutionIndex = currentResolutionIndex;
-
-        SaveManager.Instance.Save();
-    }
-
     public void ApplySavedSettings()
     {
-        var data = SaveManager.Instance.Data.settings;
+        var service = SettingsService.Instance;
 
-        OnMusicVolumeChanged(data.musicVolume);
-        OnSFXVolumeChanged(data.sfxVolume);
-        isOnFullScreen = data.isFullScreen;
-        currentResolutionIndex = data.resolutionIndex;
+        musicSlider.value = service.MusicVolume;
+        sfxSlider.value = service.SFXVolume;
 
-        musicSlider.value = musicVolume;
-        sfxSlider.value = sfxVolume;
+        isOnFullScreen = service.IsFullScreen; 
+        currentResolutionIndex = service.ResolutionIndex;
+
+
         checkboxImage.sprite = isOnFullScreen ? checkedSprite : uncheckedSprite;
         Screen.fullScreen = isOnFullScreen;
 
         currentResolutionIndex = Mathf.Clamp(
-            data.resolutionIndex,
+            service.ResolutionIndex,
             0,
             availableResolutions.Length - 1
          );
