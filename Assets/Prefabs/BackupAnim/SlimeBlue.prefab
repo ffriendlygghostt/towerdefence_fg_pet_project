@@ -428,7 +428,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1601
+  m_SortingOrder: -27
   m_Sprite: {fileID: -992287713334782062, guid: f07c1d72fd7da214693729dd3ca4279e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -505,7 +505,7 @@ MonoBehaviour:
   stats: {fileID: 3974281253828785818}
   movement: {fileID: 706001297485667434}
   animationController: {fileID: 2023464000998159065}
-  enemyHealthBar: {fileID: 0}
+  enemyHealthBar: {fileID: 5421753925452255614}
 --- !u!114 &706001297485667434
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -948,7 +948,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 00 10
+  m_text: 00 07
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
   m_sharedMaterial: {fileID: -8972662846373813671, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
@@ -2886,14 +2886,13 @@ MonoBehaviour:
   enemiesToSpawn: 0000000001000000
   countPerEnemy: 2
   spawnDelay: 0.5
-  preWaveDelay: 10.9
-  postWaveDelay: 15
+  preWaveDelay: 7
+  postWaveDelay: 10
   timerWaveCanvas: {fileID: 842055148}
   timerTXT: {fileID: 83554924}
-  waveHud: {fileID: 1464821978}
   skullPreviewPrefab: {fileID: 4187537921951697852, guid: 146895a781c7d014a874f0f3d37789bc, type: 3}
-  previewRepeatDelay: 0.7
-  previewSpawnDelay: 0.03
+  previewRepeatDelay: 1
+  previewSpawnDelay: 0.02
 --- !u!4 &376136346
 Transform:
   m_ObjectHideFlags: 0

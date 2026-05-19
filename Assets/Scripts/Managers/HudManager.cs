@@ -12,9 +12,12 @@ public class HudManager : Manager<HudManager>
     [SerializeField] private GameObject defeatScreenCanvas;
     [SerializeField] private GameObject nextFloorCanvas;
 
+    [SerializeField] private WaveHud waveHud;
+
     private PrestartUI prestartUI;
     private DefeatScreen defeatScreen;
     private NextFloorScreen nextFloorScreen;
+    
     
 
     public bool IsHudOn { get; private set; } = false;
@@ -27,6 +30,7 @@ public class HudManager : Manager<HudManager>
         defeatScreen = defeatScreenCanvas.GetComponent<DefeatScreen>();
         prestartUI = prestartCanvas.GetComponent<PrestartUI>();
         nextFloorScreen = nextFloorCanvas.GetComponent<NextFloorScreen>();
+        if (waveHud == null) { waveHud = GetComponent<WaveHud>(); }
 
         Hide();
         HideDefeatScreen();
@@ -126,5 +130,14 @@ public class HudManager : Manager<HudManager>
     {
         if (!ctx.performed) return;
         GameFlowManager.Instance.OnStageCompleted();
+    }
+
+    public void SetTotalWaveIcons(int totalwave)
+    {
+        waveHud.Init(totalwave);
+    }
+    public void SetCurrentWaveIcon(int wave)
+    {
+        waveHud.SetCurrentWave(wave);
     }
 }

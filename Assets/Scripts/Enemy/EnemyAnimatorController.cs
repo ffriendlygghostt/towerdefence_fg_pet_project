@@ -35,7 +35,7 @@ public class EnemyAnimatorController : MonoBehaviour
     {
         if (animator == null) { animator = GetComponent<Animator>(); }
         if (spriteRenderer == null) { spriteRenderer = GetComponent<SpriteRenderer>(); }
-        baseColor = spriteRenderer.color;
+        if (spriteRenderer != null) { baseColor = spriteRenderer.color; }
     }
 
     private void PlayAnimation()

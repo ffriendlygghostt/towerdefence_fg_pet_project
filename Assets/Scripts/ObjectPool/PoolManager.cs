@@ -9,9 +9,8 @@ public class PoolManager : Manager<PoolManager>
 
     private Transform poolsRoot;
 
-    protected virtual void Awake()
+    private void Start()
     {
-        base.Awake();
 
         poolsRoot = new GameObject("Pools").transform;
         poolsRoot.SetParent(transform);

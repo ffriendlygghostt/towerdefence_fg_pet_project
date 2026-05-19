@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 public class ObjectPool : MonoBehaviour
 {
     private GameObject prefab;
@@ -35,6 +36,8 @@ public class ObjectPool : MonoBehaviour
         }
 
         GameObject obj = pool.Dequeue();
+        obj.transform.SetParent(null);
+        SceneManager.MoveGameObjectToScene(obj, SceneManager.GetActiveScene());
         obj.SetActive(true);
 
         return obj;
@@ -43,6 +46,8 @@ public class ObjectPool : MonoBehaviour
     public void Return(GameObject obj)
     {
         obj.SetActive(false);
+        SceneManager.MoveGameObjectToScene(obj, gameObject.scene);
+        obj.transform.SetParent(parent);
         pool.Enqueue(obj);
     }
 }

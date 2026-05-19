@@ -71,6 +71,7 @@ public class GameFlowManager : Manager<GameFlowManager>
                 HudManager.Instance.Reset();
                 HudManager.Instance.Show();
                 State = GameState.Prestart;
+                EnemySpawnerManager.Instance.SceneEnabled(5); // Если понадобиться, можно получать максимальное количество волн из менеджера сложности
             },
             () => { HudManager.Instance.ShowPrestartButton(); }
         );
@@ -85,6 +86,9 @@ public class GameFlowManager : Manager<GameFlowManager>
         GameManager.Instance.StartGame();
         SpeedGameManager.Instance.Resume();
         AudioManager.Instance.PlayMusicType(MusicType.FightRandom);
+
+        // TO DO: переместить спавн
+        EnemySpawnerManager.Instance.StartSpawning();
     }
 
     public void Defeat()

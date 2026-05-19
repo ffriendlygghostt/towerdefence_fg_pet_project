@@ -161,7 +161,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1530
+  m_SortingOrder: 32
   m_Sprite: {fileID: 6808733625049879353, guid: 151d13a1362686445bc7c7d6222052e0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -238,7 +238,7 @@ MonoBehaviour:
   stats: {fileID: 5252310779321485646}
   movement: {fileID: 4978966581208103937}
   animationController: {fileID: 31500339345293315}
-  enemyHealthBar: {fileID: 0}
+  enemyHealthBar: {fileID: 1773263209010271869}
 --- !u!114 &4978966581208103937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthBar
   slider: {fileID: 8491779906778311706}
-  canvas: {fileID: 0}
+  canvas: {fileID: 4367287187322743236}
 --- !u!1 &6230433054247671574
 GameObject:
   m_ObjectHideFlags: 0
