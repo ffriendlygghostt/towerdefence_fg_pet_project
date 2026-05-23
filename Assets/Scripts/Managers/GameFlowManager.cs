@@ -71,6 +71,8 @@ public class GameFlowManager : Manager<GameFlowManager>
                 HudManager.Instance.Reset();
                 HudManager.Instance.Show();
                 State = GameState.Prestart;
+                EnemySpawnerManager.Instance.StopSpawning();
+                EnemySpawnerManager.Instance.SceneEnabled(5); // Если понадобиться, можно получать максимальное количество волн из менеджера сложности
             },
             () => { HudManager.Instance.ShowPrestartButton(); }
         );
@@ -85,6 +87,8 @@ public class GameFlowManager : Manager<GameFlowManager>
         GameManager.Instance.StartGame();
         SpeedGameManager.Instance.Resume();
         AudioManager.Instance.PlayMusicType(MusicType.FightRandom);
+
+        EnemySpawnerManager.Instance.StartSpawning();
     }
 
     public void Defeat()
@@ -94,6 +98,7 @@ public class GameFlowManager : Manager<GameFlowManager>
         SpeedGameManager.Instance.Pause();
         HudManager.Instance.ShowDefeatScreen();
         GameManager.Instance.EndTimer();
+        EnemySpawnerManager.Instance.StopSpawning();
     }
 
     public void RestartGame()
@@ -104,6 +109,7 @@ public class GameFlowManager : Manager<GameFlowManager>
         restartLocked = true;
         GameManager.Instance.EndRun();
         ArtefactManager.Instance.ResetInventory();
+        EnemySpawnerManager.Instance.StopSpawning();
         LoadStage();
     }
 
@@ -113,6 +119,7 @@ public class GameFlowManager : Manager<GameFlowManager>
         //HudManager.Instance.HideDefeatScreen();
         GameManager.Instance.EndRun();
         ArtefactManager.Instance.ResetInventory();
+        EnemySpawnerManager.Instance.StopSpawning();
         MenuGame();
     }
 
@@ -121,7 +128,8 @@ public class GameFlowManager : Manager<GameFlowManager>
         State = GameState.Loading;
 
         SpeedGameManager.Instance.Pause();
-        
+        EnemySpawnerManager.Instance.StopSpawning();
+
         SceneLoader.Instance.LoadScene("MainMenu",
             () => 
             { 

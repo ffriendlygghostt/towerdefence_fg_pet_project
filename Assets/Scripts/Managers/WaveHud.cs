@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,10 +13,6 @@ public class WaveHud : MonoBehaviour
 
     private List<Image> icons = new();
 
-    private void Awake()
-    {
-        Clear();
-    }
 
     public void Init(int totalWaves)
     {
@@ -45,7 +40,7 @@ public class WaveHud : MonoBehaviour
     {
         foreach (var icon in icons)
         {
-            Destroy(icon);
+            Destroy(icon.gameObject);
         }
         icons.Clear();
     }

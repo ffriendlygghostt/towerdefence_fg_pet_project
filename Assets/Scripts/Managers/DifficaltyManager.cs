@@ -7,18 +7,20 @@ public class DifficultyManager : Manager<DifficultyManager>
     public float SpeedMultiplier { get; private set; } = 1f;
     public float CoinMultiplier { get; private set; } = 1f;
 
-    private void Awake()
-    {
-        base.Awake();
-    }
+    public int baseWeight = 2000;
+    public int WeightWaves { get; private set; } = 2000;
+
+    public float WavePressureMultiplier { get; private set; } = 1f;
 
     public void SetFloor(int floor)
     {
         if (floor <= 20)
         {
-            HpMultiplier = 1f + 0.10f * floor; //10%
-            SpeedMultiplier = 1f + 0.03f * floor; //3%
+            HpMultiplier = 1f + 0.07f * floor; //7%
+            SpeedMultiplier = 1f + 0.025f * floor; //2.5%
             CoinMultiplier = 1f + 0.25f * floor; //25%
+            WavePressureMultiplier = 1f + floor * 0.05f;
+            WeightWaves = Mathf.RoundToInt(baseWeight * WavePressureMultiplier);
         }
         else
         {

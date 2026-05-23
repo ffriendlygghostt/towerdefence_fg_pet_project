@@ -948,7 +948,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 00:10
+  m_text: 00 07
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
   m_sharedMaterial: {fileID: -8972662846373813671, guid: 9cd63b3a42edd40419d469649779af17, type: 2}
@@ -2885,15 +2885,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawnerManager
   enemiesToSpawn: 0000000001000000
   countPerEnemy: 2
-  spawnDelay: 3.33
-  preWaveDelay: 10.9
-  postWaveDelay: 15
+  spawnDelay: 0.5
+  preWaveDelay: 7
+  postWaveDelay: 10
   timerWaveCanvas: {fileID: 842055148}
   timerTXT: {fileID: 83554924}
-  waveHud: {fileID: 1464821978}
   skullPreviewPrefab: {fileID: 4187537921951697852, guid: 146895a781c7d014a874f0f3d37789bc, type: 3}
-  previewRepeatDelay: 0.7
-  previewSpawnDelay: 0.03
+  previewRepeatDelay: 1
+  previewSpawnDelay: 0.02
 --- !u!4 &376136346
 Transform:
   m_ObjectHideFlags: 0
@@ -12038,66 +12037,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412257695}
   m_CullTransparentMesh: 1
---- !u!1 &1429195705
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1429195707}
-  - component: {fileID: 1429195706}
-  m_Layer: 0
-  m_Name: WaveGenerator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1429195706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1429195705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c98ecbddeb0d64a44959b6a78608179b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WaveGenerator
-  enemyPrefabs:
-  - {fileID: 8752825857487429319, guid: 49e3177a6c9442d4fb995a3bd178ef7c, type: 3}
-  - {fileID: 142533312117953133, guid: 6395a5dc2081c994f86affeaeae575f4, type: 3}
-  - {fileID: 6911458450940446947, guid: 113d903e7f98bda4d987cfdacb0cf051, type: 3}
-  - {fileID: 6164704029593908900, guid: f1f7cf812b505434f81b3015d1c4da29, type: 3}
-  - {fileID: 3150284453676596410, guid: 16cd6ef48704743498a3e6df5b049f97, type: 3}
-  - {fileID: 4996189799037376220, guid: aabd69697dc76074c8dd898febee230c, type: 3}
-  - {fileID: 815966964149418772, guid: aa7368ca806d26f48a937cb662fd80db, type: 3}
-  - {fileID: 6680216423384592827, guid: d2e45edbf60aad74aad468ebc0ff0a4d, type: 3}
-  - {fileID: 547864886904598100, guid: 19a99bb2ededf594d89042ddad4085e1, type: 3}
-  - {fileID: 1908125178623194086, guid: 4381c1bb73619cb40aa54ca102daea24, type: 3}
-  - {fileID: 7899524082098217762, guid: 38debdd0733fe854bb1ff13d36dc1d54, type: 3}
-  - {fileID: 8318246696142876268, guid: 83da4b7a29b740e44ab9ca665d8bc8ad, type: 3}
-  - {fileID: 6916430426290554543, guid: f9a741e25c2ea354e9397b9b626d8ba0, type: 3}
-  - {fileID: 8749029512408134973, guid: ca97d1a97e08db84492cdd3775a0a3e8, type: 3}
-  - {fileID: 5032453704916805732, guid: 6fd3d21c553e9c148adf77fb8ad8fa66, type: 3}
---- !u!4 &1429195707
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1429195705}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 845.97595, y: 448.59857, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1434994985
 GameObject:
   m_ObjectHideFlags: 0
@@ -19329,4 +19268,3 @@ SceneRoots:
   - {fileID: 1324358290}
   - {fileID: 313734401}
   - {fileID: 376136346}
-  - {fileID: 1429195707}
