@@ -534,6 +534,8 @@ MonoBehaviour:
   damage: 150
   speedAnimator: 1
   type: 14
+  role: 0
+  cost: 300
   currentHealth: 0
   difficultyLevel: 1
 --- !u!114 &461778487053326093

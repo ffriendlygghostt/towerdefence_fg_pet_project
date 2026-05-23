@@ -511,7 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72188c7ce2d2b29458d30d02d6e57abb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
-  enemyName: Slime-Green
+  enemyName: Slime_Green
   maxHealth: 40
   baseMaxHealth: 40
   moveSpeed: 0.3
@@ -522,6 +522,8 @@ MonoBehaviour:
   damage: 5
   speedAnimator: 1
   type: 2
+  role: 7
+  cost: 8
   currentHealth: 0
   difficultyLevel: 1
 --- !u!114 &1086024254516524081

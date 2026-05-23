@@ -15,6 +15,8 @@ public class EnemyStats : MonoBehaviour
     public float damage = 10f;
     public float speedAnimator = 1f;
     public EnemyType type;
+    public EnemyRoleTier role;
+    public int cost = 0;
 
     [HideInInspector] public float currentHealth;
     [HideInInspector] public int difficultyLevel = 1;

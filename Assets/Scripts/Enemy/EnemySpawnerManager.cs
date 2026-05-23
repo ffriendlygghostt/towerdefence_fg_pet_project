@@ -8,7 +8,7 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
     [Header("Demo Spawn Settings")]
     [SerializeField] private EnemyType[] enemiesToSpawn;
     [SerializeField] private int countPerEnemy = 2;
-    [SerializeField] private float spawnDelay = 0.5f;
+    [SerializeField] private float spawnDelay = 1.33f;
 
     [Header("Wave Timings")]
     [SerializeField] private float preWaveDelay = 10f;
@@ -48,6 +48,8 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
         maxWave = MaxWave;
 
         waveHud.Init(maxWave);
+
+        WaveGenerator.Instance.InitializationGenerator(maxWave, DifficultyManager.Instance.WeightWaves);
     }
 
     // -------------------------
@@ -67,12 +69,17 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
 
     public void StopSpawning()
     {
+        if (!isSpawning && waveLoopCoroutine == null)
+            return;
+
         isSpawning = false;
         if(waveLoopCoroutine != null)
         {
             StopCoroutine(waveLoopCoroutine);
             waveLoopCoroutine = null;
         }
+
+        CurrentWave = 0;
         ShowWaveTimer(false);
     }
 
@@ -85,6 +92,11 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
         while (isSpawning && CurrentWave != maxWave)
         {
             CurrentWave++;
+            if(CurrentWave == maxWave)
+            {
+                isSpawning = false;
+            }
+
             currentWavePathIndexes = GetPathsForWave();
 
             waveHud.SetCurrentWave(CurrentWave);
@@ -95,6 +107,9 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
 
             yield return StartCoroutine(PostWaveDelay());
         }
+
+        waveLoopCoroutine = null;
+        ShowWaveTimer(false);
     }
 
     // -------------------------
@@ -185,7 +200,14 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
 
     private IEnumerator SpawnWave()
     {
-        List<EnemyType> waveEnemies = BuildWaveEnemyList();
+        List<EnemyType> waveEnemies = 
+            WaveGenerator.Instance.GetEnemyWaveList(CurrentWave-1);
+
+        if (waveEnemies == null || waveEnemies.Count == 0)
+        {
+            Debug.LogWarning("Wave is empty!");
+            yield break;
+        }
 
         foreach (var enemyType in waveEnemies)
         {
@@ -193,20 +215,6 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
 
             yield return WaitScaled(spawnDelay);
         }
-    }
-
-    private List<EnemyType> BuildWaveEnemyList()
-    {
-        List<EnemyType> result = new List<EnemyType>();
-
-        foreach (var type in enemiesToSpawn)
-        {
-            for (int i = 0; i < countPerEnemy; i++)
-            {
-                result.Add(type);
-            }
-        }
-        return result;
     }
 
     // -------------------------
