@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -42,21 +41,29 @@ public class NextFloorScreen : MonoBehaviour
         ArtefactManager.Instance.EquipArtefact(selectedArtefactSO);
         GameFlowManager.Instance.ContinueAfterArtifact();
     }
-    public void EndRunButton() =>
-        GameFlowManager.Instance.LeaveGame();
+    public void EndRunButton()
+    {
+        GameFlowManager.Instance.Defeat();
+        Hide();
+    }
+
 
     public void LoadNewItems()
     {
-        ClearPanes();
+        ClearPanels();
         var items = ArtefactManager.Instance.GetRandomArtefacts(itemAmount);
 
         int count = Mathf.Min(items.Count, itemPanels.Count);
+        if (count < 1)
+        {
+            Debug.LogError("Not a single item was received from the ArtefactManager.");
+        }
         for (int i = 0; i < count; i++)
         {
             itemPanels[i].Initialize(items[i]);
         }
     }
-    private void ClearPanes()
+    private void ClearPanels()
     {
         foreach (var item in itemPanels)
         {
@@ -65,29 +72,25 @@ public class NextFloorScreen : MonoBehaviour
         selectedPanel = null;
         selectedArtefactSO = null;
         continueButton.interactable = false;
-        
     }
     // Метод не очищает панели как объекты, поэтому отписки пока не требуются.
     // Панели по стандарту будет три. Для игры этого может быть достаточно (даже вне рамок демо).
     // Однако, логику можно будет слегка изменить, чтобы допустить возможность менять количество панелей
     //     динамически, по ходу забега. В таком случае отписки следует добавить сюда.
-
-
     private void ClickedPanel(ItemPanel panel)
     {
         if (panel == selectedPanel) { return; }
         selectedPanel = panel;
         continueButton.interactable = true;
-        
+
         foreach (var item in itemPanels)
         {
-            if (selectedPanel == item) 
-            { 
+            if (selectedPanel == item)
+            {
                 selectedPanel.SetSelected(true);
                 selectedArtefactSO = selectedPanel.GetArtefact();
             }
             else item.SetSelected(false);
         }
     }
-
 }

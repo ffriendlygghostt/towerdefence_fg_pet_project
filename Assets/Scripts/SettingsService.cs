@@ -10,7 +10,7 @@ public class SettingsService : Manager<SettingsService>
 
     public event Action<float> OnMusicVolumeChanged;
     public event Action<float> OnSFXVolumeChanged;
-    public event Action<bool> OnIsFullScreenChanged; 
+    public event Action<bool> OnIsFullScreenChanged;
     public event Action<int> OnResolutionIndexChanged;
 
     private void Start()
@@ -32,12 +32,12 @@ public class SettingsService : Manager<SettingsService>
         if (Mathf.Abs(MusicVolume - value) < 0.001f) return;
 
         MusicVolume = value;
-        OnMusicVolumeChanged?.Invoke(value); 
+        OnMusicVolumeChanged?.Invoke(value);
     }
 
     public void SetSFXVolume(float value)
     {
-        if (Math.Abs(SFXVolume - value) < 0.001f) return;
+        if (Mathf.Abs(SFXVolume - value) < 0.001f) return;
 
         SFXVolume = value;
         OnSFXVolumeChanged?.Invoke(value);
@@ -45,12 +45,14 @@ public class SettingsService : Manager<SettingsService>
 
     public void SetIsFullScreen(bool value)
     {
+        if (IsFullScreen == value) return;
         IsFullScreen = value;
         OnIsFullScreenChanged?.Invoke(value);
     }
 
     public void SetResolutionChanged(int value)
     {
+        if (ResolutionIndex == value) return;
         ResolutionIndex = value;
         OnResolutionIndexChanged?.Invoke(value);
     }

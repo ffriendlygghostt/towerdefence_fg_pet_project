@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ArtefactINFGroup
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: ArtefactINFGroup
+  m_GUID: 3569eba05c2fb014086df2f7af90f543
+  m_SerializeEntries:
+  - m_GUID: 16152a5bc65139a4a98167ccb26c10a1
+    m_Address: Assets/Scripts/Artefacts/Infinity/Zaglushka.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ArtefactINF
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d10c50822419b0d4dbd77334cd74d9bf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 39e8a31d93ab709428d17ed901cf6af0, type: 2}
+    - {fileID: 11400000, guid: 65b87400ff3404646937f817361f4220, type: 2}

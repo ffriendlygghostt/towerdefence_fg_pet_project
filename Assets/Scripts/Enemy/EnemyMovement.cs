@@ -17,6 +17,8 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private Vector3 targetPoint;
     [SerializeField] private bool isMoving = false;
 
+    public Action OnFinishedPath;
+
     public EnemyDirection GetCurrentDirection() => currentDirection;
 
 
@@ -62,6 +64,9 @@ public class EnemyMovement : MonoBehaviour
             if (currentZoneIndex >= pathZones.Length)
             {
                 StopMovement();
+
+                OnFinishedPath?.Invoke();
+
                 return;
             }
             SetNextTarget();

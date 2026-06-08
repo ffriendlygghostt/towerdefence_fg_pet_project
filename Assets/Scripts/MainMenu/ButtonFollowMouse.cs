@@ -9,7 +9,6 @@ public class ButtonFollowMouse : MonoBehaviour, IPointerEnterHandler, IPointerEx
     [Header("Settings")]
     [SerializeField] public float moveAmount = 10f;
     [SerializeField] public float smoothTime = 0.1f;
-    [SerializeField] public Camera camera;
 
     private RectTransform rectTransform;
     private Vector3 originalPosition;
@@ -32,12 +31,20 @@ public class ButtonFollowMouse : MonoBehaviour, IPointerEnterHandler, IPointerEx
 #else
             mousePos = Input.mousePosition;
 #endif
+            Canvas rootCanvas = rectTransform.root.GetComponent<Canvas>();
+            Camera uiCamera = null;
+
+            if (rootCanvas != null && rootCanvas.renderMode == RenderMode.ScreenSpaceCamera)
+            {
+                uiCamera = rootCanvas.worldCamera;
+            }
+
 
             Vector2 localMousePos;
             RectTransformUtility.ScreenPointToLocalPointInRectangle(
                 rectTransform,
                 mousePos,
-                camera,
+                uiCamera,
                 out localMousePos
                 );
 

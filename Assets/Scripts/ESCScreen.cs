@@ -1,5 +1,7 @@
+using System.Runtime.ExceptionServices;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
@@ -36,10 +38,10 @@ public class ESCScreen : MonoBehaviour
         redState.highlightedSprite = red_endrunButtonHiglighterSprite;
         redState.pressedSprite = red_endrunButtonPressedSprite;
 
-        Hide();
+        root.SetActive(false);
     }
     
-
+    
     public void Hide()
     {
         root.SetActive(false);
@@ -66,16 +68,32 @@ public class ESCScreen : MonoBehaviour
     public void EscKeyPress(InputAction.CallbackContext ctx)
     {
         if (!ctx.performed) return;
-        if (root.activeSelf) { Hide(); }
-        else            { Show(); }
+        if (root.activeSelf) 
+        { 
+            Hide(); 
+            if (settingsOn)
+                SettingsMenuController.Instance.Hide(); 
+        }
+        else
+        { 
+            Show();
+        }
     }
 
     public void ReturnButton() => Hide();
 
     public void SettingsButton()
     {
-        if(!settingsOn) { SettingsMenuController.Instance.Show(); settingsOn = true; }
-        else { SettingsMenuController.Instance.Hide(); settingsOn = false;}
+        if (!SettingsMenuController.Instance.isActiveAndEnabled)
+        {
+            SettingsMenuController.Instance.Show();
+            settingsOn = true;
+        }
+        else if (SettingsMenuController.Instance.isActiveAndEnabled)
+        {
+            SettingsMenuController.Instance.Hide();
+            settingsOn = false;
+        }
     }
 
     public void EndRunButton()

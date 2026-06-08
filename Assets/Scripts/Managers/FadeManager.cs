@@ -12,6 +12,8 @@ public class FadeManager : Manager<FadeManager>
     private float defaultDuration = 1.5f;
     [SerializeField] private Color defaultColor = Color.black;
 
+    public float delayBlackScreen = 1f;
+
     private Coroutine currentFade;
 
     protected override void Awake()
@@ -77,7 +79,7 @@ public class FadeManager : Manager<FadeManager>
 
         float time = 0f;
         float start = fadeCanvas.alpha;
-        float end = fadeOut ? 1.5f : 0f;
+        float end = fadeOut ? 1f : 0f;
 
         if (duration <= 0)
         {
@@ -95,6 +97,7 @@ public class FadeManager : Manager<FadeManager>
         if (!fadeOut)
         {
             fadeCanvas.blocksRaycasts = false;
+            yield return new WaitForSeconds(delayBlackScreen);
         }
 
         onComplete?.Invoke();
