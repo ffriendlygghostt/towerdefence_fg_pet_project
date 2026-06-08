@@ -23,17 +23,19 @@ public class EnemyAnimatorController : MonoBehaviour
     private float fadeDuration = 1.5f;
     private Coroutine fadeOutCoroutine;
 
+    public event Action OnDeathAnimationFinished;
+
 
     private void OnEnable()
     {
         ReturnBaseColor();
-        SpeedGameManager.Instance.OnSpeedGameChanged += SetAnimatorSpeed;
+        SpeedGameManager.Instance.OnSpeedGameChanged += AnimatorSpeedAdapter;
     }
     private void Awake()
     {
         if (animator == null) { animator = GetComponent<Animator>(); }
         if (spriteRenderer == null) { spriteRenderer = GetComponent<SpriteRenderer>(); }
-        baseColor = spriteRenderer.color;
+        if (spriteRenderer != null) { baseColor = spriteRenderer.color; }
     }
 
     private void PlayAnimation()
@@ -109,15 +111,28 @@ public class EnemyAnimatorController : MonoBehaviour
         animator.speed = 1f * SpeedGameManager.Instance.SpeedMultiplier;
     }
 
+    private void AnimatorSpeedAdapter(GameSpeed speedType)
+    {
+        float newSpeed = speedType switch
+        {
+            GameSpeed.Pause => 0f,
+            GameSpeed.X1 => 1f,
+            GameSpeed.X2 => 2f,
+            GameSpeed.X4 => 4f,
+            _ => 1f
+        };
+
+        SetAnimatorSpeed(newSpeed);
+    }
+
     private void SetAnimatorSpeed(float newSpeed)
     {
         animator.speed = newSpeed;
     }
 
-    private void OnDisable()
-    {
-        SpeedGameManager.Instance.OnSpeedGameChanged -= SetAnimatorSpeed;
-    }
+    
+
+    
 
     public void PlayHitFlash()
     {
@@ -161,10 +176,18 @@ public class EnemyAnimatorController : MonoBehaviour
 
         color.a = 0f;
         spriteRenderer.color = color;
+
+        fadeOutCoroutine = null;
+        OnDeathAnimationFinished?.Invoke();
     }
 
     public void ReturnBaseColor()
     {
         spriteRenderer.color = baseColor;
+    }
+
+    private void OnDisable()
+    {
+        SpeedGameManager.Instance.OnSpeedGameChanged -= AnimatorSpeedAdapter;
     }
 }

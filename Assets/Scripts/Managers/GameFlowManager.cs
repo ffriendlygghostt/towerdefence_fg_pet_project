@@ -1,5 +1,8 @@
+using System;
+using Unity.Android.Gradle;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public enum GameState 
@@ -7,41 +10,146 @@ public enum GameState
     Menu,
     Loading,
     Playing,
-    ArtifactChoice
+    ArtifactChoice,
+    Defeat,
+    Prestart,
+    EscMenu
 }
 
 
 public class GameFlowManager : Manager<GameFlowManager>
 {
-    public GameState State { get; private set; }
+    public GameState State { get; private set; } = GameState.Menu;
 
-    private int currentFloor = 0;
+    private bool restartLocked = false;
+
+    private void Start()
+    {
+        BaseManager.Instance.OnBaseDestroyed += Defeat;
+    }
+
+    private void OnDisable()
+    {
+        BaseManager.Instance.OnBaseDestroyed -= Defeat;
+    }
 
     public void StartRun()
     {
-        currentFloor = 1;
+        GameManager.Instance.AddFloor();
         LoadStage();
     }
 
     public void OnStageCompleted()
-    {
+    { 
         State = GameState.ArtifactChoice;
-        //ArtifactUI.Instance.Show();
+        SpeedGameManager.Instance.Pause();
+        HudManager.Instance.ShowStageCompletedCanvas();
     }
 
     public void ContinueAfterArtifact()
     {
-        currentFloor++;
+        GameManager.Instance.AddFloor();
         LoadStage();
     }
 
     private void LoadStage()
     {
+        if (State == GameState.Loading) return;
         State = GameState.Loading;
-        FadeManager.FadeOutThen(() =>
-        {
-            DifficultyManager.Instance.SetFloor(currentFloor);
-            SceneLoader.Instance.LoadScene(LevelManager.Instance.GetRandomLevel());
-        });
+
+        AudioManager.Instance.StopMusic();
+
+        SceneLoader.Instance.LoadScene(
+            LevelManager.Instance.GetRandomLevel(),
+            () =>
+            {
+                restartLocked = false;
+
+                DifficultyManager.Instance.SetFloor(GameManager.Instance.FloorThisRun);
+                WalletManager.Instance.ResetWallet();
+                BaseManager.Instance.ResetBase();
+                HudManager.Instance.Reset();
+                HudManager.Instance.Show();
+                State = GameState.Prestart;
+                EnemySpawnerManager.Instance.StopSpawning();
+                EnemySpawnerManager.Instance.SceneEnabled(5); // Если понадобиться, можно получать максимальное количество волн из менеджера сложности
+            },
+            () => { HudManager.Instance.ShowPrestartButton(); }
+        );
+    }
+
+    public void StartPlaying()
+    {
+        if (State != GameState.Prestart) return;
+
+        State = GameState.Playing;
+        GameManager.Instance.StartGame();
+        SpeedGameManager.Instance.Resume();
+        AudioManager.Instance.PlayMusicType(MusicType.FightRandom);
+
+        EnemySpawnerManager.Instance.StartSpawning();
+    }
+
+    public void Defeat()
+    {
+        State = GameState.Defeat;
+
+        SpeedGameManager.Instance.Pause();
+        HudManager.Instance.ShowDefeatScreen();
+        GameManager.Instance.EndTimer();
+        EnemySpawnerManager.Instance.StopSpawning();
+    }
+
+    public void RestartGame()
+    {
+        if (restartLocked) return;
+        if (State != GameState.Defeat) return;
+
+        restartLocked = true;
+        GameManager.Instance.EndRun();
+        ArtefactManager.Instance.ResetInventory();
+        EnemySpawnerManager.Instance.StopSpawning();
+        LoadStage();
+    }
+
+    public void LeaveGame()
+    {
+        if (State == GameState.Loading) return;
+        //HudManager.Instance.HideDefeatScreen();
+        GameManager.Instance.EndRun();
+        ArtefactManager.Instance.ResetInventory();
+        EnemySpawnerManager.Instance.StopSpawning();
+        MenuGame();
+    }
+
+    public void MenuGame()
+    {
+        State = GameState.Loading;
+
+        SpeedGameManager.Instance.Pause();
+        EnemySpawnerManager.Instance.StopSpawning();
+
+        SceneLoader.Instance.LoadScene("MainMenu",
+            () => 
+            { 
+                HudManager.Instance.Hide();
+                State = GameState.Menu;
+                AudioManager.Instance.PlayMusicType(MusicType.Menu);
+            }
+        );
+    }
+
+    public void EscMenu()
+    {
+        State = GameState.EscMenu;
+        SpeedGameManager.Instance.Pause();
+    }
+
+    public void ReturnPlaying()
+    {
+        State = GameState.Playing;
+        SpeedGameManager.Instance.SetPastSpeed();
     }
 }
+
+

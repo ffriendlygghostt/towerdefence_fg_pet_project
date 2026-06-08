@@ -17,6 +17,8 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private Vector3 targetPoint;
     [SerializeField] private bool isMoving = false;
 
+    public Action OnFinishedPath;
+
     public EnemyDirection GetCurrentDirection() => currentDirection;
 
 
@@ -40,7 +42,6 @@ public class EnemyMovement : MonoBehaviour
         {
             SetNextTarget();
         }
-        StopMovement();
     }
 
     private void Update()
@@ -63,6 +64,9 @@ public class EnemyMovement : MonoBehaviour
             if (currentZoneIndex >= pathZones.Length)
             {
                 StopMovement();
+
+                OnFinishedPath?.Invoke();
+
                 return;
             }
             SetNextTarget();
@@ -94,7 +98,6 @@ public class EnemyMovement : MonoBehaviour
         {
             SetNextTarget();
         }
-        isMoving = false;
     }
 
     private void UpdateAnimations(Vector3 direction)
@@ -130,7 +133,6 @@ public class EnemyMovement : MonoBehaviour
     {
         currentDirection = EnemyDirection.Left;
         moveSpeed = controller.GetMoveSpeed();
-        StopMovement();
     }
 
     private void OnDisable()

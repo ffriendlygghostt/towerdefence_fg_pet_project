@@ -465,7 +465,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1602
+  m_SortingOrder: -29
   m_Sprite: {fileID: 7935988641328174447, guid: 6c8db0d104570d4408d68cf3502a89a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -511,7 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72188c7ce2d2b29458d30d02d6e57abb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
-  enemyName: Slime-Green
+  enemyName: Slime_Green
   maxHealth: 40
   baseMaxHealth: 40
   moveSpeed: 0.3
@@ -522,6 +522,8 @@ MonoBehaviour:
   damage: 5
   speedAnimator: 1
   type: 2
+  role: 7
+  cost: 8
   currentHealth: 0
   difficultyLevel: 1
 --- !u!114 &1086024254516524081
@@ -558,7 +560,7 @@ MonoBehaviour:
   stats: {fileID: 1327841496536199370}
   movement: {fileID: 1086024254516524081}
   animationController: {fileID: 1803106197212913509}
-  enemyHealthBar: {fileID: 0}
+  enemyHealthBar: {fileID: 5919935277218401193}
 --- !u!114 &1803106197212913509
 MonoBehaviour:
   m_ObjectHideFlags: 0

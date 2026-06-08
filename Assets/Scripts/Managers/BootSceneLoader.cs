@@ -60,6 +60,11 @@ public class BootSceneLoader : MonoBehaviour
 
         SceneManager.SetActiveScene(SceneManager.GetSceneByName(startScene));
         foreach (var clearObject in clearObjects) { Destroy(clearObject); }
+
+        Scene mainMenuScene = SceneManager.GetSceneByName(startScene);
+        SceneLoader.Instance.SetCurrentScene(mainMenuScene);
+        AudioManager.Instance.PlayMusicType(MusicType.Menu);
+
     }
-    
+
 }

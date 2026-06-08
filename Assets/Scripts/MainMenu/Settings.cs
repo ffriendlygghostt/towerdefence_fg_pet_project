@@ -1,18 +1,19 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Settings : MonoBehaviour
 {
-    public Canvas settingsCanvas;
-
     public void SettingsClick()
     {
-        if (settingsCanvas == null)
+        if (!SettingsMenuController.Instance.isActiveAndEnabled)
         {
-            settingsCanvas.enabled = true;
+            SettingsMenuController.Instance.Show();
         }
-        else
+        else if (SettingsMenuController.Instance.isActiveAndEnabled)
         {
-            Debug.LogWarning("No SettingsCanvas!");
+            SettingsMenuController.Instance.Hide();
         }
     }
+        
 }

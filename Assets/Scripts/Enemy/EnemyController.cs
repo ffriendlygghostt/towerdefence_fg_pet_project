@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using UnityEngine;
-
 public class EnemyController : MonoBehaviour, IPoolIdentity
 {
     [SerializeField] private EnemyStats stats;
@@ -9,10 +8,13 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
     [SerializeField] private EnemyAnimatorController animationController;
     [SerializeField] private EnemyHealthBar enemyHealthBar;
 
+    public int WaveIndex { get; private set; }
+
     public EnemyType Type => stats.type;
 
     public event Action<float> OnSpeedChanged;
 
+    private int roll;
 
     private void Awake()
     {
@@ -26,6 +28,8 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         {
             Debug.LogWarning("Enemy has not: EnemyStats | EnemyMovement | EnemyAnimation | EnemyHealthBar");
         }
+
+        movement.OnFinishedPath += ReachBase;
     }
 
     private void OnEnable()
@@ -33,16 +37,17 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         stats.ResetStats();
         movement.ResetMovement();
         animationController.ResetAnimation();
-        gameObject.SetActive(true);
         enemyHealthBar.Init(stats.maxHealth);
         enemyHealthBar.Show();
 
         stats.OnDeathAction += Die;
+        animationController.OnDeathAnimationFinished += ReturnToPool;
     }
 
     private void OnDisable()
     {
         stats.OnDeathAction -= Die;
+        animationController.OnDeathAnimationFinished -= ReturnToPool;
     }
 
     public void Die()
@@ -50,6 +55,29 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         movement.StopMovement();
         animationController.PlayDeath(movement.GetCurrentDirection());
         enemyHealthBar.Hide();
+        GameManager.Instance.AddScore(stats.pointExp);
+        GameManager.Instance.AddKill();
+        CoinDropAttempt();
+
+        EnemySpawnerManager.Instance.NotifyEnemyKilled(WaveIndex);
+    }
+
+    public void ReachBase()
+    {
+        movement.StopMovement();
+        enemyHealthBar.Hide();
+        ReturnToPool();
+        BaseManager.Instance.TakeDamage(stats.GetDamage());
+        if (BaseManager.Instance.CurrentHp > 0) 
+        {
+            EnemySpawnerManager.Instance.NotifyEnemyKilled(WaveIndex);
+        }
+
+    }
+
+    private void ReturnToPool()
+    {
+        PoolManager.Instance.Return(this.gameObject);
     }
 
     public float GetMoveSpeed() => stats.moveSpeed;
@@ -75,5 +103,26 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         animationController.PlayWalk(direction);
     }
 
+    public float GetDamage()
+    {
+        return stats.GetDamage();
+    }
+
     public string GetPoolId() => Type.ToString();
+
+    public void CoinDropAttempt()
+    {
+        roll = UnityEngine.Random.Range(0, 101);
+        if (roll >= stats.chanceDrop) 
+        { 
+            return;
+        }
+
+        WalletManager.Instance.Add(stats.goldReward);
+    }
+
+    public void SetWaveIndex(int waveIndex)
+    {
+        WaveIndex = waveIndex;
+    }
 }

@@ -28,10 +28,4 @@ public class SortingLayerDynamic : MonoBehaviour
         if (spriteRenderer == null) return;
         spriteRenderer.sortingOrder = Mathf.RoundToInt(-transform.position.y * factor) + offset;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -15,6 +15,8 @@ public class EnemyStats : MonoBehaviour
     public float damage = 10f;
     public float speedAnimator = 1f;
     public EnemyType type;
+    public EnemyRoleTier role;
+    public int cost = 0;
 
     [HideInInspector] public float currentHealth;
     [HideInInspector] public int difficultyLevel = 1;
@@ -37,22 +39,15 @@ public class EnemyStats : MonoBehaviour
         }
     }
 
-    public float GetDamage()
-    {
-        return damage;
-    }
-
-    public bool IsDead()
-    {
-        return currentHealth <= 0;
-    }
+    public float GetDamage() => damage;
+    public bool IsDead() => currentHealth <= 0;
 
     public void ResetStats()
     {
         maxHealth = baseMaxHealth * DifficultyManager.Instance.HpMultiplier;
         currentHealth = maxHealth;
         moveSpeed = baseMoveSpeed * DifficultyManager.Instance.SpeedMultiplier;
-        pointExp = Convert.ToInt32(maxHealth * moveSpeed);
+        pointExp = Convert.ToInt32(maxHealth * moveSpeed + damage);
     }
 }
 
