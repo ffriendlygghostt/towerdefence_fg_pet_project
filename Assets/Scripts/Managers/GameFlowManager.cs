@@ -83,7 +83,6 @@ public class GameFlowManager : Manager<GameFlowManager>
         if (State != GameState.Prestart) return;
 
         State = GameState.Playing;
-        HudManager.Instance.HidePrestart();
         GameManager.Instance.StartGame();
         SpeedGameManager.Instance.Resume();
         AudioManager.Instance.PlayMusicType(MusicType.FightRandom);

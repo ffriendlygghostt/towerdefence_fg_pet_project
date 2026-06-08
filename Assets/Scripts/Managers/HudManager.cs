@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
@@ -12,16 +13,16 @@ public class HudManager : Manager<HudManager>
     [SerializeField] private GameObject defeatScreenCanvas;
     [SerializeField] private GameObject nextFloorCanvas;
 
+    [SerializeField] private GameObject timerWaveCanvas;
+    [SerializeField] private TextMeshProUGUI timerTXT;
+
     [SerializeField] private WaveHud waveHud;
 
     private PrestartUI prestartUI;
     private DefeatScreen defeatScreen;
     private NextFloorScreen nextFloorScreen;
-    
-    
 
     public bool IsHudOn { get; private set; } = false;
-
 
     protected override void Awake()
     {
@@ -32,10 +33,9 @@ public class HudManager : Manager<HudManager>
         nextFloorScreen = nextFloorCanvas.GetComponent<NextFloorScreen>();
         if (waveHud == null) { waveHud = GetComponent<WaveHud>(); }
 
-        Hide();
         HideDefeatScreen();
-    }
 
+    }
     private void Start()
     {
         Reset();
@@ -43,10 +43,13 @@ public class HudManager : Manager<HudManager>
         BaseManager.Instance.OnHealthChanged += UpdateHealthUI;
         WalletManager.Instance.OnCoinsChanged += UpdateCoinsUI;
 
-        prestartUI.OnPressed += () => GameFlowManager.Instance.StartPlaying();
+        prestartUI.OnPressed += CallStartPlaying;
+        
+        Hide();
     }
 
-    private void UpdateHealthUI(float x, float health)
+
+    private void UpdateHealthUI(float health, float x)
     {
         healthText.text = health.ToString();
     }
@@ -60,6 +63,7 @@ public class HudManager : Manager<HudManager>
     {
         IsHudOn = true;
         this.gameObject.SetActive(true);
+        UpdateInfoFields();
     }
 
     public void Hide()
@@ -108,13 +112,20 @@ public class HudManager : Manager<HudManager>
         if (WalletManager.Instance != null)
             WalletManager.Instance.OnCoinsChanged -= UpdateCoinsUI;
 
-        //prestartUI.OnPressed -= () => GameFlowManager.Instance.StartPlaying();
+        if (prestartUI != null)
+            prestartUI.OnPressed -= CallStartPlaying;
+    }
+
+    private void CallStartPlaying()
+    {
+        HidePrestart();
+        GameFlowManager.Instance.StartPlaying();
     }
 
     private void UpdateInfoFields()
     {
-        coinsText.text = WalletManager.Instance.Coins.ToString(); 
-        healthText.text = BaseManager.Instance.MaxHp.ToString(); 
+        coinsText.text = WalletManager.Instance.Coins.ToString();
+        healthText.text = BaseManager.Instance.MaxHp.ToString();
     }
 
     public void Reset()
@@ -125,13 +136,6 @@ public class HudManager : Manager<HudManager>
         UpdateInfoFields();
     }
 
-    /// TO DO: Убрать вызов по кнопке
-    public void NextFloorScreen(InputAction.CallbackContext ctx)
-    {
-        if (!ctx.performed) return;
-        GameFlowManager.Instance.OnStageCompleted();
-    }
-
     public void SetTotalWaveIcons(int totalwave)
     {
         waveHud.Init(totalwave);
@@ -139,5 +143,26 @@ public class HudManager : Manager<HudManager>
     public void SetCurrentWaveIcon(int wave)
     {
         waveHud.SetCurrentWave(wave);
+    }
+
+
+
+    public void TimerWaveHide()
+    {
+        if (timerWaveCanvas != null)
+            timerWaveCanvas.SetActive(false);
+    }
+    public void TimerWaveShow()
+    {
+        if (timerWaveCanvas != null)
+            timerWaveCanvas.SetActive(true);
+    }
+    public void TimerWaveSet(float time)
+    {
+        if (timerTXT == null) return;
+
+        timerTXT.text =
+            System.TimeSpan.FromSeconds(time)
+                .ToString(@"mm\:ss");
     }
 }

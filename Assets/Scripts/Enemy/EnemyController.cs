@@ -8,6 +8,8 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
     [SerializeField] private EnemyAnimatorController animationController;
     [SerializeField] private EnemyHealthBar enemyHealthBar;
 
+    public int WaveIndex { get; private set; }
+
     public EnemyType Type => stats.type;
 
     public event Action<float> OnSpeedChanged;
@@ -26,6 +28,8 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         {
             Debug.LogWarning("Enemy has not: EnemyStats | EnemyMovement | EnemyAnimation | EnemyHealthBar");
         }
+
+        movement.OnFinishedPath += ReachBase;
     }
 
     private void OnEnable()
@@ -54,6 +58,8 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         GameManager.Instance.AddScore(stats.pointExp);
         GameManager.Instance.AddKill();
         CoinDropAttempt();
+
+        EnemySpawnerManager.Instance.NotifyEnemyKilled(WaveIndex);
     }
 
     public void ReachBase()
@@ -61,6 +67,12 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         movement.StopMovement();
         enemyHealthBar.Hide();
         ReturnToPool();
+        BaseManager.Instance.TakeDamage(stats.GetDamage());
+        if (BaseManager.Instance.CurrentHp > 0) 
+        {
+            EnemySpawnerManager.Instance.NotifyEnemyKilled(WaveIndex);
+        }
+
     }
 
     private void ReturnToPool()
@@ -107,5 +119,10 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         }
 
         WalletManager.Instance.Add(stats.goldReward);
+    }
+
+    public void SetWaveIndex(int waveIndex)
+    {
+        WaveIndex = waveIndex;
     }
 }

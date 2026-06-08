@@ -31,7 +31,7 @@ public class AudioManager : Manager<AudioManager>
 
 
 
-    protected void Awake()
+    protected override void Awake()
     {
         base.Awake();
 

@@ -20,6 +20,7 @@ public class ItemPanel : MonoBehaviour
 
     public void Initialize(ArtefactSO data)
     {
+        gameObject.SetActive(true);
         artefact = data;
         nameText.text = data.name;
         descriptionText.text = data.description;
@@ -52,6 +53,7 @@ public class ItemPanel : MonoBehaviour
         selectText.text = "SELECT";
         selectText.color = selectColor;
         dimOverlay.SetActive(false);
+        gameObject.SetActive(false);
     }
 
 }

@@ -17,6 +17,9 @@ public class SaveManager : Manager<SaveManager>
     {
         string json = JsonUtility.ToJson(Data, true);
         File.WriteAllText(SavePath, json);
+#if UNITY_WEBGL && !UNITY_EDITOR
+        PlayerPrefs.Save();
+#endif
     }
 
     public void Load()

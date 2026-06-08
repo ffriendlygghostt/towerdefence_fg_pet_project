@@ -46,7 +46,7 @@ public class ObjectPool : MonoBehaviour
     public void Return(GameObject obj)
     {
         obj.SetActive(false);
-        SceneManager.MoveGameObjectToScene(obj, gameObject.scene);
+        //SceneManager.MoveGameObjectToScene(obj, gameObject.scene);
         obj.transform.SetParent(parent);
         pool.Enqueue(obj);
     }

@@ -1,4 +1,4 @@
-using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
@@ -27,6 +27,7 @@ public class SettingsMenuController : Manager<SettingsMenuController>
     private string githubUrl =
     "https://github.com/ffriendlygghostt";
 
+
     protected override void Awake()
     {
         base.Awake();
@@ -38,6 +39,14 @@ public class SettingsMenuController : Manager<SettingsMenuController>
 
     private void Start() => ApplySavedSettings();
 
+    private void Update()
+    {
+        if (Screen.fullScreen != isOnFullScreen)
+        {
+            SyncUI();
+        }
+    }
+
     public void Hide()
     {
         gameObject.SetActive(false);
@@ -47,13 +56,12 @@ public class SettingsMenuController : Manager<SettingsMenuController>
     public void Show()
     {
         gameObject.SetActive(true);
-        SyncUI();
     }
 
     public void OnMusicVolumeChanged(float value) =>
         SettingsService.Instance.SetMusicVolume(value);
 
-    public void OnSFXVolumeChanged(float value) => 
+    public void OnSFXVolumeChanged(float value) =>
         SettingsService.Instance.SetSFXVolume(value);
 
 
@@ -90,12 +98,20 @@ public class SettingsMenuController : Manager<SettingsMenuController>
             Screen.fullScreen
             );
         currentResolutionIndex = index;
+        SettingsService.Instance.SetResolutionChanged(index);
     }
 
     private void SyncUI()
     {
         isOnFullScreen = Screen.fullScreen;
-        checkboxImage.sprite = isOnFullScreen ? checkedSprite : uncheckedSprite;
+        SettingsService.Instance.SetIsFullScreen( isOnFullScreen );
+        RefreshFullscreenUI();
+    }
+
+    private void RefreshFullscreenUI()
+    {
+        checkboxImage.sprite =
+        isOnFullScreen ? checkedSprite : uncheckedSprite;
     }
 
     public void DefaultSettings()
@@ -103,12 +119,13 @@ public class SettingsMenuController : Manager<SettingsMenuController>
         musicSlider.value = 1f;
         sfxSlider.value = 1f;
 
-        checkboxImage.sprite = checkedSprite;
+        isOnFullScreen = true;
+        RefreshFullscreenUI();
         Screen.SetResolution(
             availableResolutions[0].width,
             availableResolutions[0].height,
-            Screen.fullScreen = true
-            );
+            true
+            ); 
 
         resolutionDropdown.value = 0;
         currentResolutionIndex = 0;
@@ -120,8 +137,9 @@ public class SettingsMenuController : Manager<SettingsMenuController>
     public void FullScreenToggle()
     {
         isOnFullScreen = !isOnFullScreen;
-        checkboxImage.sprite = isOnFullScreen ? checkedSprite : uncheckedSprite;
+        RefreshFullscreenUI();
         Screen.fullScreen = isOnFullScreen;
+        SettingsService.Instance.SetIsFullScreen(isOnFullScreen);
     }
 
 
@@ -134,12 +152,10 @@ public class SettingsMenuController : Manager<SettingsMenuController>
         musicSlider.value = service.MusicVolume;
         sfxSlider.value = service.SFXVolume;
 
-        isOnFullScreen = service.IsFullScreen; 
+        isOnFullScreen = service.IsFullScreen;
         currentResolutionIndex = service.ResolutionIndex;
 
-
-        checkboxImage.sprite = isOnFullScreen ? checkedSprite : uncheckedSprite;
-        Screen.fullScreen = isOnFullScreen;
+        RefreshFullscreenUI();
 
         currentResolutionIndex = Mathf.Clamp(
             service.ResolutionIndex,

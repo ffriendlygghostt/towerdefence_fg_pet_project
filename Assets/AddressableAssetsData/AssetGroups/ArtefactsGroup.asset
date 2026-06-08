@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ArtefactsGroup
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: ArtefactsGroup
+  m_GUID: de9f57a967a28714ca059bb0b62184ed
+  m_SerializeEntries:
+  - m_GUID: 47bd1591ac9fd8844b9b00b8d6e233b2
+    m_Address: Assets/Scripts/Artefacts/FreeTower.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Artefact
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c3cb415dc4f0744c95bd2cc33373bcf
+    m_Address: Assets/Scripts/Artefacts/HPMaxBust.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Artefact
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 566c894e6fd1c1d4392b7e51ea3f2ae9
+    m_Address: Assets/Scripts/Artefacts/ClickKill.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Artefact
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d10c50822419b0d4dbd77334cd74d9bf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0de21d86b84dfae498e157755b5e18f9, type: 2}
+    - {fileID: 11400000, guid: 320f8b7dfc33b86498e0237a43dbbeec, type: 2}

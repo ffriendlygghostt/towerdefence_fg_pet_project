@@ -17,12 +17,15 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
     [Header("UI")]
     [SerializeField] private GameObject timerWaveCanvas;
     [SerializeField] private TextMeshProUGUI timerTXT;
-    [SerializeField] private WaveHud waveHud;
 
     [Header("Path Preview")]
     [SerializeField] private GameObject skullPreviewPrefab;
     [SerializeField] private float previewRepeatDelay = 0.7f;
     [SerializeField] private float previewSpawnDelay = 0.02f;
+
+    private int[] aliveEnemiesPerWave;
+    private bool[] waveSpawnFinished;
+    private bool[] waveCleared;
 
     public int CurrentWave { get; private set; } = 0;
     private int maxWave = 5;
@@ -47,9 +50,11 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
 
         maxWave = MaxWave;
 
-        waveHud.Init(maxWave);
+        HudManager.Instance.SetTotalWaveIcons(maxWave);
 
         WaveGenerator.Instance.InitializationGenerator(maxWave, DifficultyManager.Instance.WeightWaves);
+
+        ResetNotify(MaxWave);
     }
 
     // -------------------------
@@ -80,7 +85,7 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
         }
 
         CurrentWave = 0;
-        ShowWaveTimer(false);
+        HudManager.Instance.TimerWaveHide();
     }
 
     // -------------------------
@@ -99,17 +104,18 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
 
             currentWavePathIndexes = GetPathsForWave();
 
-            waveHud.SetCurrentWave(CurrentWave);
+            HudManager.Instance.SetCurrentWaveIcon(CurrentWave);
 
             yield return StartCoroutine(PreWaveDelay());
 
+            aliveEnemiesPerWave[CurrentWave] = 0;
             yield return StartCoroutine(SpawnWave());
 
             yield return StartCoroutine(PostWaveDelay());
         }
 
         waveLoopCoroutine = null;
-        ShowWaveTimer(false);
+        HudManager.Instance.TimerWaveHide();
     }
 
     // -------------------------
@@ -119,13 +125,13 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
     private IEnumerator PreWaveDelay()
     {
         float timer = preWaveDelay;
-        ShowWaveTimer(true);
+        HudManager.Instance.TimerWaveShow();
 
         Coroutine previewRoutine = StartCoroutine(PathPreviewLoop());
 
         while(timer > 0f)
         {
-            UpdateTimerUI(timer);
+            HudManager.Instance.TimerWaveSet(timer);
 
             timer -= Time.deltaTime *
                 SpeedGameManager.Instance.SpeedMultiplier;
@@ -138,7 +144,7 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
             StopCoroutine(previewRoutine);
         }
 
-        ShowWaveTimer(false);
+        HudManager.Instance.TimerWaveHide();
     }
 
     private IEnumerator PathPreviewLoop()
@@ -215,6 +221,7 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
 
             yield return WaitScaled(spawnDelay);
         }
+        waveSpawnFinished[CurrentWave] = true;
     }
 
     // -------------------------
@@ -282,6 +289,15 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
         go.transform.position = path[0].position;
 
         var movement = go.GetComponent<EnemyMovement>();
+        var controller = go.GetComponent<EnemyController>();
+
+        if (controller == null)
+        {
+            Debug.LogError("EnemyController is Null! Spawn canceling!");
+            return;
+        }
+        controller.SetWaveIndex(CurrentWave);
+        aliveEnemiesPerWave[CurrentWave]++;
 
         movement.SetPath(path);
         go.SetActive(true);
@@ -289,34 +305,26 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
     }
 
     // -------------------------
-    // UI
+    // ENEMY DIE
     // -------------------------
-
-    private void ShowWaveTimer(bool show) 
+    public void NotifyEnemyKilled(int waveIndex)
     {
-        if (timerWaveCanvas != null) 
-        { 
-            timerWaveCanvas.SetActive(show); 
+        aliveEnemiesPerWave[waveIndex]--;
+        if (waveSpawnFinished[waveIndex] &&
+            !waveCleared[waveIndex] &&
+            aliveEnemiesPerWave[waveIndex] == 0)
+        {
+            waveCleared[waveIndex] = true;
+            GameManager.Instance.WaveCleared();
         }
     }
 
-    private void UpdateTimerUI(float time)
+    private void ResetNotify(int maxWave = 5)
     {
-        if (timerTXT == null) return;
-
-        timerTXT.text = 
-            System.TimeSpan.FromSeconds(time)
-                .ToString(@"mm\:ss");
-    }
-
-
-    // -------------------------
-    // RESET
-    // -------------------------
-
-    public void ResetSpawner()
-    {
-        //waveHud()
+        aliveEnemiesPerWave = new int[maxWave+1];
+        waveSpawnFinished = new bool[maxWave+1];
+        waveCleared = new bool[maxWave+1];
+        // +1 потому что свойство работает так, что первая волна = 1 индекс, а не 0. Чтоб в будущем корректно реагировать на CurrentWave сразу инициализируем как-бы с 1.
     }
 
     // -------------------------
