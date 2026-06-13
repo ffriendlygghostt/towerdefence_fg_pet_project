@@ -7,8 +7,8 @@ public class DifficultyManager : Manager<DifficultyManager>
     public float SpeedMultiplier { get; private set; } = 1f;
     public float CoinMultiplier { get; private set; } = 1f;
 
-    public int baseWeight = 2000;
-    public int WeightWaves { get; private set; } = 2000;
+    public int baseWeight = 3000;
+    public int WeightWaves { get; private set; } = 3000;
 
     public float WavePressureMultiplier { get; private set; } = 1f;
 
@@ -33,5 +33,7 @@ public class DifficultyManager : Manager<DifficultyManager>
         int extraFloors = floor - 20;
 
         HpMultiplier = 3f + extraFloors *0.0f;
+        WavePressureMultiplier = 1f + floor * 0.03f;
+        WeightWaves = Mathf.RoundToInt(baseWeight * WavePressureMultiplier);
     }
 }

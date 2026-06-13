@@ -33,24 +33,43 @@ Assets/<br>
 ┣ 📁 UI/ # Canvas, HUD, menus<br>
 ┣ 📁 Reference/ # reference for materials<br>
 ┣ 📁 Settings/ # URP and project configuration<br>
-┗ 📁 Docs/ # docs, screenshots, sprint.md, UML
+┗ 📁 Documentations/ # docs, screenshots, sprint.md, UML
 
 ---
 
-## 🧭 Documentation
-| Type | Location |
-|------|-----------|
-| 🎮 **Game Design Document (GDD)** | *Confluence: Game Systems Overview* |
-| 📋 **Sprint Board** | *Jira: Tower Defense Roguelite Project* |
+## 📚 Project Documentation
 
----
+Detailed documentation is available in the Documentations folder.
 
-## 🏁 Roadmap / Sprints
-| Sprint | Goal |
-|---------|------|
-| **Sprint 1 | Scene management, initial assets, base scripts, managers |
-| **Sprint 2 |
-| **Sprint 3 |
+### 🧭 Core & Game Architecture
+- [Infinity Tower Defence Overview 🧩](Documentations/00_InfinityTowerDefence.pdf)
+- [Boot Persistent Scene 🎬](Documentations/01_BootPersistentScene.pdf)
+- [Scenes System 🗺️](Documentations/02_ScenesSystem.pdf)
+- [Game Flow Manager 🔄](Documentations/03_GameFlowManager.pdf)
+
+### 💾 Core Systems & Data
+- [Save System 📁](Documentations/04_SaveSystem.pdf)
+- [Speed Game Manager ⏳](Documentations/05_SpeedGameManager.pdf)
+- [Audio System 🔊](Documentations/08_AudioSystem.pdf)
+- [Utilities 🛠️](Documentations/19_Utilits.pdf)
+
+### ⚙️ Game Mechanics & Logic
+- [Object Pool Manager 🔄](Documentations/09_ObjectPoolManager.pdf)
+- [Spawner System 👾](Documentations/16_SpawnerSystem.pdf)
+- [Difficulty Manager 📈](Documentations/17_DifficultyManager.pdf)
+- [Artefacts System 👑](Documentations/18_ArtefactsSystem.pdf)
+
+### ⚔️ Combat & Economy
+- [Base & Wallet 💰](Documentations/11_Base&Wallet.pdf)
+- [Economy 📊](Documentations/12_Economy.pdf)
+- [Units & Towers 🏹](Documentations/14_Units&Towers.pdf)
+- [Enemies 👿](Documentations/15_Enemies.pdf)
+
+### 🖥️ User Interface & Visuals
+- [Main Menu 📥](Documentations/06_MainMenu.pdf)
+- [Settings System ⚙️](Documentations/07_SettingsSystem.pdf)
+- [HUD 📊](Documentations/10_HUD.pdf)
+- [Animations 🎬](Documentations/13_Animations.pdf)
 
 ---
 

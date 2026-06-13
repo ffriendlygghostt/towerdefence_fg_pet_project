@@ -7,10 +7,41 @@ public class WalletManager : Manager<WalletManager>
 
     public event Action<int> OnCoinsChanged;
 
-    public int startCoins { get; private set; } = 150;
-    public int refillCoins { get; private set; } = 4;
+    private int baseCoins = 150;
+
+    private int baseRefillCoins = 4;
+    public int refilCoins { get; private set; }
+
 
     private float coinTimer;
+
+    private int multiplierCoins = 1;
+    private int bonusCoins = 0;
+
+    private int bonusRefilCoins = 0;
+
+    private void Awake()
+    {
+        base.Awake();
+        ResetWallet();
+    }
+    private void Update()
+    {
+        coinTimer += Time.deltaTime * SpeedGameManager.Instance.SpeedMultiplier;
+        if (coinTimer >= 1f)
+        {
+            coinTimer -= 1f;
+            Add(refilCoins);
+        }
+    }
+
+    public void ResetWallet()
+    {
+        Coins = baseCoins + bonusCoins * multiplierCoins;
+        OnCoinsChanged?.Invoke(Coins);
+        refilCoins = refilCoins + bonusRefilCoins;
+    }
+
 
     public void Add(int amount)
     {
@@ -25,19 +56,33 @@ public class WalletManager : Manager<WalletManager>
         return true;
     }
 
-    public void ResetWallet()
+
+
+
+    public void AddMultiplierMoney(int multiplier)
     {
-        Coins = startCoins;
-        OnCoinsChanged?.Invoke(Coins);
+        multiplierCoins += multiplier;
+    }
+    public void RemoveMultiplierMoney(int multiplier)
+    {
+        multiplierCoins -= multiplier;
     }
 
-    private void Update()
+    public void AddBonusMoney(int bonus)
     {
-        coinTimer += Time.deltaTime * SpeedGameManager.Instance.SpeedMultiplier;
-        if (coinTimer >= 1f)
-        {
-            coinTimer -= 1f;
-            Add(refillCoins);
-        }
+        bonusCoins += bonus;
+    }
+    public void RemoveBonusMoney(int bonus)
+    {
+        bonusCoins -= bonus;
+    }
+
+    public void AddBonusRefilCoins(int bonus)
+    {
+        bonusRefilCoins += bonus;
+    }
+    public void RemoveBonusRefilCoins(int bonus)
+    {
+        bonusRefilCoins -= bonus;
     }
 }

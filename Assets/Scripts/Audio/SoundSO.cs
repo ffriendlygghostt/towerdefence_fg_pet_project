@@ -14,6 +14,7 @@ public enum SoundType
 {
     Music,
     SFX,
+    LoopSFX,
     UI
 }
 
