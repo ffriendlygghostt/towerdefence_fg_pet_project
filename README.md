@@ -42,7 +42,7 @@ Assets/<br>
 Detailed documentation is available in the Documentations folder.
 
 ### 🧭 Core & Game Architecture
-- [Infinity Tower Defence Overview 🧩](Documentations/00_InfinityTowerDefence - ffriendlygghostt.pdf)
+- [Infinity Tower Defence Overview 🧩](Documentations/00_InfinityTowerDefence.pdf)
 - [Boot Persistent Scene 🎬](Documentations/01_BootPersistentScene.pdf)
 - [Scenes System 🗺️](Documentations/02_ScenesSystem.pdf)
 - [Game Flow Manager 🔄](Documentations/03_GameFlowManager.pdf)
