@@ -1,6 +1,10 @@
+using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor.AddressableAssets.Build;
 using UnityEngine;
+
 
 public class AudioManager : Manager<AudioManager>
 {
@@ -12,6 +16,8 @@ public class AudioManager : Manager<AudioManager>
     public int expandPoolSize = 10;
 
     private AudioSourcePool sfxPool;
+    private readonly HashSet<AudioSource> loopSources = 
+        new HashSet<AudioSource>();
 
     [Header("Music Sources for crossfade")]
     private AudioSource musicSourceA;
@@ -74,17 +80,17 @@ public class AudioManager : Manager<AudioManager>
 
     public void PlaySFX(SoundSO sound)
     {
-        if (sound.type != SoundType.SFX) return;
+        if (sound.type != SoundType.SFX) 
+            return;
 
         AudioSource source = sfxPool.Get();
         source.clip = sound.clip;
         source.volume = sound.volume * sfxVolume;
-        source.loop = sound.loop;
+        source.loop = false;
         source.pitch = currentPitch;
         source.Play();
 
-        if (!sound.loop) 
-            StartCoroutine(ReturnToPoolAfterPlay(source));
+        StartCoroutine(ReturnToPoolAfterPlay(source));
     }
 
     private IEnumerator ReturnToPoolAfterPlay(AudioSource source)
@@ -102,7 +108,49 @@ public class AudioManager : Manager<AudioManager>
         uiSource.PlayOneShot(sound.clip, sound.volume * sfxVolume);
     }
 
+    public AudioSource PlayLoopSFX(SoundSO sound)
+    {
+        if (sound.type != SoundType.LoopSFX)
+            return null;
 
+        AudioSource source = sfxPool.Get();
+
+        source.clip = sound.clip;
+        source.volume = sound.volume * sfxVolume;
+        source.loop = true;
+        source.pitch = currentPitch;
+
+        source.Play();
+
+        loopSources.Add(source);
+
+        return source;
+    }
+
+    public void StopLoopSFX(AudioSource source)
+    {
+        if (source == null)
+            return; 
+
+        loopSources.Remove(source);
+        sfxPool.Return(source);
+    }
+
+    private void PauseLoopSFX()
+    {
+        foreach(var source in loopSources)
+        {
+            source.Pause();
+        }
+    }
+
+    private void ResumeLoopSFX()
+    {
+        foreach(var source in loopSources)
+        {
+            source.UnPause();
+        }
+    }
 
     public void PlayMusic(SoundSO music, float fadeDuration = 2f)
     {
@@ -216,6 +264,7 @@ public class AudioManager : Manager<AudioManager>
         }
 
         ResumeMusic();
+        ResumeLoopSFX();
         SetPitchBySpeed(SpeedGameManager.Instance.SpeedMultiplier);
     }
 
@@ -223,6 +272,7 @@ public class AudioManager : Manager<AudioManager>
     {
         PauseMusic();
         StopAllSFX();
+        PauseLoopSFX();
     }
 
     public void PauseMusic()
@@ -239,8 +289,13 @@ public class AudioManager : Manager<AudioManager>
 
     private void StopAllSFX()
     {
-        foreach(var source in sfxPool.ActiveSources)
+        var active = new List<AudioSource>(sfxPool.ActiveSources);
+
+        foreach (var source in active)
         {
+            if (loopSources.Contains(source))
+                continue;
+
             source.Stop(); 
             sfxPool.Return(source);
         }
@@ -253,7 +308,6 @@ public class AudioManager : Manager<AudioManager>
         else
             currentPitch = Mathf.Lerp(1f, 1.5f, (speed - 1f) / 3);  //~1.25(2x)  //~1.5(4x)
 
-
         foreach (var source in sfxPool.ActiveSources)
         {
             source.pitch = currentPitch;
@@ -261,7 +315,3 @@ public class AudioManager : Manager<AudioManager>
     }
 }
 
-
-//SPEED CONTROLLER
-// Остановка звуков и продолжение их (возможное изменение громкости после остановки)
-//Система сноса зацикленной музыки

@@ -33,24 +33,34 @@ Assets/<br>
 ┣ 📁 UI/ # Canvas, HUD, menus<br>
 ┣ 📁 Reference/ # reference for materials<br>
 ┣ 📁 Settings/ # URP and project configuration<br>
-┗ 📁 Docs/ # docs, screenshots, sprint.md, UML
+┗ 📁 Documentations/ # docs, screenshots, sprint.md, UML
 
 ---
 
 ## 🧭 Documentation
-| Type | Location |
-|------|-----------|
-| 🎮 **Game Design Document (GDD)** | *Confluence: Game Systems Overview* |
-| 📋 **Sprint Board** | *Jira: Tower Defense Roguelite Project* |
 
----
+Detailed documentation is available in the Documentations folder.
 
-## 🏁 Roadmap / Sprints
-| Sprint | Goal |
-|---------|------|
-| **Sprint 1 | Scene management, initial assets, base scripts, managers |
-| **Sprint 2 |
-| **Sprint 3 |
+- [InfinityTowerDefence](Documentations/0. InfinityTowerDefence - ffriendlygghostt.pdf)
+- [Boot-Persistent Scene](Documentations/1. BootPersistent Scene_ Global Managers, HUD.pdf)
+- [Scenes Systems](Documentations/2. Scenes System_ SceneLoader, DuplicateBag, FadeManager, LevelManager.pdf)
+- [GameFlowManager](Documentations/3. GameFlowManager_ GameState.pdf)
+- [Save System](Documentations/4. Save System_ SaveManager, SaveData, GameManager, Records Panel, SettingsData.pdf)
+- [SpeedGameManager](Documentations/5. SpeedGameManager_ The logical speed of the game.pdf)
+- [Main Menu](Documentations/6. Main Menu.pdf)
+- [Settings System](Documentations/7. Settings System_ Manager, Controller.pdf)
+- [Audio System](Documentations/8. Audio System.pdf)
+- [ObjectPoolManager](Documentations/9. ObjectPoolManager.pdf)
+- [HUD](Documentations/10. HUD_ Wallet, SpeedController, Base.pdf)
+- [Base & Wallet](Documentations/11. Base  & Wallet.pdf)
+- [Economy](Documentations/12. Economy_ Unit & Tower price, Enemy drops, Passive income.pdf)
+- [Animations](Documentations/13. Animations_ All animations and related to them.pdf)
+- [Units & Towers](Documentations/14. Units & Towers.pdf)
+- [Enemies](Documentations/15. Enemies_ Controller, Stats, Type, Movement, AnimationController.pdf)
+- [Spawner System](Documentations/16. Spawner System_ WaveGenerations.pdf)
+- [DifficaltyManager](Documentations/17. DifficaltyManager_ The difficulty level of the game is an attempt at infinity....pdf)
+- [Artefacts System](Documentations/18. Artefacts System.pdf)
+- [Utilits](Documentations/19. Utilits.pdf)
 
 ---
 

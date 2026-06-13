@@ -9,7 +9,7 @@ public class AudioSourcePool : MonoBehaviour
     private GameObject sourcePrefab;
 
     private HashSet<AudioSource> activeSources = new HashSet<AudioSource>();
-    public IEnumerable<AudioSource> ActiveSources => activeSources;
+    public IReadOnlyCollection<AudioSource> ActiveSources => activeSources;
 
     public AudioSourcePool(GameObject prefab, int initialSize, int expandSize, Transform parent)
     {
@@ -43,13 +43,15 @@ public class AudioSourcePool : MonoBehaviour
 
     public void Return(AudioSource source)
     {
+        if (!activeSources.Remove(source))
+            return;
+
         source.Stop();
         source.clip = null;
         source.pitch = 1f;
 
         source.gameObject.SetActive(false);
 
-        activeSources.Remove(source);
         pool.Enqueue(source);
     }
 }

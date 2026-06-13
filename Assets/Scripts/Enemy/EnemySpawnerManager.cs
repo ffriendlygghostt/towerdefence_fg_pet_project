@@ -324,7 +324,6 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
         aliveEnemiesPerWave = new int[maxWave+1];
         waveSpawnFinished = new bool[maxWave+1];
         waveCleared = new bool[maxWave+1];
-        // +1 потому что свойство работает так, что первая волна = 1 индекс, а не 0. Чтоб в будущем корректно реагировать на CurrentWave сразу инициализируем как-бы с 1.
     }
 
     // -------------------------
