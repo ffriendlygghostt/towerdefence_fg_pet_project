@@ -12,7 +12,5 @@ public class TowerLevelData
 
     public int cost;
 
-    public RuntimeAnimatorController idlePrefab;
-
-    public Sprite towerVisual;
+    public GameObject towerVisual;
 }

@@ -24,6 +24,7 @@ public class SpeedGameManager : Manager<SpeedGameManager>
         SpeedMultiplier = Mathf.Max(0f, multiplier);
 
         OnSpeedGameChanged?.Invoke(CurrentSpeed);
+        OnSpeedGameChangedMultiplie?.Invoke(SpeedMultiplier);
     }
 
     public void Pause() => SetSpeed(GameSpeed.Pause, 0f);
@@ -57,5 +58,6 @@ public class SpeedGameManager : Manager<SpeedGameManager>
         SetSpeedState(PastSpeed);
     }
 
+    public event Action<float> OnSpeedGameChangedMultiplie;
     public event Action<GameSpeed> OnSpeedGameChanged;
 }

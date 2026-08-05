@@ -10,7 +10,9 @@ public class Tower : MonoBehaviour
     [HideInInspector] public int currentUnitsCount;
 
     [SerializeField] private TowerRange range;
-    [SerializeField] private Transform graphics;
+    [SerializeField] private Transform visualRoot;
+
+    private TowerVisual currentVisual;
 
     [HideInInspector] public UnitDefinition unitDef;
     [HideInInspector] public List<int> unitLevelsBySlot = new();
@@ -22,7 +24,7 @@ public class Tower : MonoBehaviour
 
     private void Start()
     {
-        scale = graphics.localScale;
+        scale = visualRoot.localScale;
         hoverScale = scale.x * hoverScaleMultiply;
     }
 
@@ -42,6 +44,8 @@ public class Tower : MonoBehaviour
         }
 
         UpdateCurrentTowerRange();
+        RefreshVisual();
+        RestoreUnits();
 
         return true;
     }
@@ -60,8 +64,11 @@ public class Tower : MonoBehaviour
         {
             unitLevelsBySlot.Add(0);
         }
-        GiveStartUnit();
+
         UpdateCurrentTowerRange();
+        RefreshVisual();
+        GiveStartUnit();
+        RestoreUnits();
         HideRange();
     } 
 
@@ -83,6 +90,11 @@ public class Tower : MonoBehaviour
 
         unitLevelsBySlot[index] = 1;
 
+        currentUnitsCount++;
+        currentVisual.AddUnit(
+            index,
+            unitDef.unitLevelData[0].unitPrefab);
+
         return true;
     }
 
@@ -98,12 +110,12 @@ public class Tower : MonoBehaviour
             return false;
 
         unitLevelsBySlot[index]++;
-        return true;
-    }
 
-    private void AddUnit()
-    {
-        ///
+        currentVisual.UpgradeUnit(
+            index,
+            unitDef.unitLevelData[unitLevelsBySlot[index] - 1].unitPrefab);
+
+        return true;
     }
 
     public void ShowRange()
@@ -126,18 +138,42 @@ public class Tower : MonoBehaviour
 
     public void HoverEnter()
     {
-        graphics.transform.DOKill();
-        graphics.transform
+        visualRoot.transform.DOKill();
+        visualRoot.transform
             .DOScale(hoverScale, durationScale)
             .SetEase(Ease.OutQuad);
     }
     public void HoverExit()
     {
-        graphics.transform.DOKill();
-        graphics.transform
+        visualRoot.transform.DOKill();
+        visualRoot.transform
             .DOScale(scale, durationScale)
             .SetEase(Ease.OutBack);
     }
 
+    private void RefreshVisual()
+    {
+        if (currentVisual != null)
+        {
+            Destroy(currentVisual.gameObject);
+        }
 
+        currentVisual = Instantiate(
+            towerDef.levels[currentLevel - 1].towerVisual,
+            visualRoot)
+            .GetComponent<TowerVisual>();
+    }
+
+    public void RestoreUnits()
+    {
+        for (int i = 0; i < unitLevelsBySlot.Count; i++)
+        {
+            if (unitLevelsBySlot[i] == 0)
+                continue;
+
+            currentVisual.AddUnit(
+                i,
+                unitDef.unitLevelData[unitLevelsBySlot[i] - 1].unitPrefab);
+        }
+    }
 }

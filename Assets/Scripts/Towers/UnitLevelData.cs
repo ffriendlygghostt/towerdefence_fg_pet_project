@@ -8,6 +8,5 @@ public class UnitLevelData
     public int damage;
     public float speedAttackPerSec;
     public int cost;
-    public RuntimeAnimatorController animationsByLevel;
-
+    public GameObject unitPrefab;
 }

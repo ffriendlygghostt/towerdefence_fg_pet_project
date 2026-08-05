@@ -19,42 +19,35 @@ MonoBehaviour:
     radiusScale: 0.3
     unitCapacity: 1
     cost: 75
-    idlePrefab: {fileID: 0}
-    towerVisual: {fileID: 0}
+    towerVisual: {fileID: 399751879789185228, guid: 5b6be5d419777bb478a8895b4366e227, type: 3}
   - level: 2
     radiusScale: 0.34
     unitCapacity: 1
     cost: 75
-    idlePrefab: {fileID: 0}
-    towerVisual: {fileID: 0}
+    towerVisual: {fileID: 2143707168217168362, guid: 18fcdf2710223a144bdd01d11527cb54, type: 3}
   - level: 3
     radiusScale: 0.38
     unitCapacity: 2
     cost: 3
-    idlePrefab: {fileID: 0}
-    towerVisual: {fileID: 0}
+    towerVisual: {fileID: 2719831639727823337, guid: f96c4d2ec2178004a8444063a0919def, type: 3}
   - level: 4
     radiusScale: 0.42
     unitCapacity: 2
     cost: 4
-    idlePrefab: {fileID: 0}
-    towerVisual: {fileID: 0}
+    towerVisual: {fileID: 4396305348144841311, guid: 70a2f3a398c929043ac248d134310447, type: 3}
   - level: 5
     radiusScale: 0.46
     unitCapacity: 2
     cost: 5
-    idlePrefab: {fileID: 0}
-    towerVisual: {fileID: 0}
+    towerVisual: {fileID: 5310629973930784788, guid: 89e8cc2f193669e4995ebca438ac48bf, type: 3}
   - level: 6
     radiusScale: 0.5
     unitCapacity: 3
     cost: 6
-    idlePrefab: {fileID: 0}
-    towerVisual: {fileID: 0}
+    towerVisual: {fileID: 7825741816474850679, guid: 98f2f1c0d821e4446bb956cc46300335, type: 3}
   - level: 7
     radiusScale: 0.54
     unitCapacity: 3
     cost: 7
-    idlePrefab: {fileID: 0}
-    towerVisual: {fileID: 0}
+    towerVisual: {fileID: 2756642700058100445, guid: 86e31102ae36393438148f9d89336af0, type: 3}
   unitType: {fileID: 11400000, guid: 593452d8250faa948a05bb69a277f0c4, type: 2}
