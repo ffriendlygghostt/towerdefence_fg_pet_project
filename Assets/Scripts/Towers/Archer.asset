@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceed6ab9fa0a96c4e99ce31c9c4d68ca, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: Assembly-CSharp::UnitDefinition
+  id: Archer
+  prefab: {fileID: 0}
+  unitLevelData:
+  - icon: {fileID: -1463326752487498360, guid: 6da759b457588e14fb4dbc4bf4dbe417, type: 3}
+    level: 1
+    damage: 30
+    speedAttackPerSec: 4
+    cost: 100
+    unitPrefab: {fileID: 1674170288603313580, guid: 25d833297aef20c469f13f879f57801f, type: 3}
+  - icon: {fileID: -1535869906, guid: 6da759b457588e14fb4dbc4bf4dbe417, type: 3}
+    level: 2
+    damage: 55
+    speedAttackPerSec: 3
+    cost: 1
+    unitPrefab: {fileID: 5835875488011561490, guid: b0e484b7a7e3f064a97fc72c1aba28ca, type: 3}
+  - icon: {fileID: 711834667, guid: 6da759b457588e14fb4dbc4bf4dbe417, type: 3}
+    level: 3
+    damage: 85
+    speedAttackPerSec: 2.2
+    cost: 2
+    unitPrefab: {fileID: 7065727439205593486, guid: 134eb8aaa7df5284ea77407c65ee7a64, type: 3}

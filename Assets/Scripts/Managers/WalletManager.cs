@@ -37,9 +37,9 @@ public class WalletManager : Manager<WalletManager>
 
     public void ResetWallet()
     {
-        Coins = baseCoins + bonusCoins * multiplierCoins;
+        Coins = (baseCoins + bonusCoins) * multiplierCoins;
         OnCoinsChanged?.Invoke(Coins);
-        refilCoins = refilCoins + bonusRefilCoins;
+        refilCoins = baseRefillCoins + bonusRefilCoins;
     }
 
 

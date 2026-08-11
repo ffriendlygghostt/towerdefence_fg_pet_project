@@ -21,8 +21,9 @@ public class EnemyStats : MonoBehaviour
     [HideInInspector] public float currentHealth;
     [HideInInspector] public int difficultyLevel = 1;
 
+    public event Action<float> OnHealthChanged;
     public event Action OnDeathAction;
-    
+
 
     private void Awake()
     {
@@ -37,6 +38,8 @@ public class EnemyStats : MonoBehaviour
             currentHealth = 0;
             OnDeathAction?.Invoke();
         }
+
+        OnHealthChanged?.Invoke(currentHealth);
     }
 
     public float GetDamage() => damage;

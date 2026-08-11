@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - TowerRange
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
     locked: 0
   - name: New Layer 2
     uniqueID: 2668210783
+    locked: 0
+  - name: NoRaycast
+    uniqueID: 3916784025
     locked: 0
   m_RenderingLayers:
   - Default

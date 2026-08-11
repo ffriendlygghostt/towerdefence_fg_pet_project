@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
-public class EnemyController : MonoBehaviour, IPoolIdentity
+public class EnemyController : MonoBehaviour, IPoolIdentity, IDamageable
 {
     [SerializeField] private EnemyStats stats;
     [SerializeField] private EnemyMovement movement;
@@ -11,6 +11,10 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
     public int WaveIndex { get; private set; }
 
     public EnemyType Type => stats.type;
+
+    public Transform Transform => transform;
+
+    public bool IsDead => stats.IsDead();
 
     public event Action<float> OnSpeedChanged;
 
@@ -30,6 +34,7 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
         }
 
         movement.OnFinishedPath += ReachBase;
+        stats.OnHealthChanged += enemyHealthBar.UpdateHealth;
     }
 
     private void OnEnable()
@@ -94,7 +99,6 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
     public void TakeDamage(float damage)
     {
         stats.TakeDamage(damage);
-        enemyHealthBar.UpdateHealth(damage);
         animationController.PlayHitFlash();
     }
 
@@ -124,5 +128,10 @@ public class EnemyController : MonoBehaviour, IPoolIdentity
     public void SetWaveIndex(int waveIndex)
     {
         WaveIndex = waveIndex;
+    }
+
+    private void OnDestroy()
+    {
+        stats.OnHealthChanged -= enemyHealthBar.UpdateHealth;
     }
 }
