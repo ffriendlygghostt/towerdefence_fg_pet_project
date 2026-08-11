@@ -396,6 +396,7 @@ GameObject:
   - component: {fileID: 5075488830672431340}
   - component: {fileID: 924997148106779978}
   - component: {fileID: 5919935277218401193}
+  - component: {fileID: 88354086259136616}
   m_Layer: 0
   m_Name: SlimeGreen
   m_TagString: Untagged
@@ -663,3 +664,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthBar
   slider: {fileID: 7991604050790640782}
   canvas: {fileID: 6769139794808923106}
+--- !u!50 &88354086259136616
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8749029512408134973}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

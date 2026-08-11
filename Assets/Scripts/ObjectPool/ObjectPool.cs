@@ -22,7 +22,7 @@ public class ObjectPool : MonoBehaviour
     {
         for (int i = 0; i < count; i++)
         {
-            GameObject obj = GameObject.Instantiate(prefab, parent);
+            GameObject obj = Instantiate(prefab, parent);
             obj.SetActive(false);
             pool.Enqueue(obj);
         }

@@ -93,7 +93,9 @@ public class Tower : MonoBehaviour
         currentUnitsCount++;
         currentVisual.AddUnit(
             index,
-            unitDef.unitLevelData[0].unitPrefab);
+            unitDef.unitLevelData[0].unitPrefab,
+            unitDef.unitLevelData[0]
+            );
 
         return true;
     }
@@ -111,9 +113,13 @@ public class Tower : MonoBehaviour
 
         unitLevelsBySlot[index]++;
 
+        var levelData = unitDef.unitLevelData[unitLevelsBySlot[index] - 1];
+
         currentVisual.UpgradeUnit(
             index,
-            unitDef.unitLevelData[unitLevelsBySlot[index] - 1].unitPrefab);
+            unitDef.unitLevelData[unitLevelsBySlot[index] - 1].unitPrefab,
+            levelData
+            );
 
         return true;
     }
@@ -126,6 +132,7 @@ public class Tower : MonoBehaviour
     {
         range.Hide();
     }
+
     public void UpdateCurrentTowerRange()
     {
         range.SetRadius(towerDef.levels[currentLevel - 1].radiusScale);
@@ -162,6 +169,10 @@ public class Tower : MonoBehaviour
             towerDef.levels[currentLevel - 1].towerVisual,
             visualRoot)
             .GetComponent<TowerVisual>();
+
+        currentVisual.Initialize(
+            this,
+            range);
     }
 
     public void RestoreUnits()
@@ -171,9 +182,14 @@ public class Tower : MonoBehaviour
             if (unitLevelsBySlot[i] == 0)
                 continue;
 
+            UnitLevelData levelData =
+                unitDef.unitLevelData[unitLevelsBySlot[i] - 1];
+
             currentVisual.AddUnit(
                 i,
-                unitDef.unitLevelData[unitLevelsBySlot[i] - 1].unitPrefab);
+                unitDef.unitLevelData[unitLevelsBySlot[i] - 1].unitPrefab,
+                levelData
+                );
         }
     }
 }

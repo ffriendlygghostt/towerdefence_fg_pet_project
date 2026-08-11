@@ -6,7 +6,7 @@ public class UnitLevelData
     public Sprite icon;
     public int level;
     public int damage;
-    public float speedAttackPerSec;
+    public float attackCooldown;
     public int cost;
     public GameObject unitPrefab;
 }

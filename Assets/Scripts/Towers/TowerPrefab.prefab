@@ -13,13 +13,13 @@ GameObject:
   - component: {fileID: 8152149215517278040}
   - component: {fileID: 4618904560122060316}
   - component: {fileID: 6216241000538024942}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TowerRange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &566521231434631787
 Transform:
   m_ObjectHideFlags: 0

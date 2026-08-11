@@ -108,7 +108,7 @@ public class BuyMenu : MonoBehaviour
         damage_txt.color = normalTextColor;
 
         unitCapacity_txt.text = selectedTower.levels[selectedTower.levels.Length-1].unitCapacity.ToString();
-        speedAttack_txt.text = $"{selectedTower.unitType.unitLevelData[0].speedAttackPerSec.ToString()}s";
+        speedAttack_txt.text = $"{selectedTower.unitType.unitLevelData[0].attackCooldown.ToString()}s";
         damage_txt.text = selectedTower.unitType.unitLevelData[0].damage.ToString();
         cost_txt.text = selectedTower.levels[0].cost.ToString();
 

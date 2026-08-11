@@ -156,6 +156,7 @@ GameObject:
   - component: {fileID: 4401529060742222121}
   - component: {fileID: 7910842632316203130}
   - component: {fileID: 3052671049422829042}
+  - component: {fileID: -2093504495586230943}
   m_Layer: 0
   m_Name: Goblin3
   m_TagString: Untagged
@@ -409,6 +410,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthBar
   slider: {fileID: 9139455360028990772}
   canvas: {fileID: 1104268151809824728}
+--- !u!50 &-2093504495586230943
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6164704029593908900}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &6257555643677983229
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,11 +8,20 @@ public class TowerVisual : MonoBehaviour
 
     [SerializeField] private bool useMask;
 
-    private UnitVisual[] units;
+    private Tower tower;
+    private TowerRange range;
+
+    private Unit[] units;
+
+    public void Initialize(Tower owner, TowerRange range)
+    {
+        tower = owner;
+        this.range = range;
+    }
 
     private void Awake()
     {
-        units = new UnitVisual[unitSlots.Length];
+        units = new Unit[unitSlots.Length];
 
         if (animator == null)
             animator = GetComponentInChildren<Animator>();
@@ -41,14 +50,14 @@ public class TowerVisual : MonoBehaviour
         animator.speed = speed;
     }
 
-
-
-    public void AddUnit(int indexSlot, GameObject unitPrefab)
+    public void AddUnit(int indexSlot, GameObject unitPrefab, UnitLevelData data)
     {
-        UnitVisual unit = Instantiate(
+        Unit unit = Instantiate(
             unitPrefab,
             unitSlots[indexSlot])
-            .GetComponent<UnitVisual>();
+            .GetComponent<Unit>();
+
+        unit.Initialize(data, tower, range);
 
         if (useMask)
             unit.SetMaskInteraction(SpriteMaskInteraction.VisibleInsideMask);
@@ -64,9 +73,9 @@ public class TowerVisual : MonoBehaviour
         Destroy(units[indexSlot].gameObject);
         units[indexSlot] = null;
     }
-    public void UpgradeUnit(int indexSlot, GameObject newPrefab)
+    public void UpgradeUnit(int indexSlot, GameObject newPrefab, UnitLevelData data)
     {
         RemoveUnit(indexSlot);
-        AddUnit(indexSlot, newPrefab);
+        AddUnit(indexSlot, newPrefab, data);
     }
 }

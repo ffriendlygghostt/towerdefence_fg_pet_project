@@ -77,6 +77,8 @@ public class UnitPanel : MonoBehaviour
 
     public void SetUnit(UnitDefinition unitDef, int level, int indexPanel)
     {
+        ResetHoverState();
+
         this.unitDef = unitDef;
         unitLevel = level;
         panelIndex = indexPanel;
@@ -106,10 +108,16 @@ public class UnitPanel : MonoBehaviour
 
         if (unitLevel == 0)
         {
+
+            unitsInfo.SetActive(false);
+
             UpdateBuyButton();
             buyUnitButton_txt.text = nextLevelData.cost.ToString();
             return;
         }
+
+        buyUnitButton.gameObject.SetActive(false);
+        unitsInfo.SetActive(true);
 
         if (nextLevelData == null)
         {
@@ -119,9 +127,6 @@ public class UnitPanel : MonoBehaviour
 
         SetCurrentLevelStats();
         upgradeUnitButton_txt.text = nextLevelData.cost.ToString();
-
-        buyUnitButton.gameObject.SetActive(false);
-        unitsInfo.SetActive(true);
 
         UpdateUpButton();
 
@@ -133,16 +138,28 @@ public class UnitPanel : MonoBehaviour
     }
     private void UpdateBuyButton()
     {
-        if (unitLevel > 0)
+        if (unitLevel > 0 || nextLevelData == null)
             return;
-        bool canUpgrade = CanUpgrade();
 
-        buyUnitBI.color = canUpgrade ? buttonColorActive : defaultColorButton;
-        buyUnitButton_txt.color = canUpgrade ? buttonTextColorActive : defaultColorTxtB;
+        bool canBuy = CanBuy();
 
-        if (isHoverBuy && canUpgrade)
+        buyUnitBI.color = canBuy
+            ? buttonColorActive 
+            : defaultColorButton;
+
+        buyUnitButton_txt.color = canBuy
+            ? buttonTextColorActive 
+            : defaultColorTxtB;
+
+        if (isHoverBuy)
         {
-            buyUnitButton_txt.text = "BUY";
+            buyUnitButton_txt.text = canBuy
+                ? "BUY"
+                : "NOT ENOUGH MONEY";
+        }
+        else
+        {
+            buyUnitButton_txt.text = nextLevelData.cost.ToString();
         }
     }
 
@@ -152,17 +169,21 @@ public class UnitPanel : MonoBehaviour
     }
     private void UpdateUpButton()
     {
-        if (nextLevelData == null)
+        if (unitLevel == 0 || nextLevelData == null)
             return;
 
         bool canUp = CanUpgrade();
-        upgradeUnitBI.color = canUp ? buttonColorActive : defaultColorButton;
-        upgradeUnitButton_txt.color = canUp ? buttonTextColorActive : defaultColorTxtB;
+
+        upgradeUnitBI.color = canUp 
+            ? buttonColorActive 
+            : defaultColorButton;
+
+        upgradeUnitButton_txt.color = canUp 
+            ? buttonTextColorActive 
+            : defaultColorTxtB;
 
         if (isHoverUp)
-        {
             SetNextLevelStats();
-        }
     }
 
     private bool CanBuy()
@@ -269,7 +290,7 @@ public class UnitPanel : MonoBehaviour
     private void SetCurrentLevelStats()
     {
         lvl_txt.text = unitLevel.ToString();
-        speed_txt.text = $"{currentLevelData.speedAttackPerSec}s";
+        speed_txt.text = $"{currentLevelData.attackCooldown}s";
         damage_txt.text = currentLevelData.damage.ToString();
 
         lvl_txt.color = currentLevelColor;
@@ -279,13 +300,13 @@ public class UnitPanel : MonoBehaviour
 
     private void SetNextLevelStats()
     {
-        if (nextLevelData == null)
+        if (nextLevelData == null || currentLevelData == null)
             return;
 
         lvl_txt.text =
             $"{unitLevel} <color=#{hexNextLevelColor}>→ {nextLevelData.level}</color>";
         speed_txt.text =
-            $"{currentLevelData.speedAttackPerSec}s <color=#{hexNextLevelColor}>→ {nextLevelData.speedAttackPerSec}s</color>";
+            $"{currentLevelData.attackCooldown}s <color=#{hexNextLevelColor}>→ {nextLevelData.attackCooldown}s</color>";
         damage_txt.text =
             $"{currentLevelData.damage} <color=#{hexNextLevelColor}>→ {nextLevelData.damage}</color>";
     }
@@ -334,5 +355,12 @@ public class UnitPanel : MonoBehaviour
         nextLevelData = null;
     }
 
+    private void ResetHoverState()
+    {
+        isHoverBuy = false;
+        isHoverUp = false;
 
+        buyUnitButton_txt.text = "";
+        upgradeUnitButton_txt.text = "";
+    }
 }

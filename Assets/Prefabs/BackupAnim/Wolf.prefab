@@ -245,6 +245,7 @@ GameObject:
   - component: {fileID: 5785060682745760856}
   - component: {fileID: 4013911531961765854}
   - component: {fileID: 8402441227108953711}
+  - component: {fileID: 9067941576964648103}
   m_Layer: 0
   m_Name: Wolf
   m_TagString: Untagged
@@ -498,6 +499,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthBar
   slider: {fileID: 7221694294521026374}
   canvas: {fileID: 7563986579095857102}
+--- !u!50 &9067941576964648103
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5032453704916805732}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &6244274085232539484
 GameObject:
   m_ObjectHideFlags: 0
