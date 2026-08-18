@@ -675,6 +675,7 @@ GameObject:
   - component: {fileID: 316893180}
   - component: {fileID: 316893183}
   - component: {fileID: 316893185}
+  - component: {fileID: 316893186}
   m_Layer: 5
   m_Name: Settings_Button
   m_TagString: Untagged
@@ -822,6 +823,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ButtonFollowMouse
   moveAmount: 10
   smoothTime: 0.1
+--- !u!114 &316893186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316893178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
 --- !u!1 &325564722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,6 +1877,7 @@ GameObject:
   - component: {fileID: 509974220}
   - component: {fileID: 509974223}
   - component: {fileID: 509974225}
+  - component: {fileID: 509974226}
   m_Layer: 5
   m_Name: 'Exit_Button '
   m_TagString: Untagged
@@ -2009,6 +2025,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ButtonFollowMouse
   moveAmount: 10
   smoothTime: 0.1
+--- !u!114 &509974226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509974218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
 --- !u!1 &533575060
 GameObject:
   m_ObjectHideFlags: 0
@@ -4192,6 +4222,7 @@ GameObject:
   - component: {fileID: 1643510840}
   - component: {fileID: 1643510843}
   - component: {fileID: 1643510844}
+  - component: {fileID: 1643510845}
   m_Layer: 5
   m_Name: Start_Button
   m_TagString: Untagged
@@ -4339,6 +4370,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverEffect
   moveAmount: 10
   smoothTime: 0.1
+--- !u!114 &1643510845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643510838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
 --- !u!1 &1650884471
 GameObject:
   m_ObjectHideFlags: 0

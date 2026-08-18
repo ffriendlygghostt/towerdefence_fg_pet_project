@@ -30,6 +30,7 @@ public class BuyMenu : MonoBehaviour
     public event Action<TowerDefinition> OnTowerHoverShowInfo;
     public event Action OnTowerHideInfo;
 
+
     public void Start()
     {
         CreateCatalog();
@@ -132,6 +133,8 @@ public class BuyMenu : MonoBehaviour
 
         cost_txt.text = "Unknown";
         cost_txt.color = unknownTextColor;
+
+        OnTowerHoverShowInfo?.Invoke(null);
     }
 
     private void UpdateCostText(int x)

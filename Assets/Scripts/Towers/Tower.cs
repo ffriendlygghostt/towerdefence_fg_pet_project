@@ -47,6 +47,16 @@ public class Tower : MonoBehaviour
         RefreshVisual();
         RestoreUnits();
 
+        if (currentLevel != 7)
+        {
+            AudioManager.Instance.PlaySFXType(SoundDefaultEnum.TowerUpgrade);
+        }
+        else
+        {
+            AudioManager.Instance.PlaySFXType(SoundDefaultEnum.TowerUpgradeMax);
+        }
+
+
         return true;
     }
 
@@ -97,6 +107,8 @@ public class Tower : MonoBehaviour
             unitDef.unitLevelData[0]
             );
 
+        AudioManager.Instance.PlaySFXType(SoundDefaultEnum.UnitBuy);
+
         return true;
     }
 
@@ -120,6 +132,15 @@ public class Tower : MonoBehaviour
             unitDef.unitLevelData[unitLevelsBySlot[index] - 1].unitPrefab,
             levelData
             );
+
+        if (unitLevelsBySlot[index] == unitDef.unitLevelData.Length)
+        {
+            AudioManager.Instance.PlaySFXType(SoundDefaultEnum.UnitMaxUpgrade);
+        }
+        else
+        {
+            AudioManager.Instance.PlaySFXType(SoundDefaultEnum.UnitUpgrade);
+        }
 
         return true;
     }

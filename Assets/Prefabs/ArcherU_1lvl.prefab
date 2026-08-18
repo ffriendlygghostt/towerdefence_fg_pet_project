@@ -173,6 +173,7 @@ MonoBehaviour:
   projectileSpawnPoint: {fileID: 6955329268375984259}
   projectileSpeed: 4
   typeProjectile: 0
+  pushProjectileSound: {fileID: 11400000, guid: 162177d002b5b7149ae4703a226f602f, type: 2}
 --- !u!1 &7319242937218857349
 GameObject:
   m_ObjectHideFlags: 0

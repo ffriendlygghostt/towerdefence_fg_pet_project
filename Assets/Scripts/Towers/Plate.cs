@@ -132,6 +132,8 @@ public class Plate : MonoBehaviour,
 
         plateBuildings.SetActive(false);
 
+        AudioManager.Instance.PlaySFXType(SoundDefaultEnum.TowerBuy);
+
         return true;
     }
 

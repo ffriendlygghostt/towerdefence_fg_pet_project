@@ -5,6 +5,7 @@ public class UnitAttack : MonoBehaviour
     [SerializeField] private Transform projectileSpawnPoint;
     [SerializeField] private float projectileSpeed = 4f;
     [SerializeField] private ProjectileType typeProjectile;
+    [SerializeField] private SoundSO pushProjectileSound;
          
     private UnitLevelData levelData;
 
@@ -53,6 +54,8 @@ public class UnitAttack : MonoBehaviour
             target,
             projectileSpawnPoint
             );
+
+        AudioManager.Instance.PlaySFX(pushProjectileSound);
 
         attackTimer = levelData.attackCooldown;
         target = null;

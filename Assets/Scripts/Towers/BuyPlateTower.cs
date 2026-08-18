@@ -55,7 +55,7 @@ public class BuyPlateTower : MonoBehaviour,
     public void OnClickButton()
     {
         if (isUnknown)
-            return;
+            OnClick?.Invoke(null);
         OnClick?.Invoke(towerType);
     }
 

@@ -7,7 +7,7 @@ public class AudioLibrary : ScriptableObject
     [System.Serializable]
     public struct SFXEntry
     {
-        public SoundEnum sound;
+        public SoundDefaultEnum sound;
         public SoundSO clip;
     }
 
@@ -23,12 +23,12 @@ public class AudioLibrary : ScriptableObject
     [Header("Music Library")]
     public MusicEntry[] musics;
 
-    private Dictionary<SoundEnum, SoundSO> sfxLookup;
+    private Dictionary<SoundDefaultEnum, SoundSO> sfxLookup;
     private Dictionary<MusicType, List<SoundSO>> musicLookup;
 
     public void Init()
     {
-        sfxLookup = new Dictionary<SoundEnum, SoundSO>();
+        sfxLookup = new Dictionary<SoundDefaultEnum, SoundSO>();
         musicLookup = new Dictionary<MusicType, List<SoundSO>>();
 
         foreach (var entry in sounds)
@@ -44,7 +44,7 @@ public class AudioLibrary : ScriptableObject
         }
     }
 
-    public SoundSO GetClip(SoundEnum sound)
+    public SoundSO GetClip(SoundDefaultEnum sound)
     {
         return sfxLookup.TryGetValue(sound, out var clip) ? clip : null;
     }

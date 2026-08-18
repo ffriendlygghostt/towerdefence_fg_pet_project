@@ -8,6 +8,9 @@ public class SoundSO : ScriptableObject
     [Range(0, 1)] public float volume = 1f;
     public bool loop = false;
     public SoundType type = SoundType.SFX;
+
+    public bool limited = false;
+    public int maxSimultaneous = 5;
 }
 
 public enum SoundType
@@ -18,10 +21,32 @@ public enum SoundType
     UI
 }
 
-public enum SoundEnum
+public enum SoundDefaultEnum
 {
-    ClickButtonDefault,
-    HoverButtonDefault
+    ButtonClick,
+    ButtonHover,
+    ButtonError,
+
+    UnitBuy,
+    UnitUpgrade,
+    UnitMaxUpgrade,
+
+    TowerBuy,
+    TowerUpgrade,
+    TowerUpgradeMax,
+    TowerCrash,
+
+    EnemyAttack,
+    EnemyDie1,
+    EnemyDie2,
+    EnemyDie3,
+    EnemyDie4,
+
+    Taymer,
+
+    WaveStart,
+    WinFloor,
+    GameOver
 }
 
 public enum MusicType
