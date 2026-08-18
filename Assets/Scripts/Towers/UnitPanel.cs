@@ -55,6 +55,9 @@ public class UnitPanel : MonoBehaviour
     public event Action<int> UnitPanelOnClickBuy;
     public event Action<int> UnitPanelOnClickUp;
 
+    public event Action UnitPanelOnClickCantBuy;
+    public event Action UnitPanelOnClickCantUp;
+    public event Action UnitPanelHoverEnter;
 
     private void Awake()
     {
@@ -203,6 +206,8 @@ public class UnitPanel : MonoBehaviour
 
     public void HoverButtonBuy()
     {
+        UnitPanelHoverEnter?.Invoke();
+
         if (unitLevel > 0)
             return;
 
@@ -234,10 +239,11 @@ public class UnitPanel : MonoBehaviour
     }
     public void ClickButtonBuy()
     {
-        if (unitLevel > 0)
+        if (unitLevel > 0 || !CanBuy())
+        {
+            UnitPanelOnClickCantBuy?.Invoke();
             return;
-        if (!CanBuy())
-            return;
+        }
 
         UnitPanelOnClickBuy?.Invoke(panelIndex);
     }
@@ -245,6 +251,8 @@ public class UnitPanel : MonoBehaviour
 
     public void HoverButtonUp()
     {
+        UnitPanelHoverEnter?.Invoke();
+
         if (nextLevelData == null)
             return;
 
@@ -279,10 +287,11 @@ public class UnitPanel : MonoBehaviour
     }
     public void ClickButtonUp()
     {
-        if (nextLevelData == null)
+        if (nextLevelData == null || !CanUpgrade())
+        {
+            UnitPanelOnClickCantUp?.Invoke();
             return;
-        if (!CanUpgrade())
-            return;
+        }
 
         UnitPanelOnClickUp?.Invoke(panelIndex);
     }

@@ -1,6 +1,7 @@
 using DG.Tweening;
 using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -47,6 +48,11 @@ public class InfoMenu : MonoBehaviour
     public event Action<float> OnHoverUpgradeTower;
     public event Action OnExitUpgradeTower;
     public event Action<TowerLevelData> ClickUpgradeButton;
+    public event Action OnClickCantUpgrade;
+
+    public event Action OnCantBuyUnit;
+    public event Action OnCantUpUnit;
+    public event Action OnHoverUnit;
 
     private void Awake()
     {
@@ -188,7 +194,11 @@ public class InfoMenu : MonoBehaviour
     public void ClickButton()
     {
         if (!CanUpgrade())
+        {
+            OnClickCantUpgrade?.Invoke();
             return;
+        }
+            
 
         if (selectedTower.UpgradeTower())
         {
@@ -224,6 +234,10 @@ public class InfoMenu : MonoBehaviour
         panel.UnitPanelOnClickBuy += BuyUnit;
         panel.UnitPanelOnClickUp += UpUnit;
 
+        panel.UnitPanelOnClickCantBuy += CantBuyUnit;
+        panel.UnitPanelOnClickCantUp += CantUpUnit;
+        panel.UnitPanelHoverEnter += HoverUnit;
+
         unitPanels.Add(panel);
 
         return panel;
@@ -246,6 +260,23 @@ public class InfoMenu : MonoBehaviour
                 selectedTower.unitLevelsBySlot[index],
                 index);
     }
+
+    private void CantBuyUnit()
+    {
+        OnCantBuyUnit?.Invoke();
+    }
+    private void CantUpUnit()
+    {
+        OnCantUpUnit?.Invoke();
+    }
+    private void HoverUnit()
+    {
+        OnHoverUnit?.Invoke();
+    }
+
+
+
+
 
     private void ResetInfoMenu()
     {

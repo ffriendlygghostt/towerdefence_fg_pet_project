@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEditor.AddressableAssets.Build;
 using UnityEngine;
@@ -16,8 +17,9 @@ public class AudioManager : Manager<AudioManager>
     public int expandPoolSize = 10;
 
     private AudioSourcePool sfxPool;
-    private readonly HashSet<AudioSource> loopSources = 
-        new HashSet<AudioSource>();
+    private readonly Dictionary<SoundSO, AudioSource> loopSources = new();
+
+    private Dictionary<SoundSO, int> playingSFX = new();
 
     [Header("Music Sources for crossfade")]
     private AudioSource musicSourceA;
@@ -36,6 +38,7 @@ public class AudioManager : Manager<AudioManager>
     [SerializeField] private AudioLibrary library;
 
 
+    
 
     protected override void Awake()
     {
@@ -78,10 +81,29 @@ public class AudioManager : Manager<AudioManager>
         musicSourceB.volume = musicVolume;
     }
 
+    /////////////////////
+    ///    SFX
+    /////////////////////
+
     public void PlaySFX(SoundSO sound)
     {
         if (sound.type != SoundType.SFX) 
             return;
+
+        bool useLimit = sound.limited && sound.maxSimultaneous > 0;
+
+        if (useLimit)
+        {
+            if (playingSFX.TryGetValue(sound, out int count))
+            {
+                if (count >= sound.maxSimultaneous)
+                    return;
+            }
+            else
+            {
+                playingSFX[sound] = 0;
+            }
+        }
 
         AudioSource source = sfxPool.Get();
         source.clip = sound.clip;
@@ -90,7 +112,15 @@ public class AudioManager : Manager<AudioManager>
         source.pitch = currentPitch;
         source.Play();
 
-        StartCoroutine(ReturnToPoolAfterPlay(source));
+        if (useLimit)
+        {
+            playingSFX[sound]++;
+            StartCoroutine(ReturnLimitedSFXAfterPlay(source, sound));
+        }
+        else
+        {
+            StartCoroutine(ReturnToPoolAfterPlay(source));
+        }
     }
 
     private IEnumerator ReturnToPoolAfterPlay(AudioSource source)
@@ -99,6 +129,43 @@ public class AudioManager : Manager<AudioManager>
         sfxPool.Return(source);
     }
 
+    /////////////////////
+    ///    SFXType
+    /////////////////////
+
+    public void PlaySFXType(SoundDefaultEnum sound)
+    {
+        var clip = library.GetClip(sound);
+        if (clip != null)
+        {
+            PlaySFX(clip);
+        }
+    }
+
+    /////////////////////
+    ///    LimitedSFX
+    /////////////////////
+    ///
+
+    private IEnumerator ReturnLimitedSFXAfterPlay(AudioSource source, SoundSO sound)
+    {
+        yield return new WaitWhile(() => source.isPlaying);
+        
+        if (playingSFX.TryGetValue(sound, out int count))
+        {
+            count--;
+
+            if (count <= 0)
+                playingSFX.Remove(sound);
+            else
+                playingSFX[sound] = count;
+        }
+        sfxPool.Return(source);
+    }
+
+    /////////////////////
+    ///    UISFX
+    /////////////////////
 
     public void PlayUISFX(SoundSO sound)
     {
@@ -107,6 +174,10 @@ public class AudioManager : Manager<AudioManager>
         uiSource.pitch = 1f;
         uiSource.PlayOneShot(sound.clip, sound.volume * sfxVolume);
     }
+
+    /////////////////////
+    ///    LoopSFX
+    /////////////////////
 
     public AudioSource PlayLoopSFX(SoundSO sound)
     {
@@ -122,35 +193,103 @@ public class AudioManager : Manager<AudioManager>
 
         source.Play();
 
-        loopSources.Add(source);
+        loopSources[sound] = source;
 
         return source;
     }
 
-    public void StopLoopSFX(AudioSource source)
+    public void StopLoopSFX(SoundSO sound)
     {
-        if (source == null)
-            return; 
+        if (!loopSources.TryGetValue(sound, out var source))
+        {
+            return;
+        }
 
-        loopSources.Remove(source);
+        source.Stop();
         sfxPool.Return(source);
+
+        loopSources.Remove(sound);
     }
 
-    private void PauseLoopSFX()
+    public void PauseLoopSFX(SoundSO sound)
     {
-        foreach(var source in loopSources)
+        if (loopSources.TryGetValue(sound, out var source))
         {
             source.Pause();
         }
     }
+    public void ResumeLoopSFX(SoundSO sound)
+    {
+        if (loopSources.TryGetValue(sound, out var source))
+            source.UnPause();
+    }
+
+    private void PauseLoopSFX()
+    {
+        foreach (var source in loopSources.Values)
+            source.Pause();
+    }
 
     private void ResumeLoopSFX()
     {
-        foreach(var source in loopSources)
-        {
+        foreach (var source in loopSources.Values)
             source.UnPause();
+    }
+
+    private void StopAllSFX()
+    {
+        var active = new List<AudioSource>(sfxPool.ActiveSources);
+
+        foreach (var source in active)
+        {
+            if (loopSources.ContainsValue(source))
+                continue;
+
+            source.Stop();
+            sfxPool.Return(source);
         }
     }
+
+    /////////////////////
+    ///    LoopSFXType
+    /////////////////////
+
+
+    public void PlayLoopSFXType(SoundDefaultEnum soundType)
+    {
+        var clip = library.GetClip(soundType);
+
+        if (clip != null)
+            PlayLoopSFX(clip);
+    }
+
+    public void StopLoopSFXType(SoundDefaultEnum soundType)
+    {
+        var clip = library.GetClip(soundType);
+
+        if (clip != null)
+            StopLoopSFX(clip);
+    }
+
+    public void PauseLoopSFXType(SoundDefaultEnum soundType)
+    {
+        var sound = library.GetClip(soundType);
+
+        if (sound != null)
+            PauseLoopSFX(sound);
+    }
+
+    public void ResumeLoopSFXType(SoundDefaultEnum soundType)
+    {
+        var sound = library.GetClip(soundType);
+
+        if (sound != null)
+            ResumeLoopSFX(sound);
+    }
+
+    /////////////////////
+    ///    Music
+    /////////////////////
 
     public void PlayMusic(SoundSO music, float fadeDuration = 2f)
     {
@@ -185,7 +324,10 @@ public class AudioManager : Manager<AudioManager>
         musicCoroutine = null;
     }
 
-
+    /////////////////////
+    ///    SetVolume
+    /////////////////////
+    ///
     public void SetMusicVolume(float value)
     {
         musicVolume = value;
@@ -195,16 +337,10 @@ public class AudioManager : Manager<AudioManager>
 
     public void SetSFXVolume(float value) => sfxVolume = value;
 
-    public void PlaySFXType(SoundEnum sound)
-    {
-        var clip = library.GetClip(sound);
-        if (clip != null)
-        {
-            PlaySFX(clip);
-        }
-    }
 
-    public void PlayUISFXType(SoundEnum sound)
+    
+
+    public void PlayUISFXType(SoundDefaultEnum sound)
     {
         var clip = library.GetClip(sound);
         if (clip != null)
@@ -287,19 +423,7 @@ public class AudioManager : Manager<AudioManager>
         musicSourceB.UnPause();
     }
 
-    private void StopAllSFX()
-    {
-        var active = new List<AudioSource>(sfxPool.ActiveSources);
 
-        foreach (var source in active)
-        {
-            if (loopSources.Contains(source))
-                continue;
-
-            source.Stop(); 
-            sfxPool.Return(source);
-        }
-    }
 
     private void SetPitchBySpeed(float speed)
     {

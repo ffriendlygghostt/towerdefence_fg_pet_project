@@ -129,6 +129,7 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
 
         Coroutine previewRoutine = StartCoroutine(PathPreviewLoop());
 
+        AudioManager.Instance.PlayLoopSFXType(SoundDefaultEnum.Taymer);
         while(timer > 0f)
         {
             HudManager.Instance.TimerWaveSet(timer);
@@ -138,6 +139,7 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
 
             yield return null;
         }
+        AudioManager.Instance.StopLoopSFXType(SoundDefaultEnum.Taymer);
 
         if (previewRoutine != null)
         {
@@ -206,6 +208,8 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
 
     private IEnumerator SpawnWave()
     {
+        AudioManager.Instance.PlaySFXType(SoundDefaultEnum.WaveStart);
+
         List<EnemyType> waveEnemies = 
             WaveGenerator.Instance.GetEnemyWaveList(CurrentWave-1);
 

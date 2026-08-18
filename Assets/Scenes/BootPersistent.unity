@@ -3616,6 +3616,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
   customClickSound: {fileID: 0}
   customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &412842506
 GameObject:
   m_ObjectHideFlags: 0
@@ -4486,6 +4488,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
   customClickSound: {fileID: 0}
   customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &510013321
 GameObject:
   m_ObjectHideFlags: 0
@@ -5471,6 +5475,7 @@ GameObject:
   - component: {fileID: 561497772}
   - component: {fileID: 561497771}
   - component: {fileID: 561497770}
+  - component: {fileID: 561497774}
   m_Layer: 5
   m_Name: EndRun_Button
   m_TagString: Untagged
@@ -5606,6 +5611,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561497768}
   m_CullTransparentMesh: 1
+--- !u!114 &561497774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561497768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &561768706
 GameObject:
   m_ObjectHideFlags: 0
@@ -5712,6 +5733,7 @@ GameObject:
   - component: {fileID: 570712106}
   - component: {fileID: 570712108}
   - component: {fileID: 570712109}
+  - component: {fileID: 570712110}
   m_Layer: 5
   m_Name: ItemPanel
   m_TagString: Untagged
@@ -5831,6 +5853,22 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &570712110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570712104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -6065,6 +6103,7 @@ GameObject:
   - component: {fileID: 627415855}
   - component: {fileID: 627415854}
   - component: {fileID: 627415853}
+  - component: {fileID: 627415857}
   m_Layer: 5
   m_Name: Continue_Button
   m_TagString: Untagged
@@ -6200,6 +6239,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627415851}
   m_CullTransparentMesh: 1
+--- !u!114 &627415857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627415851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &637737321
 GameObject:
   m_ObjectHideFlags: 0
@@ -7226,6 +7281,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
   customClickSound: {fileID: 0}
   customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &723490110
 GameObject:
   m_ObjectHideFlags: 0
@@ -7971,6 +8028,7 @@ GameObject:
   - component: {fileID: 769164790}
   - component: {fileID: 769164789}
   - component: {fileID: 769164788}
+  - component: {fileID: 769164791}
   m_Layer: 5
   m_Name: Check_Button
   m_TagString: Untagged
@@ -8092,6 +8150,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769164786}
   m_CullTransparentMesh: 1
+--- !u!114 &769164791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769164786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &795663026
 GameObject:
   m_ObjectHideFlags: 0
@@ -9964,6 +10038,7 @@ GameObject:
   - component: {fileID: 953101505}
   - component: {fileID: 953101504}
   - component: {fileID: 953101503}
+  - component: {fileID: 953101507}
   m_Layer: 5
   m_Name: Restart_Button
   m_TagString: Untagged
@@ -10099,6 +10174,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953101501}
   m_CullTransparentMesh: 1
+--- !u!114 &953101507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953101501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &955603078
 GameObject:
   m_ObjectHideFlags: 0
@@ -10463,6 +10554,7 @@ GameObject:
   - component: {fileID: 981657458}
   - component: {fileID: 981657457}
   - component: {fileID: 981657455}
+  - component: {fileID: 981657459}
   m_Layer: 5
   m_Name: 2xButton
   m_TagString: Untagged
@@ -10584,6 +10676,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981657451}
   m_CullTransparentMesh: 1
+--- !u!114 &981657459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981657451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &995608100
 GameObject:
   m_ObjectHideFlags: 0
@@ -10596,6 +10704,7 @@ GameObject:
   - component: {fileID: 995608104}
   - component: {fileID: 995608103}
   - component: {fileID: 995608102}
+  - component: {fileID: 995608105}
   m_Layer: 5
   m_Name: Fullscreen_Button
   m_TagString: Untagged
@@ -10716,6 +10825,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995608100}
   m_CullTransparentMesh: 1
+--- !u!114 &995608105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995608100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &1000507779
 GameObject:
   m_ObjectHideFlags: 0
@@ -13311,6 +13436,7 @@ GameObject:
   - component: {fileID: 1326590640}
   - component: {fileID: 1326590639}
   - component: {fileID: 1326590637}
+  - component: {fileID: 1326590641}
   m_Layer: 5
   m_Name: PauseButton
   m_TagString: Untagged
@@ -13432,6 +13558,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1326590633}
   m_CullTransparentMesh: 1
+--- !u!114 &1326590641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326590633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &1352493768
 GameObject:
   m_ObjectHideFlags: 0
@@ -13932,6 +14074,7 @@ GameObject:
   - component: {fileID: 1382867638}
   - component: {fileID: 1382867637}
   - component: {fileID: 1382867636}
+  - component: {fileID: 1382867640}
   m_Layer: 5
   m_Name: ItemPanel_3
   m_TagString: Untagged
@@ -14051,6 +14194,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382867634}
   m_CullTransparentMesh: 1
+--- !u!114 &1382867640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382867634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &1384513651
 GameObject:
   m_ObjectHideFlags: 0
@@ -14500,6 +14659,7 @@ GameObject:
   - component: {fileID: 1434994989}
   - component: {fileID: 1434994988}
   - component: {fileID: 1434994987}
+  - component: {fileID: 1434994991}
   m_Layer: 5
   m_Name: Exit_Button
   m_TagString: Untagged
@@ -14635,6 +14795,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434994985}
   m_CullTransparentMesh: 1
+--- !u!114 &1434994991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434994985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &1435420347
 GameObject:
   m_ObjectHideFlags: 0
@@ -17039,6 +17215,7 @@ GameObject:
   - component: {fileID: 1600068583}
   - component: {fileID: 1600068586}
   - component: {fileID: 1600068585}
+  - component: {fileID: 1600068587}
   m_Layer: 0
   m_Name: TowerUI
   m_TagString: Untagged
@@ -17119,6 +17296,7 @@ MonoBehaviour:
   verticalOffset: 0.7
   horizontalOffset: 2.4
   topHudPadding: 0.05
+  sound: {fileID: 1600068587}
 --- !u!114 &1600068585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17155,6 +17333,22 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &1600068587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600068580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 0
 --- !u!1 &1602024334
 GameObject:
   m_ObjectHideFlags: 0
@@ -17513,6 +17707,7 @@ GameObject:
   - component: {fileID: 1641174440}
   - component: {fileID: 1641174439}
   - component: {fileID: 1641174437}
+  - component: {fileID: 1641174441}
   m_Layer: 5
   m_Name: 4x
   m_TagString: Untagged
@@ -17634,6 +17829,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641174433}
   m_CullTransparentMesh: 1
+--- !u!114 &1641174441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641174433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &1653340396
 GameObject:
   m_ObjectHideFlags: 0
@@ -21246,6 +21457,7 @@ GameObject:
   - component: {fileID: 1979742896}
   - component: {fileID: 1979742895}
   - component: {fileID: 1979742894}
+  - component: {fileID: 1979742898}
   m_Layer: 5
   m_Name: ItemPanel_2
   m_TagString: Untagged
@@ -21365,6 +21577,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979742892}
   m_CullTransparentMesh: 1
+--- !u!114 &1979742898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979742892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &1991626479
 GameObject:
   m_ObjectHideFlags: 0
@@ -21595,6 +21823,7 @@ GameObject:
   - component: {fileID: 2010645933}
   - component: {fileID: 2010645932}
   - component: {fileID: 2010645930}
+  - component: {fileID: 2010645934}
   m_Layer: 5
   m_Name: ContinueButton
   m_TagString: Untagged
@@ -21716,6 +21945,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010645926}
   m_CullTransparentMesh: 1
+--- !u!114 &2010645934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010645926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb83e3c8f63c2e14ba43c228cec5034b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  customClickSound: {fileID: 0}
+  customHoverSound: {fileID: 0}
+  customErrorSound: {fileID: 0}
+  useAutomaticHandlers: 1
 --- !u!1 &2024678591
 GameObject:
   m_ObjectHideFlags: 0

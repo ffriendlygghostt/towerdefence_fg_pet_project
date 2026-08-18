@@ -9,6 +9,8 @@ public abstract class Projectile : MonoBehaviour, IPoolIdentity, IPoolable
 
     protected IDamageable target;
 
+    public SoundSO soundDamage;
+
     public virtual void Initialize(
         float damage, 
         float speed, 
@@ -62,7 +64,10 @@ public abstract class Projectile : MonoBehaviour, IPoolIdentity, IPoolable
         }
     }
 
-    protected abstract void Hit();
+    protected virtual void Hit()
+    {
+        AudioManager.Instance.PlaySFX(soundDamage);
+    }
 
     protected virtual void ReturnToPool()
     {

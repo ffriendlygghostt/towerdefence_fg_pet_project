@@ -43,7 +43,7 @@ public class NextFloorScreen : MonoBehaviour
     }
     public void EndRunButton()
     {
-        GameFlowManager.Instance.Defeat();
+        GameFlowManager.Instance.GameOver();
         Hide();
     }
 

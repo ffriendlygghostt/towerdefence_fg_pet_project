@@ -15,6 +15,9 @@ public class TowerUIManager : Manager<TowerUIManager>
     [SerializeField] private float horizontalOffset = 1.5f;
     [SerializeField] private float topHudPadding = 0.05f;
 
+    [Header("Utilits")]
+    [SerializeField] private UIButtonSound sound;
+
     private Vector3 verticalOffsetV3;
 
     private RectTransform buyRect;
@@ -49,6 +52,9 @@ public class TowerUIManager : Manager<TowerUIManager>
 
         topHudPadding *= Screen.height;
 
+        if (sound == null)
+            sound = GetComponent<UIButtonSound>();
+
         HideInstant();
     }
 
@@ -63,8 +69,15 @@ public class TowerUIManager : Manager<TowerUIManager>
 
         buyMenu.OnTowerSelected += tower =>
         {
-            if (currentPlate.Build(tower))
+            if (tower != null && currentPlate.Build(tower))
+            {
                 HideBuyMenu();
+                sound.PlayClickSound();
+            }
+            else
+            {
+                sound.PlayErrorSound();
+            }   
         };
 
         buyMenu.OnTowerHoverShowInfo += BuyMenuHoverTD;
@@ -73,6 +86,11 @@ public class TowerUIManager : Manager<TowerUIManager>
         infoMenu.OnHoverUpgradeTower += OnHoveredUpgradeButton;
         infoMenu.OnExitUpgradeTower += OnExitedUpgradeButton;
         infoMenu.ClickUpgradeButton += OnClickUpgradeButton;
+        infoMenu.OnClickCantUpgrade += sound.PlayErrorSound;
+
+        infoMenu.OnCantBuyUnit += sound.PlayErrorSound;
+        infoMenu.OnCantUpUnit += sound.PlayErrorSound;
+        infoMenu.OnHoverUnit += sound.PlayHoverSound;
     }
 
     private void OnClickUpgradeButton(TowerLevelData levelData)
@@ -232,7 +250,14 @@ public class TowerUIManager : Manager<TowerUIManager>
 
     private void BuyMenuHoverTD(TowerDefinition tower)
     {
+        if (tower == null)
+        {
+            sound.PlayHoverSound();
+            return;
+        }
+
         currentPlate.ShowPreviewRangeBuy(tower);
+        sound.PlayHoverSound();
     }
 
     private void BuyMenuExit()
@@ -244,6 +269,7 @@ public class TowerUIManager : Manager<TowerUIManager>
     private void OnHoveredUpgradeButton(float radius)
     {
         currentPlate.ShowPreviewRange(radius);
+        sound.PlayHoverSound();
     }
 
     private void OnExitedUpgradeButton()

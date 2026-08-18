@@ -73,6 +73,8 @@ public class EnemyController : MonoBehaviour, IPoolIdentity, IDamageable
         enemyHealthBar.Hide();
         ReturnToPool();
         BaseManager.Instance.TakeDamage(stats.GetDamage());
+        AudioManager.Instance.PlaySFXType(SoundDefaultEnum.EnemyAttack);
+
         if (BaseManager.Instance.CurrentHp > 0) 
         {
             EnemySpawnerManager.Instance.NotifyEnemyKilled(WaveIndex);

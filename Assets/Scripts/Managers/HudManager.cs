@@ -19,7 +19,7 @@ public class HudManager : Manager<HudManager>
     [SerializeField] private WaveHud waveHud;
 
     private PrestartUI prestartUI;
-    private DefeatScreen defeatScreen;
+    private GameOverScreen defeatScreen;
     private NextFloorScreen nextFloorScreen;
 
     public bool IsHudOn { get; private set; } = false;
@@ -28,7 +28,7 @@ public class HudManager : Manager<HudManager>
     {
         base.Awake();
 
-        defeatScreen = defeatScreenCanvas.GetComponent<DefeatScreen>();
+        defeatScreen = defeatScreenCanvas.GetComponent<GameOverScreen>();
         prestartUI = prestartCanvas.GetComponent<PrestartUI>();
         nextFloorScreen = nextFloorCanvas.GetComponent<NextFloorScreen>();
         if (waveHud == null) { waveHud = GetComponent<WaveHud>(); }
@@ -88,7 +88,7 @@ public class HudManager : Manager<HudManager>
         prestartUI.Show();
     }
 
-    public void ShowDefeatScreen()
+    public void ShowGameOverScreen()
     {
         defeatScreen.ShowStatsRun();
         defeatScreenCanvas.SetActive(true);
@@ -155,7 +155,9 @@ public class HudManager : Manager<HudManager>
     public void TimerWaveShow()
     {
         if (timerWaveCanvas != null)
+        {
             timerWaveCanvas.SetActive(true);
+        }
     }
     public void TimerWaveSet(float time)
     {

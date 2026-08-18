@@ -107,7 +107,7 @@ public class ESCScreen : MonoBehaviour
     public void EndButton()
     {
         Hide();
-        GameFlowManager.Instance.Defeat();
+        GameFlowManager.Instance.GameOver();
     }
 
     public void ResetEndButton()

@@ -11,7 +11,7 @@ public enum GameState
     Loading,
     Playing,
     ArtifactChoice,
-    Defeat,
+    GameOver,
     Prestart,
     EscMenu
 }
@@ -25,12 +25,12 @@ public class GameFlowManager : Manager<GameFlowManager>
 
     private void Start()
     {
-        BaseManager.Instance.OnBaseDestroyed += Defeat;
+        BaseManager.Instance.OnBaseDestroyed += GameOver;
     }
 
     private void OnDisable()
     {
-        BaseManager.Instance.OnBaseDestroyed -= Defeat;
+        BaseManager.Instance.OnBaseDestroyed -= GameOver;
     }
 
     public void StartRun()
@@ -44,6 +44,7 @@ public class GameFlowManager : Manager<GameFlowManager>
         State = GameState.ArtifactChoice;
         SpeedGameManager.Instance.Pause();
         HudManager.Instance.ShowStageCompletedCanvas();
+        AudioManager.Instance.PlaySFXType(SoundDefaultEnum.WinFloor);
     }
 
     public void ContinueAfterArtifact()
@@ -90,20 +91,21 @@ public class GameFlowManager : Manager<GameFlowManager>
         EnemySpawnerManager.Instance.StartSpawning();
     }
 
-    public void Defeat()
+    public void GameOver()
     {
-        State = GameState.Defeat;
+        State = GameState.GameOver;
 
         SpeedGameManager.Instance.Pause();
-        HudManager.Instance.ShowDefeatScreen();
+        HudManager.Instance.ShowGameOverScreen();
         GameManager.Instance.EndTimer();
         EnemySpawnerManager.Instance.StopSpawning();
+        AudioManager.Instance.PlaySFXType(SoundDefaultEnum.GameOver);
     }
 
     public void RestartGame()
     {
         if (restartLocked) return;
-        if (State != GameState.Defeat) return;
+        if (State != GameState.GameOver) return;
 
         restartLocked = true;
         GameManager.Instance.EndRun();
