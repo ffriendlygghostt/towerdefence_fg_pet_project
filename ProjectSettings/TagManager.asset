@@ -13,7 +13,7 @@ TagManager:
   - UI
   - TowerRange
   - 
-  - 
+  - Unit
   - 
   - 
   - 
@@ -40,6 +40,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Unit
+    uniqueID: 4025616193
     locked: 0
   - name: UI
     uniqueID: 4020988509

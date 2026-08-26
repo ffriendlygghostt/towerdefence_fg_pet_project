@@ -28,7 +28,7 @@ public class Tower : MonoBehaviour
         hoverScale = scale.x * hoverScaleMultiply;
     }
 
-    public bool UpgradeTower()
+    public bool TryUpgradeTower()
     {
         if (!WalletManager.Instance.TrySpend(
             towerDef.levels[currentLevel].cost))
@@ -47,7 +47,7 @@ public class Tower : MonoBehaviour
         RefreshVisual();
         RestoreUnits();
 
-        if (currentLevel != 7)
+        if (currentLevel != towerDef.levels.Length)
         {
             AudioManager.Instance.PlaySFXType(SoundDefaultEnum.TowerUpgrade);
         }
@@ -88,7 +88,7 @@ public class Tower : MonoBehaviour
         currentUnitsCount++;
     }
 
-    public bool UnitBuy(int index)
+    public bool TryUnitBuy(int index)
     {
         if (unitLevelsBySlot[index] != 0)
             return false;
@@ -112,7 +112,7 @@ public class Tower : MonoBehaviour
         return true;
     }
 
-    public bool UnitUpgrade(int index)
+    public bool TryUnitUpgrade(int index)
     {
         if (unitLevelsBySlot[index] == 0)
             return false;
