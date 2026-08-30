@@ -96,6 +96,8 @@ public class Plate : MonoBehaviour,
                 StopCoroutine(WaitSpawnGhostTowerRoutine);
                 WaitSpawnGhostTowerRoutine = null;
             }
+
+            previewTower.enabled = false;
         }  
     }
 
@@ -116,6 +118,7 @@ public class Plate : MonoBehaviour,
 
         previewTower.sprite = GhostTowersManager.Instance.GetRandomGhostSprite();
         previewTower.enabled = true;
+        WaitSpawnGhostTowerRoutine = null;
     }
 
     public bool Build(TowerDefinition towerType)
