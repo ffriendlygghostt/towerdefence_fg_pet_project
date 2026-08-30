@@ -314,12 +314,19 @@ public class EnemySpawnerManager : Manager<EnemySpawnerManager>
     public void NotifyEnemyKilled(int waveIndex)
     {
         aliveEnemiesPerWave[waveIndex]--;
-        if (waveSpawnFinished[waveIndex] &&
-            !waveCleared[waveIndex] &&
-            aliveEnemiesPerWave[waveIndex] == 0)
+
+        if (!waveSpawnFinished[waveIndex] ||
+            waveCleared[waveIndex] ||
+            aliveEnemiesPerWave[waveIndex] > 0)
+            return;
+
+        waveCleared[waveIndex] = true;
+
+        GameManager.Instance.WaveCleared();
+
+        if (waveIndex == maxWave)
         {
-            waveCleared[waveIndex] = true;
-            GameManager.Instance.WaveCleared();
+            GameFlowManager.Instance.OnStageCompleted();
         }
     }
 
